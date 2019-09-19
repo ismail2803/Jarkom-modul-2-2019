@@ -18,7 +18,11 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 ### 1.1.4 List DNS Record
 |Tipe|Deskripsi  |
 |--|--|
-| A | Memetakan nama domain k |
+| A | Memetakan nama domain ke alamat IP (IPv4) dari komputer hosting domain |
+| AAAA | AAAA record  |
+|  |  |
+|  |  |
+|  |  |
 
 ## 1.2 Praktik
 Topologi
@@ -59,7 +63,7 @@ zone "jarkomtc.com"{
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExODU4NzI0LDE0NDc0OTA4MjksNDcyOT
+eyJoaXN0b3J5IjpbLTE5NDEzNDQxOCw0MTE4NTg3MjQsNDcyOT
 M0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgyODUz
 NiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMD
 Q2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2
