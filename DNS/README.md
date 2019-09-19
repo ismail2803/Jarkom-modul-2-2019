@@ -44,7 +44,10 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com**
  `nano /etc/bind/named.conf.local`
  - Isikan configurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
 `zone "jarkomtc.com"{
-	`
+
+type master;
+file "/etc/bind/jarkom/jarkomtc.com";
+};`
 
 ### 1.2.3 Setting nameserver pada client
 
@@ -52,7 +55,7 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com**
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc4MDI0MjYsMTY1Njg4NDY4OSwxMT
-MzNTQwOTMwLDM1MTUyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4
-ODcsLTY2OTE3NzM4NywxNTkxOTExNjY1XX0=
+eyJoaXN0b3J5IjpbLTI5MzAwMTA3MywxNjU2ODg0Njg5LDExMz
+M1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4
+NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
 -->
