@@ -26,6 +26,8 @@ Topologi
 [Referensi](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML)
 ### 1.2.1 Instalasi bind
 
+ - List item
+
 ### 1.2.2 Pembuatan Domain
 
 ### 1.2.3 Setting nameserver pada client
@@ -34,6 +36,7 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTQ5MDk1NCwtMTA0NjgzNjU0Niw0Mj
-AyNzQ4ODcsLTY2OTE3NzM4NywxNTkxOTExNjY1XX0=
+eyJoaXN0b3J5IjpbMzUxNTIyMjQ0LDE0ODk0OTA5NTQsLTEwND
+Y4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkxMTY2
+NV19
 -->
