@@ -31,8 +31,8 @@ Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Nama | Deskripsi |
 |--|--|
 | Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan d |
-|  |  |
-|  |  |
+|  |idistribusikan ke server DNS sekunder manapun |
+| Refresh | Jumlah waktu dalam detik bahwa   |
 |  |  |
 |  |  |
 |  |  |
@@ -98,7 +98,7 @@ named -g //Bisa digunakan untuk restart sekaligus debugging
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ5MTAxOCwtMTk3NDk1MTU2NSw0Nz
+eyJoaXN0b3J5IjpbLTE5Mjc5ODg5MDksLTIwMDQ5MTAxOCw0Nz
 I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
 NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
 EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
