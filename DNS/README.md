@@ -113,14 +113,14 @@ Jika pada pembuatan domain sebelumnya DNS server kita bekerja mener
 
 ### 1.2.6 Membuat DNS Slave
 
-### 1.2.jemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, maka Reverse DNS atau Record PTR digunakan untuk menerjemahkan alamat IP ke alamat domain yang sudah diterjemahkan sebelumnya.
+jemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, maka Reverse DNS atau Record PTR digunakan untuk menerjemahkan alamat IP ke alamat domain yang sudah diterjemahkan sebelumnya.
 
  - Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjkwNTIwMSw0NTAzMjk2NDUsMjEzND
-EzOTQxMyw0NzI5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1
-NiwtNjI1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNT
-E1MjIyNDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzcz
-ODcsMTU5MTkxMTY2NV19
+eyJoaXN0b3J5IjpbLTE2NjAwMjAxODcsLTc4MjkwNTIwMSwyMT
+M0MTM5NDEzLDQ3MjkzNDQwMywxNjQwMzcwOTI5LC0yMDQxODIw
+NjU2LC02MjU4Mjg1MzYsMTY1Njg4NDY4OSwxMTMzNTQwOTMwLD
+M1MTUyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4ODcsLTY2OTE3
+NzM4NywxNTkxOTExNjY1XX0=
 -->
