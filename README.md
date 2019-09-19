@@ -17,8 +17,8 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 ### 1.1.4 List DNS Record
 
 ## 1.2 Praktik
-
+### 1.2.1 Buat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMwMzExNDksLTE1NTA0MzQ4NjQsLT
+eyJoaXN0b3J5IjpbLTE0ODA2NTc5NDQsLTE1NTA0MzQ4NjQsLT
 E4MjA1OTcyMTAsMTEzNzI3ODQ5OF19
 -->
