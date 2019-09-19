@@ -7,8 +7,11 @@
 6. Ketika poin 4 dan 5 tidak ditaati, risiko **tanggung sendiri!!!**
 
 # 1. DNS (Domain Name System)
+## 1.1 Teori
+### 1.1.1 Pengertian
 
+## 1.2 Praktik
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2OTk3MDldfQ==
+eyJoaXN0b3J5IjpbMTEzNzI3ODQ5OF19
 -->
