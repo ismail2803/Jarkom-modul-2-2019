@@ -41,14 +41,14 @@ Topologi
 Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
 
  - Lakukan perintah pada *ARTICUNO*. Isikan seperti berikut:
-`nano /etc/bindtting nameserver pada client
+`nano /etc/bind/named.conf.local
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNj
-I1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIy
-NDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMT
-U5MTkxMTY2NV19
+eyJoaXN0b3J5IjpbMTU5MzExNDM1NSwxNjQwMzcwOTI5LC0yMD
+QxODIwNjU2LC02MjU4Mjg1MzYsMTY1Njg4NDY4OSwxMTMzNTQw
+OTMwLDM1MTUyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4ODcsLT
+Y2OTE3NzM4NywxNTkxOTExNjY1XX0=
 -->
