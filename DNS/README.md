@@ -33,7 +33,8 @@ Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan didistribusikan ke server DNS sekunder manapun |
 | Refresh | Jumlah waktu dalam detik bahwa nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server DNS sekunder akan memperbarui salinan zona tersebut agar sesuai dengan zona server DNS utama |
 | Retry | Jumlah waktu dalam detik bahwa nameserver utama domain (atau server) harus menunggu jika upaya refresh oleh nameserver sekunder gagal sebelum mencoba refresh zona domain dengan nameserver sekunder itu lagi |
-| Expire | Jumlah waktu dalam hitungan detik bahwa nameserver sekunder (atau serve) |   |
+| Expire | Jumlah waktu dalam hitungan detik bahwa nameserver sekunder (atau server) |  akan menahan zona sebelum tidak lagi mempunyai otoritas |
+| Minimum | Jumlah waktu dalam hitungan detik bahwa catatan sumber daya domain valid. Ini juga dikenal sebagai TTL minimum, dan |
 ## 1.2 Praktik
 Topologi
 
@@ -102,9 +103,9 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTMwMjAwMiwxOTEyMzExMDE4LDIxMz
-QxMzk0MTMsNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2
-NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMz
-UxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3
-Mzg3LDE1OTE5MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbNzkzNzQ0NzkxLC0zNTUzMDIwMDIsMjEzND
+EzOTQxMyw0NzI5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1
+NiwtNjI1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNT
+E1MjIyNDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzcz
+ODcsMTU5MTkxMTY2NV19
 -->
