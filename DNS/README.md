@@ -30,7 +30,10 @@ Topologi
  - Buka *ARTICUNO* dan update package lists dengan menjalankan command: 
  `apt-get update`
 
-![apt-get](Gambar/)
+![apt-get](Gambar/get-update)
+
+ - Setelah melakukan update silahkan install aplikasi bind9 pada *ARTICUNO* dengan perintah:
+ -
 
 ### 1.2.2 Pembuatan Domain
 
@@ -40,7 +43,7 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDA1NzAzMCwxNjU2ODg0Njg5LDExMz
+eyJoaXN0b3J5IjpbLTQzODY5NTc3OSwxNjU2ODg0Njg5LDExMz
 M1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4
 NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
 -->
