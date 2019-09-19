@@ -9,9 +9,9 @@
 # 1. DNS (Domain Name System)
 ## 1.1 Teori
 ### 1.1.1 Pengertian
-Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentang nama host ataupun nama domain di dalam 
+Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentang nama host ataupun nama domain di dalam jaringan komputer, misalkan: Internet. DNS Server berfungsi men
 ## 1.2 Praktik
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzYzMjU0OCwxMTM3Mjc4NDk4XX0=
+eyJoaXN0b3J5IjpbMTcwNjMzMTQ5OSwxMTM3Mjc4NDk4XX0=
 -->
