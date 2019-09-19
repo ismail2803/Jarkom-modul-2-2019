@@ -57,15 +57,17 @@ zone "jarkomtc.com"{
 	};
 ```
 ![conf](Gambar/conf)
-
+ - Buat folder **jarkom** di dalam **/etc/bind**
+`mkdir /etc/bind/jarkom`
+![mkdir](Gambar/mkdir)
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI2NDc2MjgsLTIwODk3OTEwNTgsND
-cyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgy
-ODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC
-0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5
-MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbMjExMDY0OTY2NCwtMTM0MjY0NzYyOCw0Nz
+I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
+NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
+EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
+MTY2NV19
 -->
