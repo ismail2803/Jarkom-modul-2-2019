@@ -25,7 +25,7 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 | NS | Delegasikan zona DNS untuk meggunakan authoritative name server yang diberikan |
 | PTR | Digunakan untuk Reverse DNS (Domain Name System) lookup |
 | SOA | Mengacu server DNS yang menyediakan otorisasi informasi tentang sebuah domain internet |
-| TXT | Mengijinkan administrator untuk |
+| TXT | Mengijinkan administrator untuk memasukkan data acak ke dalam catatan DNS, catatan ini juga digunakan di spesifikasi Sender Policy Framework |
 ## 1.2 Praktik
 Topologi
 
@@ -71,7 +71,7 @@ zone "jarkomtc.com"{
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTM3MDEyMSwtMTE4MDA5NTI1OSw0Nz
+eyJoaXN0b3J5IjpbLTExMjkwNzUyMTYsMTczNTM3MDEyMSw0Nz
 I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
 NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
 EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
