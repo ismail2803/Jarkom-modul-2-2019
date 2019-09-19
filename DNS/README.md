@@ -107,20 +107,20 @@ neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah beriku
 
 ![ping](Gambar/ping)
 
-### 1.2.4 Reverse DNS (Record PTR)
-Jika pada pembuatan domain sebelumnya DNS server kita bekerja mener
-### 1.2.5 Record CNAME
+### 1.2.4 Reverse DNS (Record PTR)CNAME)
+
+Jika pada pembuatan domain sebelumnya DNS server kita bekerja menerjemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, maka Reverse DNS atau Record PTR digunakan untuk menerjemahkan alamat IP ke alamat domain yang sudah diterjemahkan sebelumnya.
+
+### 1.2.5 Reverse DNS (Record 
 
 ### 1.2.6 Membuat DNS Slave
-
-jemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, maka Reverse DNS atau Record PTR digunakan untuk menerjemahkan alamat IP ke alamat domain yang sudah diterjemahkan sebelumnya.
 
  - Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDUwMTY5OSwtNzgyOTA1MjAxLDIxMz
-QxMzk0MTMsNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2
-NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMz
-UxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3
-Mzg3LDE1OTE5MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1MzI2MzU0ODMsMTE1MDUwMTY5OSwtNz
+gyOTA1MjAxLDIxMzQxMzk0MTMsNDcyOTM0NDAzLDE2NDAzNzA5
+MjksLTIwNDE4MjA2NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LD
+ExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3
+NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
 -->
