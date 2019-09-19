@@ -11,9 +11,11 @@
 ### 1.1.1 Pengertian
 Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentang nama host ataupun nama domain di dalam jaringan komputer, misalkan: Internet. DNS Server berfungsi menerjemahkan nama domain menjadi alamat IP.
 ### 1.1.2 Cara Kerja
- 
+BUTUH GAMBAR 
+### 1.1.3 Aplikasi DNS Server
 ## 1.2 Praktik
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA1OTcyMTAsMTEzNzI3ODQ5OF19
+eyJoaXN0b3J5IjpbLTE1NTA0MzQ4NjQsLTE4MjA1OTcyMTAsMT
+EzNzI3ODQ5OF19
 -->
