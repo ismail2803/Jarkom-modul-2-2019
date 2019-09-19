@@ -23,7 +23,7 @@ Topologi
 ![topologi](GTopologibar/oolngen.png)
 
 
-[Ref](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML)
+[Referensi](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML)
 ### 1.2.1 Instalasi bind
 
 ### 1.2.2 Pembuatan Domain
@@ -34,6 +34,6 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTE0NzY0MCw0MjAyNzQ4ODcsLTY2OT
-E3NzM4NywxNTkxOTExNjY1XX0=
+eyJoaXN0b3J5IjpbMzkzNTE2ODI4LDQyMDI3NDg4NywtNjY5MT
+c3Mzg3LDE1OTE5MTE2NjVdfQ==
 -->
