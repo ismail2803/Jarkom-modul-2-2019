@@ -41,11 +41,10 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com**
  - Lakukan perintah pada *ARTICUNO*. Isikan seperti berikut:
  `nano /etc/bind/named.conf.local`
  - Isikan configurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
-`zone "jarkomtc.com"{
-
+zone "jarkomtc.com"{
 type master;
 file "/etc/bind/jarkom/jarkomtc.com";
-};`
+};
 
 ### 1.2.2 Pem
 
@@ -55,7 +54,7 @@ file "/etc/bind/jarkom/jarkomtc.com";
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTgyODUzNiwtMjkzMDAxMDczLDE2NT
+eyJoaXN0b3J5IjpbMjEwMDAwNDAzMCwtNjI1ODI4NTM2LDE2NT
 Y4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLTEwNDY4MzY1
 NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkxMTY2NV19
 -->
