@@ -27,7 +27,15 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 | SOA | Mengacu server DNS yang menyediakan otorisasi informasi tentang sebuah domain internet |
 | TXT | Mengijinkan administrator untuk memasukkan data acak ke dalam catatan DNS, catatan ini juga digunakan di spesifikasi Sender Policy Framework |
 ### 1.1.5 SOA (Start of Authority)
-Adalah informasi yang dimiliki oleh suatu DNS z
+Adalah informasi yang dimiliki oleh suatu DNS zone.
+| Nama | Deskripsi |
+|--|--|
+| Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan d |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 ## 1.2 Praktik
 Topologi
 
@@ -83,9 +91,9 @@ zone "jarkomtc.com"{
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY0NTA2NzEsLTMzOTMzODQ2Miw0Nz
-I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
-NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
-EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
-MTY2NV19
+eyJoaXN0b3J5IjpbLTE5NzQ5NTE1NjUsLTIwMDY0NTA2NzEsND
+cyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgy
+ODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC
+0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5
+MTE2NjVdfQ==
 -->
