@@ -107,9 +107,9 @@ neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah beriku
 
 ![ping](Gambar/ping)
 
-ecord PTR)
+### 1.2.4 Reverse DNS (Record PTR)
 Jika pada pembuatan domain sebelumnya DNS server kita bekerja mener
-### 1.2.5 Re### 1.2.4 Reverse DNS (Rcord CNAME
+### 1.2.5 Record CNAME
 
 ### 1.2.6 Membuat DNS Slave
 
@@ -118,9 +118,9 @@ jemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, mak
  - Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAwMjAxODcsLTc4MjkwNTIwMSwyMT
-M0MTM5NDEzLDQ3MjkzNDQwMywxNjQwMzcwOTI5LC0yMDQxODIw
-NjU2LC02MjU4Mjg1MzYsMTY1Njg4NDY4OSwxMTMzNTQwOTMwLD
-M1MTUyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4ODcsLTY2OTE3
-NzM4NywxNTkxOTExNjY1XX0=
+eyJoaXN0b3J5IjpbMTE1MDUwMTY5OSwtNzgyOTA1MjAxLDIxMz
+QxMzk0MTMsNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2
+NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMz
+UxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3
+Mzg3LDE1OTE5MTE2NjVdfQ==
 -->
