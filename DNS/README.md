@@ -31,10 +31,10 @@ Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Nama | Deskripsi |
 |--|--|
 | Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan didistribusikan ke server DNS sekunder manapun |
-| Refresh | Jumlah waktu dalam detik bahwa  nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server |
-|  | |
-|  |  |
-|  |  |
+| Refresh | Jumlah waktu dalam detik bahwa nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server |
+|  |DNS sekunder akan memperbarui salinan zona tersebut agar sesuai dengan zona server DNS utama |
+| Retry | Jumlah waktu dalam hitungan de |
+|  |    |
 ## 1.2 Praktik
 Topologi
 
@@ -101,9 +101,9 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA5NjExMTQsMTYxNzQ4NjAyNiw0Nz
-I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
-NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
-EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
-MTY2NV19
+eyJoaXN0b3J5IjpbLTE3MTA0MTY5NjcsLTIwMDA5NjExMTQsND
+cyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgy
+ODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC
+0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5
+MTE2NjVdfQ==
 -->
