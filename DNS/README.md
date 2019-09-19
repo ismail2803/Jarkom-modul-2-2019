@@ -11,7 +11,7 @@
 ### 1.1.1 Pengertian
 Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentang nama host ataupun nama domain di dalam jaringan komputer, misalkan: Internet. DNS Server berfungsi menerjemahkan nama domain menjadi alamat IP.
 ### 1.1.2 Cara Kerja
-![Cara Kerja]()
+![CaraKerja](Gambar/CaraKerja.jpg)
 ### 1.1.3 Aplikasi DNS Server
 Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digunakan di Internet, khusunya pada sistem operasi bertipe Unix yang secara *de facto* merupakan standar. Untuk praktikum jarkom kita akan menggunakan aplikasi BIND sebagai DNS server.
 ### 1.1.4 List DNS Record
@@ -36,7 +36,7 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxNTIyMjQ0LDE0ODk0OTA5NTQsLTEwND
+eyJoaXN0b3J5IjpbMTg4MTI0NjE3NCwzNTE1MjIyNDQsLTEwND
 Y4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkxMTY2
 NV19
 -->
