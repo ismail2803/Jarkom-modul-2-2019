@@ -17,9 +17,9 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 ### 1.1.4 List DNS Record
 
 ## 1.2 Praktik
-Topologi  
+Topologi
 ![topologi](Gambar/Topologi.png)
-[Referensi]([https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML))
+[Referensi]([https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML)
 ### 1.2.1 Instalasi bind
 
 ### 1.2.2 Pembuatan Domain
@@ -30,6 +30,6 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODU4NzUwOSwtNjY5MTc3Mzg3LDE1OT
-E5MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbNDcxNjI1NzE0LC02NjkxNzczODcsMTU5MT
+kxMTY2NV19
 -->
