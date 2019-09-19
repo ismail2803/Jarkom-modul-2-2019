@@ -44,7 +44,7 @@ Topologi
  - Setelah melakukan update silahkan install aplikasi bind9 pada *ARTICUNO* dengan perintah:
  `apt-get install bind9 -y`
  
-![bind9](Gambar/bind9)
+![bind9](Gambar
 
 ### 1.2.2 Pembuatan Domain
 Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
@@ -62,18 +62,24 @@ zone "jarkomtc.com"{
 
  - Buat folder **jarkom** di dalam **/etc/bind**
 `mkdir /etc/bind/jarkom`
+
 ![mkdir](Gambar/mkdir)
 
- - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**** yang baru saja dibuat dan diubah namanya menjadi **jarkom
-`cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.`
+ - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**** yang baru saja dibuat dan diubah namanya menjadi **jarkom**
+
+`cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.`com`
+
+![cp](Gambar/cp)
+
+ - Kemudian 
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkwNzUyMTYsMTczNTM3MDEyMSw0Nz
-I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
-NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
-EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
-MTY2NV19
+eyJoaXN0b3J5IjpbLTE2MDY5MDI2MzEsLTExMjkwNzUyMTYsND
+cyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgy
+ODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC
+0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5
+MTE2NjVdfQ==
 -->
