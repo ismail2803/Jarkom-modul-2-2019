@@ -35,7 +35,7 @@ Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Retry | Jumlah waktu dalam detik bahwa nameserver utama domain (atau server) harus menunggu jika upaya refresh oleh nameserver sekunder gagal sebelum mencoba refresh zona domain dengan nameserver sekunder itu lagi |
 | Expire | Jumlah waktu dalam hitungan detik bahwa nameserver sekunder (atau server) |  akan menahan zona sebelum tidak lagi mempunyai otoritas |
 | Minimum | Jumlah waktu dalam hitungan detik bahwa catatan sumber daya domain valid. Ini juga dikenal sebagai TTL minimum, dan dapat diganti oleh TTL catatan sumber daya individu |
-| TTL | (waktu untuk tinggal) - Jumlah detik nama domain di-chace secara lokal sebelum kadaluarsa dan kembali ke nameserver otoritatif untuk informasi |
+| TTL | (waktu untuk tinggal) - Jumlah detik nama domain di-chace secara lokal sebelum kadaluarsa dan kembali ke nameserver otoritatif untuk informasi terbaru |
 ## 1.2 Praktik
 Topologi
 
@@ -107,11 +107,15 @@ neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah beriku
 
 ![ping](Gambar/ping)
 
-### 1.2.4 Reverse DNS (Record PTR)
+ecord PTR)
 Jika pada pembuatan domain sebelumnya DNS server kita bekerja mener
-### 1.2.5 Record CNAME
+### 1.2.5 Re### 1.2.4 Reverse DNS (Rcord CNAME
+
+### 1.2.6 Membuat DNS Slave
+
+### 1.2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODU2NzM2NSwyNDE1ODc5ODYsMjEzND
+eyJoaXN0b3J5IjpbNDUwMzI5NjQ1LC04Njg1NjczNjUsMjEzND
 EzOTQxMyw0NzI5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1
 NiwtNjI1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNT
 E1MjIyNDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzcz
