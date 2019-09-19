@@ -38,7 +38,9 @@ Topologi
 ![bind9](Gambar/bind9)
 
 ### 1.2.2 Pembuatan Domain
-Pada sesilab
+Pada sesilab ini kita akan membuat domain **jarkomtc.com**
+
+ - Lakukan perintah pada *ARTICUNO*. Isikan seperti be
 
 ### 1.2.3 Setting nameserver pada client
 
@@ -46,7 +48,7 @@ Pada sesilab
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTc5MjcxOSwxNjU2ODg0Njg5LDExMz
-M1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4
-NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTMzNDA1MzQsMTY1Njg4NDY4OSwxMT
+MzNTQwOTMwLDM1MTUyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4
+ODcsLTY2OTE3NzM4NywxNTkxOTExNjY1XX0=
 -->
