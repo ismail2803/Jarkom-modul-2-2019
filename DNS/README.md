@@ -45,13 +45,17 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
  - Isikan konfigurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
 ```
 zone "jarkomtc.com"{
+	type master;
+	file "/etc/bind/jarkom/jarkomtc.com";
+	};
 ```
+
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzODgyNzQ0LDE2NDAzNzA5MjksLTIwND
+eyJoaXN0b3J5IjpbNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwND
 E4MjA2NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5
 MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNj
 Y5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
