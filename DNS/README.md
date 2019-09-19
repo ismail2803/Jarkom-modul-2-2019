@@ -35,25 +35,20 @@ Topologi
  - Setelah melakukan update silahkan install aplikasi bind9 pada *ARTICUNO* dengan perintah:
  `apt-get install bind9 -y`
  
-![bind9](Gambar/bind9)
+![bind9](Gambar/bind9)`
 
 ### 1.2.2 Pembuatan Domain
 Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
 
  - Lakukan perintah pada *ARTICUNO*. Isikan seperti berikut:
-`nano /etc/bind/named.conf.local`
- - Isikan configurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
-`zone "jarkomtc.com"{
-`
-
-### 1.2.3 Setting nameserver pada client
+`nano /etc/bindtting nameserver pada client
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE4MjA2NTYsLTYyNTgyODUzNiwxNj
-U2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2
-NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ
-==
+eyJoaXN0b3J5IjpbMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNj
+I1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIy
+NDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMT
+U5MTkxMTY2NV19
 -->
