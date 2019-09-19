@@ -1,2 +1,5 @@
-# Jarkom-modul-2-2019
-Modul 2 dari mata kuliah Jaringan Komputer semester ganjil tahun 2019
+# PENTING UNTUK DIBACA
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzAzOTY5ODQzXX0=
+-->
