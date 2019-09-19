@@ -101,12 +101,17 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
 ![resolv](Gambar/resolv)
 
  - Untuk mencoba ko
+neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah berikut pada client *PSYDUCK* dan *SNORLAX*
+
+`ping jarkomtc.com`
+
+![ping](Gambar/ping)
 
 ### 1.2.4 Reverse DNS (Record PTR)
-
+Jika pada pembuatan domain sebelumnya DNS server kita bekerja mener
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxNTg3OTg2LDE5MjcyNDQxMjEsMjEzND
+eyJoaXN0b3J5IjpbLTg2ODU2NzM2NSwyNDE1ODc5ODYsMjEzND
 EzOTQxMyw0NzI5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1
 NiwtNjI1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNT
 E1MjIyNDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzcz
