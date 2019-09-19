@@ -51,21 +51,21 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
 `nano /etc/bind/named.conf.local`
  - Isikan konfigurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
 ```
-![conf](Gambar/conf)
 zone "jarkomtc.com"{
 	type master;
 	file "/etc/bind/jarkom/jarkomtc.com";
 	};
 ```
+![conf](Gambar/conf)
 
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzNDQxOCw0MTE4NTg3MjQsNDcyOT
-M0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLTYyNTgyODUz
-NiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMD
-Q2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTIwODk3OTEwNTgsLTE5NDEzNDQxOCw0Nz
+I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
+NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
+EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
+MTY2NV19
 -->
