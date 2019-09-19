@@ -64,13 +64,14 @@ zone "jarkomtc.com"{
 `mkdir /etc/bind/jarkom`
 ![mkdir](Gambar/mkdir)
 
- - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**
+ - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**** yang baru saja dibuat dan diubah namanya menjadi **jarkom
+`cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.`
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAwOTUyNTksMTczODY3Mzc3MCw0Nz
+eyJoaXN0b3J5IjpbMTczNTM3MDEyMSwtMTE4MDA5NTI1OSw0Nz
 I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
 NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
 EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
