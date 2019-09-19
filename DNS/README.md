@@ -38,7 +38,10 @@ Topologi
 ![bind9](Gambar/bind9)
 
 ### 1.2.2 Pembuatan Domain
-Pada sesilab ini kita akan membuat domain 
+Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
+
+ - Lakukan perintah pada *ARTICUNO*. Isikan seperti berikut:
+`nano /etc/bind`
 
 ### 1.2.3 Setting nameserver pada client
 
@@ -46,7 +49,8 @@ Pada sesilab ini kita akan membuat domain
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjIyMDIxNiwtNjI1ODI4NTM2LDE2NT
-Y4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLTEwNDY4MzY1
-NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkxMTY2NV19
+eyJoaXN0b3J5IjpbLTIwNjM4ODM1MjYsLTYyNTgyODUzNiwxNj
+U2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2
+NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ
+==
 -->
