@@ -25,8 +25,10 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 
 ### 1.2.4 Setting nameserver pada client
 
-### 1.2.5
+### 1.2.5 Reverse DNS (Record PTR)
+
+### 1.2.6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTI4NjY3MywtMTU1MDQzNDg2NCwtMT
+eyJoaXN0b3J5IjpbLTc3MTQ3NjMxMCwtMTU1MDQzNDg2NCwtMT
 gyMDU5NzIxMCwxMTM3Mjc4NDk4XX0=
 -->
