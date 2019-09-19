@@ -16,6 +16,9 @@ Client akan meminta alamat IP dari suatu domain ke DNS server. Jika pada DNS ser
 ### 1.1.3 Aplikasi DNS Server
 Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digunakan di Internet, khusunya pada sistem operasi bertipe Unix yang secara *de facto* merupakan standar. Untuk praktikum jarkom kita akan menggunakan aplikasi BIND sebagai DNS server.
 ### 1.1.4 List DNS Record
+|Tipe|Deskripsi  |
+|--|--|
+| A | Memetakan nama domain k |
 
 ## 1.2 Praktik
 Topologi
@@ -55,8 +58,8 @@ zone "jarkomtc.com"{
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwND
-E4MjA2NTYsLTYyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5
-MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNj
-Y5MTc3Mzg3LDE1OTE5MTE2NjVdfQ==
+eyJoaXN0b3J5IjpbMTQ0NzQ5MDgyOSw0NzI5MzQ0MDMsMTY0MD
+M3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4NTM2LDE2NTY4ODQ2
+ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLTEwNDY4MzY1NDYsND
+IwMjc0ODg3LC02NjkxNzczODcsMTU5MTkxMTY2NV19
 -->
