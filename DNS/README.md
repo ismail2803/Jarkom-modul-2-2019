@@ -27,7 +27,8 @@ Topologi
 [Referensi](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML)
 ### 1.2.1 Instalasi bind
 
- - 
+ - Buka *ARTICUNO* dan update package lists dengan menjalankan command: 
+ `apt-get update`
 
 ### 1.2.2 Pembuatan Domain
 
@@ -37,7 +38,7 @@ Topologi
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTI2NzczMywxMTMzNTQwOTMwLDM1MT
+eyJoaXN0b3J5IjpbMTY1Njg4NDY4OSwxMTMzNTQwOTMwLDM1MT
 UyMjI0NCwtMTA0NjgzNjU0Niw0MjAyNzQ4ODcsLTY2OTE3NzM4
 NywxNTkxOTExNjY1XX0=
 -->
