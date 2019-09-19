@@ -30,10 +30,9 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Nama | Deskripsi |
 |--|--|
-| Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan d |
-|  |idistribusikan ke server DNS sekunder manapun |
-| Refresh | Jumlah waktu dalam detik bahwa   |
-|  |  |
+| Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan didistribusikan ke server DNS sekunder manapun |
+| Refresh | Jumlah waktu dalam detik bahwa  nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server |
+|  | |
 |  |  |
 |  |  |
 ## 1.2 Praktik
@@ -101,9 +100,9 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjQ3MDM1OSwtMTkyNzk4ODkwOSw0Nz
-I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
-NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
-EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
-MTY2NV19
+eyJoaXN0b3J5IjpbMTYxNzQ4NjAyNiwxMTQyNDcwMzU5LDQ3Mj
+kzNDQwMywxNjQwMzcwOTI5LC0yMDQxODIwNjU2LC02MjU4Mjg1
+MzYsMTY1Njg4NDY4OSwxMTMzNTQwOTMwLDM1MTUyMjI0NCwtMT
+A0NjgzNjU0Niw0MjAyNzQ4ODcsLTY2OTE3NzM4NywxNTkxOTEx
+NjY1XX0=
 -->
