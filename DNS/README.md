@@ -94,15 +94,16 @@ named -g //Bisa digunakan untuk restart sekaligus debugging
 ```
 ### 1.2.3 Setting nameserver pada client
 Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu kita harus merubah settingan nameserver yang ada pada client kita.
- - Pada client 
+ - Pada client *PSYDUCK* dan *SNORLAX* arahkan nameserver menuju IP *ARTICUNO* dengan mengedit file *resolv.conf* dengan mengetikan perintah
+`nano /etc/resolv.conf`
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzQ4NjAyNiwxMTQyNDcwMzU5LDQ3Mj
-kzNDQwMywxNjQwMzcwOTI5LC0yMDQxODIwNjU2LC02MjU4Mjg1
-MzYsMTY1Njg4NDY4OSwxMTMzNTQwOTMwLDM1MTUyMjI0NCwtMT
-A0NjgzNjU0Niw0MjAyNzQ4ODcsLTY2OTE3NzM4NywxNTkxOTEx
-NjY1XX0=
+eyJoaXN0b3J5IjpbLTIwMDA5NjExMTQsMTYxNzQ4NjAyNiw0Nz
+I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
+NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
+EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
+MTY2NV19
 -->
