@@ -17,18 +17,19 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 ### 1.1.4 List DNS Record
 
 ## 1.2 Praktik
-### 1.2.1 Membuat Topologi
+**Topologi**
 
-### 1.2.2 Instalasi bind
+[Referensi]([https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML))
+### 1.2.1 Instalasi bind
 
-### 1.2.3 Pembuatan Domain
+### 1.2.2 Pembuatan Domain
 
-### 1.2.4 Setting nameserver pada client
+### 1.2.3 Setting nameserver pada client
 
-### 1.2.5 Reverse DNS (Record PTR)
+### 1.2.4 Reverse DNS (Record PTR)
 
-### 1.2.6
+### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTQ3NjMxMCwtMTU1MDQzNDg2NCwtMT
+eyJoaXN0b3J5IjpbMTU5MTkxMTY2NSwtMTU1MDQzNDg2NCwtMT
 gyMDU5NzIxMCwxMTM3Mjc4NDk4XX0=
 -->
