@@ -41,7 +41,10 @@ Topologi
 Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
 
  - Lakukan perintah pada *ARTICUNO*. Isikan seperti berikut:
-`nano /etc/bind`
+`nano /etc/bind/named.conf.local`
+ - Isikan configurasi domain **jarkomtc.com** sesuai dengan syntax berikut:
+`zone "jarkomtc.com"{
+`
 
 ### 1.2.3 Setting nameserver pada client
 
@@ -49,7 +52,7 @@ Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM4ODM1MjYsLTYyNTgyODUzNiwxNj
+eyJoaXN0b3J5IjpbLTIwNDE4MjA2NTYsLTYyNTgyODUzNiwxNj
 U2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIyMjQ0LC0xMDQ2ODM2
 NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LDE1OTE5MTE2NjVdfQ
 ==
