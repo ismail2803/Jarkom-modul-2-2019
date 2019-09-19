@@ -14,10 +14,11 @@ Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentan
 BUTUH GAMBAR 
 ### 1.1.3 Aplikasi DNS Server
 Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digunakan di Internet, khusunya pada sistem operasi bertipe Unix yang secara *de facto* merupakan standar. Untuk praktikum jarkom kita akan menggunakan aplikasi BIND sebagai DNS server.
-### 1.1.1
+### 1.1.4 List DNS Record
+
 ## 1.2 Praktik
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEzNTc1OCwtMTU1MDQzNDg2NCwtMT
-gyMDU5NzIxMCwxMTM3Mjc4NDk4XX0=
+eyJoaXN0b3J5IjpbLTEyMzMwMzExNDksLTE1NTA0MzQ4NjQsLT
+E4MjA1OTcyMTAsMTEzNzI3ODQ5OF19
 -->
