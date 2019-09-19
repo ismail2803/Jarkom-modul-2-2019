@@ -73,13 +73,17 @@ zone "jarkomtc.com"{
 
 ![cp](Gambar/cp)
 
- - Kemudian 
+ - Kemudian buka **jakromtc.com** dan edit seperti gambar berikut dengan IP *ARTICUNO* masing-masing kelompok:
+
+`nano /etc/bind/jarkom/jarkomtc.com`
+
+![b](Gambar/jarkomtc)
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTMzODQ2MiwtMTYwNjkwMjYzMSw0Nz
+eyJoaXN0b3J5IjpbLTIwMDY0NTA2NzEsLTMzOTMzODQ2Miw0Nz
 I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
 NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
 EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
