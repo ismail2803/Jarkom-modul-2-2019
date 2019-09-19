@@ -49,12 +49,12 @@ Topologi
  - Buka *ARTICUNO* dan update package lists dengan menjalankan command: 
  `apt-get update`
 
-![apt-get](Gambar/get-update)
+![apt-get](Gambar/get-update.png)
 
  - Setelah melakukan update silahkan install aplikasi bind9 pada *ARTICUNO* dengan perintah:
  `apt-get install bind9 -y`
  
-![bind9](Gambar
+![bind9](Gambar/bind9.png)
 
 ### 1.2.2 Pembuatan Domain
 Pada sesilab ini kita akan membuat domain **jarkomtc.com.**
@@ -68,24 +68,24 @@ zone "jarkomtc.com"{
 	file "/etc/bind/jarkom/jarkomtc.com";
 	};
 ```
-![conf](Gambar/conf)
+![conf](Gambar/conf.png)
 
  - Buat folder **jarkom** di dalam **/etc/bind**
 `mkdir /etc/bind/jarkom`
 
-![mkdir](Gambar/mkdir)
+![mkdir](Gambar/mkdir.png)
 
  - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**** yang baru saja dibuat dan diubah namanya menjadi **jarkom**
 
 `cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.`com`
 
-![](Gambar/cp)
+![](Gambar/cp.png)
 
  - Kemudian buka **jakromtc.com** dan edit seperti gambar berikut dengan IP *ARTICUNO* masing-masing kelompok:
 
 `nano /etc/bind/jarkom/jarkomtc.com`
 
-![bjarkomtc](Gambar/jarkomtc)
+![bjarkomtc](Gambar/jarkomtc.png)
 
  - Restart bind9 dengan perintah
 ```
@@ -98,14 +98,14 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
  - Pada client *PSYDUCK* dan *SNORLAX* arahkan nameserver menuju IP *ARTICUNO* dengan mengedit file *resolv.conf* dengan mengetikan perintah
 `nano /etc/resolv.conf`
 
-![resolv](Gambar/resolv)
+![resolv](Gambar/resolv.png)
 
  - Untuk mencoba ko
 neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah berikut pada client *PSYDUCK* dan *SNORLAX*
 
 `ping jarkomtc.com`
 
-![ping](Gambar/ping)
+![ping](Gambar/ping.png)
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
