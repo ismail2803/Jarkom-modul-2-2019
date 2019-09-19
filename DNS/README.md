@@ -107,16 +107,39 @@ neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah beriku
 
 ![ping](Gambar/ping)
 
-### 1.2.4 Reverse DNS (Record PTR)CNAME)
+### 1.2.4 Reverse DNS (Record PTR)
 
 Jika pada pembuatan domain sebelumnya DNS server kita bekerja menerjemahkan string domain **jarkomtc.com** kedalam alamat IP agar dapat dibuka, maka Reverse DNS atau Record PTR digunakan untuk menerjemahkan alamat IP ke alamat domain yang sudah diterjemahkan sebelumnya.
 
-### 1.2.5 Reverse DNS (Record 
+- Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
+
+`nano /etc/bind/named/conf.local`
+
+- Lalu tambahkan konfigurasi berikut ke dalam file **named.conf.local** 
+```
+zone "83.151.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/jarkom/xx.151.10.in-addr.arpa";
+};
+```
+
+- Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkom** yang baru saja dibuat dan ubah namanya menjadi **83.151.10.in-addr.arpa**
+
+```
+cp /etc/bind/db.local /etc/bind/jarkom/xx.151.10.in-addr.arpa
+```
+*Keterangan: xx.151.10 adalah 3 byte pertama IP ARTICUNO yang dibalik urutan penulisannya*
+
+- Edit file **xx.151.10.in-addr.arpa** menjadi gambar di bawah ini
+
+- Kemudian restart bind dengan perintah 
+`service bind9 restart`
+
+- Untuk mengecek apakah konfigurasi sudah benar atau belum, lakukan perintah berikut pada client *PSYDUCK*
+### 1.2.5 Reverse DNS (Record CNAME)
 
 ### 1.2.6 Membuat DNS Slave
 
-- Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
-lave
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNDM0MTE0ODMsMzIzODUzNTk1LDExNT
