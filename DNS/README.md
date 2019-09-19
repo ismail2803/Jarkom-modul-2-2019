@@ -93,12 +93,15 @@ service bind9 restart
 ATAU
 named -g //Bisa digunakan untuk restart sekaligus debugging
 ```
+### 1.2.3 Setting nameserver pada client
+Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu kita harus merubah settingan nameserver yang ada pada client kita.
+ - Pada client 
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc5ODg5MDksLTIwMDQ5MTAxOCw0Nz
+eyJoaXN0b3J5IjpbMTE0MjQ3MDM1OSwtMTkyNzk4ODkwOSw0Nz
 I5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1NiwtNjI1ODI4
 NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNTE1MjIyNDQsLT
 EwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzczODcsMTU5MTkx
