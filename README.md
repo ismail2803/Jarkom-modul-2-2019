@@ -13,10 +13,10 @@ Domain Name System atau DNS adalah sebuah sistem yang menyimpan informasi tentan
 ### 1.1.2 Cara Kerja
 BUTUH GAMBAR 
 ### 1.1.3 Aplikasi DNS Server
-
+Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digunakan di Internet, khusunya pada sistem operasi bertipe 
 ## 1.2 Praktik
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUzMTYwMzQsLTE1NTA0MzQ4NjQsLT
-E4MjA1OTcyMTAsMTEzNzI3ODQ5OF19
+eyJoaXN0b3J5IjpbMjAwNzc3ODY4MywtMTU1MDQzNDg2NCwtMT
+gyMDU5NzIxMCwxMTM3Mjc4NDk4XX0=
 -->
