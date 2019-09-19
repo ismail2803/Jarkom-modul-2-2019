@@ -97,13 +97,15 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
  - Pada client *PSYDUCK* dan *SNORLAX* arahkan nameserver menuju IP *ARTICUNO* dengan mengedit file *resolv.conf* dengan mengetikan perintah
 `nano /etc/resolv.conf`
 
+![resolv](Gambar/resolv)
 
+ - Untuk mencoba ko
 
 ### 1.2.4 Reverse DNS (Record PTR)
 
 ### 1.2.5 Record CNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNzQ0NzkxLC0zNTUzMDIwMDIsMjEzND
+eyJoaXN0b3J5IjpbMTkyNzI0NDEyMSw3OTM3NDQ3OTEsMjEzND
 EzOTQxMyw0NzI5MzQ0MDMsMTY0MDM3MDkyOSwtMjA0MTgyMDY1
 NiwtNjI1ODI4NTM2LDE2NTY4ODQ2ODksMTEzMzU0MDkzMCwzNT
 E1MjIyNDQsLTEwNDY4MzY1NDYsNDIwMjc0ODg3LC02NjkxNzcz
