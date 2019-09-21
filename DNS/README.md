@@ -223,7 +223,7 @@ host -t A nako.jarkomtc.com
 
 Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS baru.
 
-**I. Konfigurasi Pada Server Katsu**
+**I. Konfigurasi Pada Server ARTICUNO**
 - Pada *ARTICUNO*, edit file /etc/bind/jarkom/jarkomtc.com dan ubah menjadi seperti di bawah ini sesuai dengan pembagian IP *ARTICUNO* kelompok masing-masing.
 
 `nano /etc/bind/jarkom/jarkomtc.com`
@@ -252,9 +252,11 @@ zone "jarkomtc.com" {
 **II. Konfigurasi Pada Server MEWTWO**
 
 - Pada *MEWTWO* edit file **/etc/bind/named.conf.options**
+
 `nano /etc/bind/named.conf.options`
 
 - Kemudian comment dnssec-validation auto; dan tambahkan baris berikut pada **/etc/bind/named.conf.options**
+
 `allow-query{any;};`
 
 - Lalu edit file **/etc/bind/named.conf.local** menjadi seperti gambar di bawah:
