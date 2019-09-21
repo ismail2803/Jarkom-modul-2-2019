@@ -136,9 +136,174 @@ cp /etc/bind/db.local /etc/bind/jarkom/xx.151.10.in-addr.arpa
 `service bind9 restart`
 
 - Untuk mengecek apakah konfigurasi sudah benar atau belum, lakukan perintah berikut pada client *PSYDUCK*
-### 1.2.5 Reverse DNS (Record CNAME)
+### 1.2.5 Record CNAME
+Record CNAME adalah sebuah record yang membuat alias name dan mengarahkan domain ke alamat/domain yang lain.
+
+Langkah-langkah membuat record CNAME:
+- Buka file **jarkomtc.com** pada server ARTICUNO dan tambahkan konfigurasi seperti pada gambar berikut:
+
+- Kemudian restart bind9 dengan perintah
+`service bind9 restart`
+
+- Lalu cek dengan melakukan **host -t CNAME** www.jarkomtc.com atau **ping** www.jarkomtc.com. Hasilnya harus mengarah ke host dengan *IP ARTICUNO*
 
 ### 1.2.6 Membuat DNS Slave
+
+DNS Slave adalah DNS cadangan yang akan diakses jika server DNS utama mengalami kegagalan. Kita akan menjadikan server *MEWTWO* sebagai DNS slave dan server *ARTICUNO* sebagai DNS masternya.
+
+**I. Konfigurasi Pada Server ARTICUNO**
+- Edit file **/etc/bind/named.conf.local** dan sesuaikan dengan syntax berikut
+
+```
+zone "jarkomtc.com" {
+    type master;
+    notify yes;
+    also-notify { "IP MEWTWO"; }; // Masukan IP MEWTWO tanpa tanda petik
+    allow-transfer { "IP MEWTWO"; }; // Masukan IP MEWTWO tanpa tanda petik
+    file "/etc/bind/jarkom/jarkomtc.com";
+};
+```
+- Lakukan restart bind9
+`service bind9 restart`
+
+**II. Konfigurasi Pada Server MEWTWO**
+- Buka *MEWTWO* dan update package lists dengan menjalankan command:
+`apt-get update`
+
+- Setelah melakukan update silahkan install aplikasi bind9 pada *MEWTWO* dengan perintah:
+`apt-get install bind9 -y` 
+
+- Kemudian buka file /etc/bind/named.conf.local pada *MEWTWO* dan tambahkan syntax berikut:
+```
+zone "jarkomtc.com" {
+    type slave;
+    masters { "IP ARTICUNO"; }; // Masukan IP ARTICUNO tanpa tanda petik
+    file "/var/lib/bind/jarkomtc.com";
+};
+```
+- Lakukan restart bind9
+`service bind9 stop`
+
+- Pada client *PSYDUCK* pastikan pengaturan nameserver mengarah ke IP *ARTICUNO* dan IP *MEWTWO* 
+
+- Lakukan ping ke jarkomtc.com pada client *PSYDUCK*. Jika ping berhasil maka konfigurasi DNS slave telah berhasil
+
+**1.2.7 Membuat Subdomain**
+Subdomain adalah bagian dari sebuah nama domain induk. Subdomain umumnya mengacu ke suatu alamat fisik di sebuah situs contohnya: jarkomtc.com merupakan sebuah domain induk. Sedangkan nako.jarkomtc.com merupakan sebuah subdomain.
+
+- Edit file /etc/bind/jarkom/jarkomtc.com lalu tambahkan subdomain untuk jarkomtc.com yang mengarah ke IP ARTICUNO.
+
+`nano /etc/bind/jarkom/jarkomtc.com`
+
+- Tambahkan konfigurasi seperti pada gambar ke dalam file **jarkomtc.com**
+
+- Tambahkan konfigurasi seperti pada gambar ke dalam file **jarkomtc.com**
+
+- Restart service bind
+`service bind9 restart`
+
+- Coba ping ke subdomain dengan perintah berikut dari client *PSYDUCK*
+
+```
+ping nako.jarkomtc.com
+
+ATAU
+
+host -t A nako.jarkomtc.com
+```
+
+**1.2.8 Delegasi Subdomain**
+
+Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS baru.
+
+**I. Konfigurasi Pada Server Katsu**
+- Pada *ARTICUNO*, edit file /etc/bind/jarkom/jarkomtc.com dan ubah menjadi seperti di bawah ini sesuai dengan pembagian IP *ARTICUNO* kelompok masing-masing.
+
+`nano /etc/bind/jarkom/jarkomtc.com`
+
+- Kemudian edit file /etc/bind/named.conf.options pada *ARTICUNO*.
+
+`nano /etc/bind/named.conf.options`
+
+- Kemudian comment **dnssec-validation auto;** dan tambahkan baris berikut pada **/etc/bind/named.conf.options**
+
+`allow-query{any;};`
+
+- Kemudian edit file /etc/bind/named.conf.local menjadi seperti gambar di bawah:
+
+```
+zone "jarkomtc.com" {
+    type master;
+    file "/etc/bind/jarkom/jarkomtc.com";
+    allow-transfer { "IP MEWTWO"; }; // Masukan IP MEWTWO tanpa tanda petik
+};
+```
+- Setelah itu restart bind9 
+`service bind9 restart`
+
+**II. Konfigurasi Pada Server MEWTWO**
+
+- Pada *MEWTWO* edit file **/etc/bind/named.conf.options**
+`nano /etc/bind/named.conf.options`
+
+- Kemudian comment dnssec-validation auto; dan tambahkan baris berikut pada **/etc/bind/named.conf.options**
+`allow-query{any;};`
+
+- Lalu edit file **/etc/bind/named.conf.local** menjadi seperti gambar di bawah:
+
+- Kemudian buat direktori dengan **delegasi**
+- Copy **db.local** ke direktori pucang dan edit namanya menjadi **if.jarkomtc.com**
+```
+mkdir /etc/bind/delegasi
+cp /etc/bind/db.local /etc/bind/delegasi/if.jarkomtc.com
+```
+- Kemudian edit file **if.jarkomtc.com** menjadi seperti dibawah ini
+- Restart bind9
+`service bind9 restart`
+
+**III. Testing**
+- Lakukan ping ke domain **if.jarkomtc.com** dan **integra.if.jarkomtc.com** dari client *PSYDUCK*
+
+**1.2.9 DNS FORWARDER**
+DNS Forwarder digunakan untuk mengarahkan DNS Server ke IP yang ingin dituju.
+
+- Edit file /etc/bind/named.conf.options pada server *ARTICUNO*
+- Uncomment pada bagian ini
+```
+forwarders {
+    8.8.8.8;
+};
+```
+- Comment pada bagian ini
+`// dnssec-validation auto;`
+- Dan tambahkan
+`allow-query{any;};`
+- Harusnya jika nameserver pada file **/etc/resolv.conf** di client diubah menjadi IP *ARTICUNO* maka akan di forward ke IP DNS google yaitu 8.8.8.8 dan bisa mendapatkan koneksi.
+
+**1.3 Keterangan Konfigurasi Zone File**
+1. **Penulisan Serial**
+
+Ditulis dengan format YYYYMMDDXX. Serial di increment setiap melakukan perubahan pada file zone.
+
+```
+YYYY adalah tahun
+MM adalah bulan
+DD adalah tanggal
+XX adalah counter
+```
+
+Contoh:
+
+2. **Penggunaan titik**
+
+Pada salah satu contoh di atas, dapat kita amati pada kolom keempat terdapat record yang menggunakan titik pada akhir kata dan ada yang tidak. Penggunaan titik berfungsi sebagai penentu FQDN (Fully-Qualified Domain Name) suatu domain.
+
+Contohnya jika "jarkomtc.com." di akhiri dengan titik maka akan dianggap sebagai FQDN dan akan dibaca sebagai "jarkomtc.com" , sedangkan ns1 di atas tidak menggunakan titik sehingga dia tidak terbaca sebagai FQDN. Maka ns1 akan di tambahkan di depan terhadap nilai ORIGIN sehingga ns1 akan terbaca sebagai "**ns1.jarkomtc.com**". Nilai $ORIGIN diambil dari penamaan zone yang terdapat pada /etc/bind/named.conf.local.
+
+**3. Penulisan Name Server (NS) record**
+
+Salah satu aturan penulisan NS record adalah dia harus menuju A record., bukan CNAME.
+
 
 
 <!--stackedit_data:
