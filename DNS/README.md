@@ -171,9 +171,11 @@ zone "jarkomtc.com" {
 
 **II. Konfigurasi Pada Server MEWTWO**
 - Buka *MEWTWO* dan update package lists dengan menjalankan command:
+
 `apt-get update`
 
 - Setelah melakukan update silahkan install aplikasi bind9 pada *MEWTWO* dengan perintah:
+
 `apt-get install bind9 -y` 
 
 - Kemudian buka file /etc/bind/named.conf.local pada *MEWTWO* dan tambahkan syntax berikut:
@@ -204,6 +206,7 @@ Subdomain adalah bagian dari sebuah nama domain induk. Subdomain umumnya mengacu
 - Tambahkan konfigurasi seperti pada gambar ke dalam file **jarkomtc.com**
 
 - Restart service bind
+
 `service bind9 restart`
 
 - Coba ping ke subdomain dengan perintah berikut dari client *PSYDUCK*
@@ -281,8 +284,10 @@ forwarders {
 };
 ```
 - Comment pada bagian ini
+
 `// dnssec-validation auto;`
 - Dan tambahkan
+
 `allow-query{any;};`
 - Harusnya jika nameserver pada file **/etc/resolv.conf** di client diubah menjadi IP *ARTICUNO* maka akan di forward ke IP DNS google yaitu 8.8.8.8 dan bisa mendapatkan koneksi.
 
