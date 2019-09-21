@@ -133,6 +133,7 @@ cp /etc/bind/db.local /etc/bind/jarkom/xx.151.10.in-addr.arpa
 - Edit file **xx.151.10.in-addr.arpa** menjadi gambar di bawah ini
 
 - Kemudian restart bind dengan perintah 
+
 `service bind9 restart`
 
 - Untuk mengecek apakah konfigurasi sudah benar atau belum, lakukan perintah berikut pada client *PSYDUCK*
