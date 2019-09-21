@@ -143,6 +143,7 @@ Langkah-langkah membuat record CNAME:
 - Buka file **jarkomtc.com** pada server ARTICUNO dan tambahkan konfigurasi seperti pada gambar berikut:
 
 - Kemudian restart bind9 dengan perintah
+
 `service bind9 restart`
 
 - Lalu cek dengan melakukan **host -t CNAME** www.jarkomtc.com atau **ping** www.jarkomtc.com. Hasilnya harus mengarah ke host dengan *IP ARTICUNO*
@@ -164,6 +165,7 @@ zone "jarkomtc.com" {
 };
 ```
 - Lakukan restart bind9
+
 `service bind9 restart`
 
 **II. Konfigurasi Pada Server MEWTWO**
@@ -182,6 +184,7 @@ zone "jarkomtc.com" {
 };
 ```
 - Lakukan restart bind9
+
 `service bind9 stop`
 
 - Pada client *PSYDUCK* pastikan pengaturan nameserver mengarah ke IP *ARTICUNO* dan IP *MEWTWO* 
@@ -239,6 +242,7 @@ zone "jarkomtc.com" {
 };
 ```
 - Setelah itu restart bind9 
+
 `service bind9 restart`
 
 **II. Konfigurasi Pada Server MEWTWO**
@@ -259,6 +263,7 @@ cp /etc/bind/db.local /etc/bind/delegasi/if.jarkomtc.com
 ```
 - Kemudian edit file **if.jarkomtc.com** menjadi seperti dibawah ini
 - Restart bind9
+
 `service bind9 restart`
 
 **III. Testing**
