@@ -113,41 +113,60 @@ Jika pada pembuatan domain sebelumnya DNS server kita bekerja menerjemahkan stri
 
 - Edit file **/etc/bind/named.conf.local** pada *ARTICUNO*
 
-`nano /etc/bind/named/conf.local`
+`nano /etc/bind/named.conf.local`
 
 - Lalu tambahkan konfigurasi berikut ke dalam file **named.conf.local** 
 ```
-zone "83.151.10.in-addr.arpa" {
+zone "73.151.10.in-addr.arpa" {
     type master;
-    file "/etc/bind/jarkom/xx.151.10.in-addr.arpa";
+    file "/etc/bind/jarkom/73.151.10.in-addr.arpa";
 };
 ```
+![a](Gambar/satu.png)
 
-- Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkom** yang baru saja dibuat dan ubah namanya menjadi **83.151.10.in-addr.arpa**
+- Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkom** yang baru saja dibuat dan ubah namanya menjadi **73.151.10.in-addr.arpa**
 
 ```
-cp /etc/bind/db.local /etc/bind/jarkom/xx.151.10.in-addr.arpa
+cp /etc/bind/db.local /etc/bind/jarkom/73.151.10.in-addr.arpa
 ```
-*Keterangan: xx.151.10 adalah 3 byte pertama IP ARTICUNO yang dibalik urutan penulisannya*
+*Keterangan: 73.151.10 adalah 3 byte pertama IP ARTICUNO yang dibalik urutan penulisannya*
 
-- Edit file **xx.151.10.in-addr.arpa** menjadi gambar di bawah ini
+![cp](Gambar/cp.png)
 
+- Edit file **73.151.10.in-addr.arpa** menjadi gambar di bawah ini
+
+![haha](Gambar/in-addr.png)
 - Kemudian restart bind dengan perintah 
 
 `service bind9 restart`
 
 - Untuk mengecek apakah konfigurasi sudah benar atau belum, lakukan perintah berikut pada client *PSYDUCK*
+```
+// Install package dnsutils
+// Pastikan nameserver telah dikembalikan ke settingan awal
+apt-get update
+apt-get install dnsutils
+
+//Kembalikan nameserver agar tersambung dengan *ARTICUNO*
+host -t PTR "IP ARTICUNO"
+```
+![host](Gambar/host-t.png)
+
 ### 1.2.5 Record CNAME
 Record CNAME adalah sebuah record yang membuat alias name dan mengarahkan domain ke alamat/domain yang lain.
 
 Langkah-langkah membuat record CNAME:
 - Buka file **jarkomtc.com** pada server ARTICUNO dan tambahkan konfigurasi seperti pada gambar berikut:
 
+![cname](Gambar/cname.png)
+
 - Kemudian restart bind9 dengan perintah
 
 `service bind9 restart`
 
 - Lalu cek dengan melakukan **host -t CNAME** www.jarkomtc.com atau **ping** www.jarkomtc.com. Hasilnya harus mengarah ke host dengan *IP ARTICUNO*
+
+![ping](Gambar/pingjarkomtc.png)
 
 ### 1.2.6 Membuat DNS Slave
 
@@ -165,6 +184,8 @@ zone "jarkomtc.com" {
     file "/etc/bind/jarkom/jarkomtc.com";
 };
 ```
+![slave](Gambar/zonearticuno.png)
+
 - Lakukan restart bind9
 
 `service bind9 restart`
@@ -186,13 +207,24 @@ zone "jarkomtc.com" {
     file "/var/lib/bind/jarkomtc.com";
 };
 ```
+![varlib](Gambar/varlibarticuno.png)
+
 - Lakukan restart bind9
+
+`service bind9 restart`
+
+III. Testing
+- Pada server *KATSU* silahkan matikan service bind9
 
 `service bind9 stop`
 
 - Pada client *PSYDUCK* pastikan pengaturan nameserver mengarah ke IP *ARTICUNO* dan IP *MEWTWO* 
 
+![nameserver](Gambar/nameserver.png)
+
 - Lakukan ping ke jarkomtc.com pada client *PSYDUCK*. Jika ping berhasil maka konfigurasi DNS slave telah berhasil
+
+![pinglagi](Gambar/pingjarkomtc.png)
 
 **1.2.7 Membuat Subdomain**
 Subdomain adalah bagian dari sebuah nama domain induk. Subdomain umumnya mengacu ke suatu alamat fisik di sebuah situs contohnya: jarkomtc.com merupakan sebuah domain induk. Sedangkan nako.jarkomtc.com merupakan sebuah subdomain.
@@ -202,6 +234,8 @@ Subdomain adalah bagian dari sebuah nama domain induk. Subdomain umumnya mengacu
 `nano /etc/bind/jarkom/jarkomtc.com`
 
 - Tambahkan konfigurasi seperti pada gambar ke dalam file **jarkomtc.com**
+
+![cobain](Gambar/nakojarkomtc.png)
 
 - Tambahkan konfigurasi seperti pada gambar ke dalam file **jarkomtc.com**
 
@@ -218,7 +252,7 @@ ATAU
 
 host -t A nako.jarkomtc.com
 ```
-
+![pingnako](Gambar/pingnako)
 **1.2.8 Delegasi Subdomain**
 
 Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS baru.
@@ -228,6 +262,8 @@ Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS ba
 
 `nano /etc/bind/jarkom/jarkomtc.com`
 
+![ns1](Gambar/NS1.png)
+
 - Kemudian edit file /etc/bind/named.conf.options pada *ARTICUNO*.
 
 `nano /etc/bind/named.conf.options`
@@ -236,7 +272,9 @@ Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS ba
 
 `allow-query{any;};`
 
-- Kemudian edit file /etc/bind/named.conf.local menjadi seperti gambar di bawah:
+![allow](Gambar/allowarticuno.png)
+
+- Kemudian edit file **/etc/bind/named.conf.local** menjadi seperti gambar di bawah:
 
 ```
 zone "jarkomtc.com" {
@@ -245,6 +283,9 @@ zone "jarkomtc.com" {
     allow-transfer { "IP MEWTWO"; }; // Masukan IP MEWTWO tanpa tanda petik
 };
 ```
+
+![wadu](Gambar/wadu.png)
+
 - Setelah itu restart bind9 
 
 `service bind9 restart`
@@ -259,7 +300,11 @@ zone "jarkomtc.com" {
 
 `allow-query{any;};`
 
+![allow](Gambar/allowmewtwo.png)
+
 - Lalu edit file **/etc/bind/named.conf.local** menjadi seperti gambar di bawah:
+
+![gambir](Gambar/delegasi.png)
 
 - Kemudian buat direktori dengan **delegasi**
 - Copy **db.local** ke direktori pucang dan edit namanya menjadi **if.jarkomtc.com**
@@ -268,12 +313,17 @@ mkdir /etc/bind/delegasi
 cp /etc/bind/db.local /etc/bind/delegasi/if.jarkomtc.com
 ```
 - Kemudian edit file **if.jarkomtc.com** menjadi seperti dibawah ini
+
+![Gambar](Gambar/editintegra.png)
+
 - Restart bind9
 
 `service bind9 restart`
 
 **III. Testing**
 - Lakukan ping ke domain **if.jarkomtc.com** dan **integra.if.jarkomtc.com** dari client *PSYDUCK*
+
+![Gambur](Gambar/testingif.png)
 
 **1.2.9 DNS FORWARDER**
 DNS Forwarder digunakan untuk mengarahkan DNS Server ke IP yang ingin dituju.
@@ -291,6 +341,9 @@ forwarders {
 - Dan tambahkan
 
 `allow-query{any;};`
+
+![hampir](Gambar/dnsforwarder.png)
+
 - Harusnya jika nameserver pada file **/etc/resolv.conf** di client diubah menjadi IP *ARTICUNO* maka akan di forward ke IP DNS google yaitu 8.8.8.8 dan bisa mendapatkan koneksi.
 
 **1.3 Keterangan Konfigurasi Zone File**
@@ -307,7 +360,11 @@ XX adalah counter
 
 Contoh:
 
+![sisa](Gambar/serial.png)
+
 2. **Penggunaan titik**
+
+![terakhir](Gambar/penggunaantitik.png)
 
 Pada salah satu contoh di atas, dapat kita amati pada kolom keempat terdapat record yang menggunakan titik pada akhir kata dan ada yang tidak. Penggunaan titik berfungsi sebagai penentu FQDN (Fully-Qualified Domain Name) suatu domain.
 
