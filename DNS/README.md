@@ -83,7 +83,7 @@ zone "jarkomtc.com"{
 
 `cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.com`
 
-![](Gambar/cp.png)
+![uhuy](Gambar/hantuliar.png)
 
  - Kemudian buka **jarkomtc.com** dan edit seperti gambar berikut dengan IP *ARTICUNO* masing-masing kelompok:
 
