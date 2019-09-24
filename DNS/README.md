@@ -76,13 +76,13 @@ zone "jarkomtc.com"{
 
 ![mkdir](Gambar/mkdir.png)
 
- - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com**** yang baru saja dibuat dan diubah namanya menjadi **jarkom**
+ - Copykan file **db.local** pada path **/etc/bind** ke dalam folder **jarkomtc.com** yang baru saja dibuat dan diubah namanya menjadi **jarkom**
 
-`cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.`com`
+`cp /etc/bind/db.local /etc/bind/jarkom/jarkomtc.com`
 
 ![](Gambar/cp.png)
 
- - Kemudian buka **jakromtc.com** dan edit seperti gambar berikut dengan IP *ARTICUNO* masing-masing kelompok:
+ - Kemudian buka **jarkomtc.com** dan edit seperti gambar berikut dengan IP *ARTICUNO* masing-masing kelompok:
 
 `nano /etc/bind/jarkom/jarkomtc.com`
 
@@ -101,8 +101,7 @@ Domain yang kita buat tidak akan langsung dikenali oleh client oleh sebab itu ki
 
 ![resolv](Gambar/resolv.png)
 
- - Untuk mencoba ko
-neksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah berikut pada client *PSYDUCK* dan *SNORLAX*
+ - Untuk mencoba koneksi DNS, lakukan ping domain **jarkomtc.com** dengan melakukan perintah berikut pada client *PSYDUCK* dan *SNORLAX*
 
 `ping jarkomtc.com`
 
@@ -253,7 +252,7 @@ ATAU
 
 host -t A nako.jarkomtc.com
 ```
-![pingnako](Gambar/pingnako)
+![pingnako](Gambar/pingnako.png)
 **1.2.8 Delegasi Subdomain**
 
 Delegasi subdomain adalah pemberian wewenang atas sebuah subdomain kepada DNS baru.
