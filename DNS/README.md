@@ -30,6 +30,10 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Nama | Deskripsi |
 |--|--|
+| Serial |
+
+| Nama | Deskripsi |
+|--|--|
 | Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan didistribusikan ke server DNS sekunder manapun |
 | Refresh | Jumlah waktu dalam detik bahwa nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server DNS sekunder akan memperbarui salinan zona tersebut agar sesuai dengan zona server DNS utama |
 | Retry | Jumlah waktu dalam detik bahwa nameserver utama domain (atau server) harus menunggu jika upaya refresh oleh nameserver sekunder gagal sebelum mencoba refresh zona domain dengan nameserver sekunder itu lagi |
