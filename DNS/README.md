@@ -16,6 +16,8 @@ Client akan meminta alamat IP dari suatu domain ke DNS server. Jika pada DNS ser
 ### 1.1.3 Aplikasi DNS Server
 Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digunakan di Internet, khusunya pada sistem operasi bertipe Unix yang secara *de facto* merupakan standar. Untuk praktikum jarkom kita akan menggunakan aplikasi BIND sebagai DNS server.
 ### 1.1.4 List DNS Record
+DNS Server membuat record (catatan) yang menyediakan informasi penting tentang sebuah domain atau host name, seperti IP address-nya. Beberapa jenis record yang sering digunakan adalah:
+
 |Tipe|Deskripsi  |
 |--|--|
 | A | Memetakan nama domain ke alamat IP (IPv4) dari komputer hosting domain |
@@ -26,6 +28,7 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 | PTR | Digunakan untuk Reverse DNS (Domain Name System) lookup |
 | SOA | Mengacu server DNS yang menyediakan otorisasi informasi tentang sebuah domain internet |
 | TXT | Mengijinkan administrator untuk memasukkan data acak ke dalam catatan DNS, catatan ini juga digunakan di spesifikasi Sender Policy Framework |
+
 ### 1.1.5 SOA (Start of Authority)
 Adalah informasi yang dimiliki oleh suatu DNS zone.
 
@@ -326,6 +329,7 @@ cp /etc/bind/db.local /etc/bind/delegasi/if.jarkomtc.com
 ![Gambur](Gambar/testingif.png)
 
 **1.2.9 DNS FORWARDER**
+
 DNS Forwarder digunakan untuk mengarahkan DNS Server ke IP yang ingin dituju.
 
 - Edit file /etc/bind/named.conf.options pada server *ARTICUNO*
@@ -377,6 +381,9 @@ Salah satu aturan penulisan NS record adalah dia harus menuju A record., bukan C
 ## Latihan
 1. Buatlah domain jarkom.tc dan www.jarkom.tc (CNAME jarkom.tc). Apa yang terjadi jika melakukan ping jarkom.tc dengan ping www.jarkom.tc? Mengapa hal itu terjadi?
 2. Buatlah sebuah subdomain pada domain jarkom.tc dengan nama love.jarkom.tc setelah itu buatlah subdomain xx.love.jarkom.tc!
+
+#### Sumber
++ https://ns1.com/resources/dns-types-records-servers-and-queries
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNDM0MTE0ODMsMzIzODUzNTk1LDExNT
