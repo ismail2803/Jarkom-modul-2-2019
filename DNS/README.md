@@ -37,7 +37,7 @@ Adalah informasi yang dimiliki oleh suatu DNS zone.
 | Serial | Jumlah revisi dari file zona ini. Kenaikan nomor ini setiap kali file zone diubah sehingga perubahannya akan didistribusikan ke server DNS sekunder manapun |
 | Refresh | Jumlah waktu dalam detik bahwa nameserver sekunder harus menunggu untuk memeriksa salinan baru dari zona DNS dari nameserver utama domain. Jika file zona telah berubah maka server DNS sekunder akan memperbarui salinan zona tersebut agar sesuai dengan zona server DNS utama |
 | Retry | Jumlah waktu dalam detik bahwa nameserver utama domain (atau server) harus menunggu jika upaya refresh oleh nameserver sekunder gagal sebelum mencoba refresh zona domain dengan nameserver sekunder itu lagi |
-| Expire | Jumlah waktu dalam hitungan detik bahwa nameserver sekunder (atau server) |  akan menahan zona sebelum tidak lagi mempunyai otoritas |
+| Expire | Jumlah waktu dalam hitungan detik bahwa nameserver sekunder (atau server) akan menahan zona sebelum tidak lagi mempunyai otoritas |
 | Minimum | Jumlah waktu dalam hitungan detik bahwa catatan sumber daya domain valid. Ini juga dikenal sebagai TTL minimum, dan dapat diganti oleh TTL catatan sumber daya individu |
 | TTL | (waktu untuk tinggal) - Jumlah detik nama domain di-chace secara lokal sebelum kadaluarsa dan kembali ke nameserver otoritatif untuk informasi terbaru |
 ## 1.2 Praktik
