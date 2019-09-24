@@ -384,6 +384,10 @@ Salah satu aturan penulisan NS record adalah dia harus menuju A record., bukan C
 
 #### Sumber
 + https://ns1.com/resources/dns-types-records-servers-and-queries
++ https://id.wikipedia.org/wiki/Sistem_Penamaan_Domain
++ https://id.wikipedia.org/wiki/BIND
++ https://en.wikipedia.org/wiki/List_of_DNS_record_types
++ http://knowledgelayer.softlayer.com/faq/what-does-serial-refresh-retry-expire-minimum-and-ttl-mean
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNDM0MTE0ODMsMzIzODUzNTk1LDExNT
