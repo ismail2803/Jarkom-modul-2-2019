@@ -370,11 +370,13 @@ Pada salah satu contoh di atas, dapat kita amati pada kolom keempat terdapat rec
 
 Contohnya jika "jarkomtc.com." di akhiri dengan titik maka akan dianggap sebagai FQDN dan akan dibaca sebagai "jarkomtc.com" , sedangkan ns1 di atas tidak menggunakan titik sehingga dia tidak terbaca sebagai FQDN. Maka ns1 akan di tambahkan di depan terhadap nilai ORIGIN sehingga ns1 akan terbaca sebagai "**ns1.jarkomtc.com**". Nilai $ORIGIN diambil dari penamaan zone yang terdapat pada /etc/bind/named.conf.local.
 
-**3. Penulisan Name Server (NS) record**
+3. **Penulisan Name Server (NS) record**
 
 Salah satu aturan penulisan NS record adalah dia harus menuju A record., bukan CNAME.
 
-
+## Latihan
+1. Buatlah domain jarkom.tc dan www.jarkom.tc (CNAME jarkom.tc). Apa yang terjadi jika melakukan ping jarkom.tc dengan ping www.jarkom.tc? Mengapa hal itu terjadi?
+2. Buatlah sebuah subdomain pada domain jarkom.tc dengan nama love.jarkom.tc setelah itu buatlah subdomain xx.love.jarkom.tc!
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNDM0MTE0ODMsMzIzODUzNTk1LDExNT
