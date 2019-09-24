@@ -28,9 +28,6 @@ Berkeley Internet Name Domain atau BIND adalah server DNS yang paling umum digun
 | TXT | Mengijinkan administrator untuk memasukkan data acak ke dalam catatan DNS, catatan ini juga digunakan di spesifikasi Sender Policy Framework |
 ### 1.1.5 SOA (Start of Authority)
 Adalah informasi yang dimiliki oleh suatu DNS zone.
-| Nama | Deskripsi |
-|--|--|
-| Serial |
 
 | Nama | Deskripsi |
 |--|--|
