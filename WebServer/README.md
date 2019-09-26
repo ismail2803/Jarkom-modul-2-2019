@@ -16,8 +16,8 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 
 ### 3. Apache Web Server
 
-##D. Instalasi Apache
+## D. Instalasi Apache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzQxOTMxNywtNjc3OTM5MDMxLDEzMT
+eyJoaXN0b3J5IjpbLTUzMTMyNTQwNSwtNjc3OTM5MDMxLDEzMT
 k0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
