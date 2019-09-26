@@ -10,7 +10,9 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 ## C. Dasar Teori
 ### 1. Web Server
 
+### 2. Load Balancing
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyMzk5NSwxMzE5NDA5MzUsLTc5MD
+eyJoaXN0b3J5IjpbLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MD
 U2MDI5Nl19
 -->
