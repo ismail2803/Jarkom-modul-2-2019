@@ -12,8 +12,12 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti sebuah storage yang digunakan untuk menyimpan semua data dari aplikasi web (file HTML, CSS, JavaScript, dll.). Sedangkan secara _software_,  web server adalah sebuah perangkat yang bertugas untuk menyediakan layanan akses menggunakan protokol HTTP atau HTTPS melalui aplikasi web.
 
 ### 2. Load Balancing
+#### Kenapa dibutuhkan load balancing?
 
+### 3. Apache Web Server
+
+##D. Instalasi Apache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4MTIxNzksLTY3NzkzOTAzMSwxMz
-E5NDA5MzUsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbMTYxNzQxOTMxNywtNjc3OTM5MDMxLDEzMT
+k0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
