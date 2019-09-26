@@ -8,8 +8,9 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 3. Ketika mengalami kendala/error __cek syntax dan samakan seperti modul__ terlebih dahulu __sebelum__ angkat tangan dan berkata __"Mas/Mbak ini kok gak bisa ya?"__
 
 ## C. Dasar Teori
-### 1. We
+### 1. Web Server
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MTk1ODk2LDEzMTk0MDkzNSwtNzkwNT
-YwMjk2XX0=
+eyJoaXN0b3J5IjpbLTEzNzcyMzk5NSwxMzE5NDA5MzUsLTc5MD
+U2MDI5Nl19
 -->
