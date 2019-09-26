@@ -9,10 +9,11 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 
 ## C. Dasar Teori
 ### 1. Web Server
+Terdapat dua pengertian dari web server. Secara _hardware_ web server berarti sebuah storage yang digunakan untuk menyimpan semua d
 
 ### 2. Load Balancing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MD
-U2MDI5Nl19
+eyJoaXN0b3J5IjpbMjA2MTAyNTExLC02Nzc5MzkwMzEsMTMxOT
+QwOTM1LC03OTA1NjAyOTZdfQ==
 -->
