@@ -74,10 +74,14 @@ Berikut beberapa hal yang penting untuk diketahui:
 | __a2dissite__ | file |
 | __a2enmod__ | file |
 | __a2dismod__ | file |
+
+## G. Konfigurasi Apache Sederhana
+### A. Penggunaan Sederhana
+#### 1. Pindah ke directory_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcxNDYzMywtODgyNDE2MjMwLC01Nj
-A1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAy
-MTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC
-01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2
-MDI5Nl19
+eyJoaXN0b3J5IjpbLTk3NTg5NTAwMywtMTYxNzE0NjMzLC04OD
+I0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0
+ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLT
+ExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5MDMxLDEzMTk0
+MDkzNSwtNzkwNTYwMjk2XX0=
 -->
