@@ -94,7 +94,9 @@ Gunakan perintah `nano /etc/apache2/sites-available/default`
 Beberapa diantaranya adalah:
 + __Port__ yang digunakan
 ```
+<VirtualHost *:80>
 ```
+
 + Nama __Domain__
 ```
 ```
@@ -117,10 +119,10 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzA3ODU0OSwxMzg3Mzc3MDU0LDIwND
-I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
-MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
-E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
-MjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl
-19
+eyJoaXN0b3J5IjpbLTE0MTM0MDM5MjgsMTU4MzA3ODU0OSwxMz
+g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
+MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
+EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
+MDY1OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5Mz
+UsLTc5MDU2MDI5Nl19
 -->
