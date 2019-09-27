@@ -111,9 +111,9 @@ Gunakan perintah `nano index.php` dan isi file  tersebut dengan
 ?>
 ```
 #### A.6. Buka browser laptop/komputer masing-masing
-Buka web __IP Mewtwo Masing-Masing Kelompok__ sampai muncul halaman Apache seperti di bawah ini.
+Akses alamat __http://[IP Mewtwo]/index.php__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTU1Mzk1NSwxMzg3Mzc3MDU0LDIwND
+eyJoaXN0b3J5IjpbMTc0MTY0NDY2MiwxMzg3Mzc3MDU0LDIwND
 I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
 MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
 E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
