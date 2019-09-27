@@ -98,12 +98,11 @@ Beberapa diantaranya adalah:
 ```
 Konfigurasi di atas menunjukkan bahwa port yang digunakan adalah port 80
 
-##### Nama __Domain__
-```
-```
 ##### ___Directory___ tempat file website kita berada
 ```
+DocumentRoot /var/www
 ```
+Untuk sesi lab JarKom ini silahkan mengub
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/html`
 #### 5. Buat file _index.php_
@@ -120,10 +119,10 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMz
-g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
-MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
-EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
-MDY1OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5Mz
-UsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbLTQ4ODExMDI4OCwtMTA4MDk2NDE3NCwxNT
+gzMDc4NTQ5LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0
+NjMzLC04ODI0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC
+0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3
+NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5MD
+MxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
