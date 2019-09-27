@@ -28,10 +28,10 @@ apt-get install apache2
 ```
 jika muncul tulisan _"Do you want to continue? [Y/n]"_  input `Y` lalu tekan ___enter___. 
 #### 2. Buka browser laptop/komputer masing-masing
-Buka web __IP Mewtwo Masing-Masing Kelompok__
+Buka web __IP Mewtwo Masing-Masing Kelompok__ sampai muncul halaman Apache.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk0ODkzMDksNzE2NjY5NDU4LC0xNj
-YwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEzMjU0MDUsLTY3Nzkz
-OTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbODQ2NDQwNTQwLDcxNjY2OTQ1OCwtMTY2MD
+c3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1NDA1LC02Nzc5Mzkw
+MzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ==
 -->
