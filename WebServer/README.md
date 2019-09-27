@@ -45,9 +45,14 @@ jika muncul tulisan _"Do you want to continue? [Y/n]"_  input `Y` lalu tekan ___
 
 <img src="Gambar/5.png" width="500">
 
-
+#### 2. Test apakah php sudah ter-install
+Jalankan perintah di bawah ini untuk memeriksa versi dari __php__ kalian.
+```
+php -v
+```
+Bi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTU5OTI2NywxMDUzNDYwMjEzLDcxNj
+eyJoaXN0b3J5IjpbLTExNzU5MzY5NiwxMDUzNDYwMjEzLDcxNj
 Y2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1
 NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ
 ==
