@@ -88,9 +88,12 @@ Dapat dilihat di sana terdapat dua buah file:
 
 <img src="Gambar/9.png" width="500">
 
-#### 3.  Pada file _default_ terdapat konfigurasi 
+#### 3.  Pada file _default_ terdapat konfigurasi standar apache
+Beberapa diantaranya adalah:
++ __Port__ yang digunakan
++ Domain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDQxNjQ1NiwxMzg3Mzc3MDU0LDIwND
+eyJoaXN0b3J5IjpbLTQzOTc2NTM1OCwxMzg3Mzc3MDU0LDIwND
 I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
 MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
 E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
