@@ -106,7 +106,8 @@ DocumentRoot /var/www
 + Begitu juga dengan _line_ ke-9, diubah dari `<Directory /var/www/>` menjadi `<Directory /var/www/html>` 
 
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
-Gunakan perintah `cd /var/www/html`
+Gunakan perintah `cd /var/www/`
++ Karena tadi kita mengubah _DocumentRoot_ di file _default_
 #### 5. Buat file _index.php_
 Gunakan perintah `nano index.php` dan isi file  tersebut dengan
 ```
@@ -121,10 +122,11 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMT
-U4MzA3ODU0OSwxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcx
-NDYzMywtODgyNDE2MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMS
-wtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYw
-Nzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEzMjU0MDUsLTY3NzkzOT
-AzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbMTI2NTc0NTk4MiwtMTExMjcyOTk0NywtMT
+A4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcwNTQsMjA0Mjk5
+MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0MjExNC
+wtNjUwNDkxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MTY2
+Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMyNT
+QwNSwtNjc3OTM5MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
+
 -->
