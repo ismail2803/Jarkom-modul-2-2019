@@ -21,8 +21,9 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 ### 3. Apache Web Server
 
 ## D. Instalasi Apache
+#### 1. Buka UML _M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMT
-Q0MDY1OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5
-MzUsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbLTE5Mzg2MDQ3MzAsNzE2NjY5NDU4LC0xNj
+YwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEzMjU0MDUsLTY3Nzkz
+OTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl19
 -->
