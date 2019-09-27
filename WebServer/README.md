@@ -79,14 +79,18 @@ Berikut beberapa hal yang penting untuk diketahui:
 ### A. Penggunaan Sederhana
 #### 1. Pindah ke _directory_ `/etc/apache2/sites-available`
 
-<img src="Gambar/7.png" width="500">
+<img src="Gambar/8.png" width="500">
 
 Dapat dilihat di sana terdapat dua buah file:
 + file __default__, ....
 + file __default-ssl__, ....
-####
+#### 2. Buka file ___default___
+
+<img src="Gambar/9.png" width="500">
+
+#### 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODQ2ODQxNSwyMDQyOTkxNzcxLC0xNj
+eyJoaXN0b3J5IjpbMTM4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNj
 E3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQyMTE0LC02NTA0OTE2
 MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNjY2OTQ1OCwtMT
 Y2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1NDA1LC02Nzc5
