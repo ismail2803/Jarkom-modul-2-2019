@@ -91,9 +91,14 @@ Dapat dilihat di sana terdapat dua buah file:
 #### 3.  Pada file _default_ terdapat konfigurasi standar apache
 Beberapa diantaranya adalah:
 + __Port__ yang digunakan
-+ Domain
+```
+```
++ Nama __Domain__
+```
+```
++ ___Directory___ tempat file website kita berada
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTc2NTM1OCwxMzg3Mzc3MDU0LDIwND
+eyJoaXN0b3J5IjpbMTA2NDgxNTk1NywxMzg3Mzc3MDU0LDIwND
 I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
 MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
 E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
