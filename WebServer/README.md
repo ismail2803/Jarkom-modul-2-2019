@@ -55,10 +55,10 @@ Bila _output_-nya mirip dengan yang di bawah ini, maka __php__ kalian telah ter-
 <img src="Gambar/6.png" width="500">
 
 ## F. Mengenal Apache
-Web server Apache memiliki folder konfigurasi yang terletak di `/etc/apache2/`
+Web server Apache memiliki _directory_  berisi berbagai konfigurasi yang terletak di `/etc/apache2/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUxMDk2MTMsLTIwNTg3MTQ4NywxMD
-UzNDYwMjEzLDcxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2
-NTk3MCwtNTMxMzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC
-03OTA1NjAyOTZdfQ==
+eyJoaXN0b3J5IjpbLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNT
+M0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1
+OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLT
+c5MDU2MDI5Nl19
 -->
