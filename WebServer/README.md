@@ -106,6 +106,7 @@ DocumentRoot /var/www
 + Begitu juga dengan _line_ ke-9, diubah dari `<Directory /var/www/>` menjadi `<Directory /var/www/html>` 
 + Jangan lupa lakukan `service apache2 restart` setelah melakukan perubahan konfigurasi agar perubahan yang telah dilakukan teraplikasikan
 
+<img src="Gambar/10.png" width="500">
 
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/`
@@ -126,7 +127,7 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjUxMjU4NiwyNzcyNTYwMzUsLTIzNz
+eyJoaXN0b3J5IjpbMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNz
 k2NTk1NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4
 NTQ5LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC
 04ODI0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4
