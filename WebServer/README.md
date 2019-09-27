@@ -130,11 +130,11 @@ Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
 #### A.6. Buka browser laptop/komputer masing-masing
 Akses alamat __http://[IP Mewtwo]/index.php__
 
-<img src="Gambar/10.png" width="500">
+<img src="Gambar/14.png" width="500">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODE3NzM1MiwxNzkyMDk5NTc5LDI3Nz
+eyJoaXN0b3J5IjpbMTMyMjAwMDU4OCwxNzkyMDk5NTc5LDI3Nz
 I1NjAzNSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMDgwOTY0
 MTc0LDE1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkxNzcxLC
 0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQyMTE0LC02NTA0
