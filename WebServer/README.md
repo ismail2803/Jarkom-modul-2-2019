@@ -77,9 +77,9 @@ Berikut beberapa hal yang penting untuk diketahui:
 
 ## G. Konfigurasi Apache Sederhana
 ### A. Penggunaan Sederhana
-#### 1. Pindah ke directory_
+#### 1. Pindah ke _directory_ `/etc/apache2/sites-available`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTg5NTAwMywtMTYxNzE0NjMzLC04OD
+eyJoaXN0b3J5IjpbMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC04OD
 I0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0
 ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLT
 ExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5MDMxLDEzMTk0
