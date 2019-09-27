@@ -78,6 +78,7 @@ Berikut beberapa hal yang penting untuk diketahui:
 ## G. Konfigurasi Apache Sederhana
 ### A. Penggunaan Sederhana
 #### 1. Pindah ke _directory_ `/etc/apache2/sites-available`
+Gunakan perintah `cd /etc/apache2/sites-available`
 
 <img src="Gambar/8.png" width="500">
 
@@ -99,12 +100,13 @@ Beberapa diantaranya adalah:
 + ___Directory___ tempat file website kita berada
 ```
 ```
-#### 4. Pindah ke _directory_ `/etc/apache2/sites-available`
+#### 4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQxNTIzNzksMTM4NzM3NzA1NCwyMD
-QyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQy
-MTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLD
-cxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMx
-MzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOT
-ZdfQ==
+eyJoaXN0b3J5IjpbNDU3NDQ5ODMzLDEzODczNzcwNTQsMjA0Mj
+k5MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0MjEx
+NCwtNjUwNDkxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MT
+Y2Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMy
+NTQwNSwtNjc3OTM5MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX
+0=
 -->
