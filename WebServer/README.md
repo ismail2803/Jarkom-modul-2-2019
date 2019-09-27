@@ -50,9 +50,12 @@ Jalankan perintah di bawah ini untuk memeriksa versi dari __php__ kalian.
 ```
 php -v
 ```
-Bi
+Bila _output_-nya mirip dengan yang di bawah ini, maka __php__ kalian telah ter-_install_.
+
+<img src="Gambar/6.png" width="500">
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU5MzY5NiwxMDUzNDYwMjEzLDcxNj
+eyJoaXN0b3J5IjpbLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNj
 Y2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1
 NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ
 ==
