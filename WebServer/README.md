@@ -67,10 +67,14 @@ Berikut beberapa hal yang penting untuk diketahui:
 | __apache2.conf__ | file |
 
 + _Command_ yang sering digunakan
+
+| __Command__ | Kegunaan |
+| --- | --- |
+| __a2ensite__ | file |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU2NTE1NjIsLTg4MjQxNjIzMCwtNT
-YwNTQyMTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYw
-MjEzLDcxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MC
-wtNTMxMzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1
-NjAyOTZdfQ==
+eyJoaXN0b3J5IjpbMTUzMzA3MTQzMiwtODgyNDE2MjMwLC01Nj
+A1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAy
+MTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC
+01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2
+MDI5Nl19
 -->
