@@ -25,10 +25,10 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 ```
 apt-get install apache2
 ```
-jika muncul tulisan _"Do you want to continue? [Y/n]lalu ketik 
+jika muncul tulisan _"Do you want to continue? [Y/n]"_  input `Y` lalu tekan ___enter___. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDgzMjY1Nyw3MTY2Njk0NTgsLTE2Nj
+eyJoaXN0b3J5IjpbLTE0NTgwNzk4NCw3MTY2Njk0NTgsLTE2Nj
 A3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5
 MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
