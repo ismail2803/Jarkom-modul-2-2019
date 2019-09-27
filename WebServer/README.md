@@ -77,7 +77,7 @@ Berikut beberapa hal yang penting untuk diketahui:
 
 ## G. Konfigurasi Apache Sederhana
 ### A. Penggunaan Sederhana
-#### 1. Pindah ke _directory_ `/etc/apache2/sites-available`
+#### A.1. Pindah ke _directory_ `/etc/apache2/sites-available`
 Gunakan perintah `cd /etc/apache2/sites-available`
 
 <img src="Gambar/8.png" width="500">
@@ -85,7 +85,7 @@ Gunakan perintah `cd /etc/apache2/sites-available`
 Dapat dilihat di sana terdapat dua buah file:
 + file __default__, ....
 + file __default-ssl__, ....
-#### 2. Buka file ___default___
+#### A.2. Buka file ___default___
 Gunakan perintah `nano /etc/apache2/sites-available/default`
 
 <img src="Gambar/9.png" width="500">
@@ -104,12 +104,17 @@ Beberapa diantaranya adalah:
 #### 4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/html`
 #### 5. Buat file _index.php_
-D
+Gunakan perintah `nano index.php` dan isi file  tersebut dengan
+```
+<?php
+	phpinfo();
+?>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzgxMzczNiwxMzg3Mzc3MDU0LDIwND
-I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
-MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
-E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
-MjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl
-19
+eyJoaXN0b3J5IjpbLTE3NjgzMDQzNDMsMTM4NzM3NzA1NCwyMD
+QyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQy
+MTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLD
+cxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMx
+MzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOT
+ZdfQ==
 -->
