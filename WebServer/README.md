@@ -104,7 +104,7 @@ DocumentRoot /var/www
 ```
 + Untuk sesi lab JarKom ini silahkan mengubah _DocumentRoot_-nya menjadi `/var/www/html`
 + Begitu juga dengan _line_ ke-9, diubah dari `<Directory /var/www/>` menjadi `<Directory /var/www/html>` 
-+ Jangan lupa lakukan `service apache2 restart` 
++ Jangan lupa lakukan `service apache2 restart` setelah melakukan perubahan konfigurasi
 
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/`
@@ -125,11 +125,11 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDc5OTAsMjc3MjU2MDM1LC0yMzc5Nj
-U5NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0
-OSwxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtOD
-gyNDE2MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcx
-NDg3LDEwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC
-0xMTQ0MDY1OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5
-NDA5MzVdfQ==
+eyJoaXN0b3J5IjpbODA4NjA1MSwyNzcyNTYwMzUsLTIzNzk2NT
+k1NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5
+LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC04OD
+I0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0
+ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLT
+ExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5MDMxLDEzMTk0
+MDkzNV19
 -->
