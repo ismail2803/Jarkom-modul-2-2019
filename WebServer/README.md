@@ -90,7 +90,7 @@ Gunakan perintah `nano /etc/apache2/sites-available/default`
 
 <img src="Gambar/9.png" width="500">
 
-#### 3.  Pada file _default_ terdapat konfigurasi standar apache
+#### A.3.  Pada file _default_ terdapat konfigurasi standar apache
 Beberapa diantaranya adalah:
 + __Port__ yang digunakan
 ```
@@ -101,7 +101,7 @@ Beberapa diantaranya adalah:
 + ___Directory___ tempat file website kita berada
 ```
 ```
-#### 4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
+#### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/html`
 #### 5. Buat file _index.php_
 Gunakan perintah `nano index.php` dan isi file  tersebut dengan
@@ -110,11 +110,13 @@ Gunakan perintah `nano index.php` dan isi file  tersebut dengan
 	phpinfo();
 ?>
 ```
+#### A.6. Buka browser laptop/komputer masing-masing
+Buka web __IP Mewtwo Masing-Masing Kelompok__ sampai muncul halaman Apache seperti di bawah ini.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgzMDQzNDMsMTM4NzM3NzA1NCwyMD
-QyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQy
-MTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLD
-cxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMx
-MzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOT
-ZdfQ==
+eyJoaXN0b3J5IjpbMTMwNTU1Mzk1NSwxMzg3Mzc3MDU0LDIwND
+I5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1NDIx
+MTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMTMsNz
+E2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEz
+MjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl
+19
 -->
