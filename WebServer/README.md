@@ -1,6 +1,7 @@
 # Web Server
 ## A. Persyaratan Tambahan untuk Mengikuti Sesi Lab
 Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
+<img src="Gambar/1.png" height="24">
 
 ## B. Penting Untuk Dibaca
 1. Pastikan semua UML bisa connect ke internet baik dapat melakukan koneksi ke luar maupun dapat ping dari luar (Khusus DMZ)
@@ -18,6 +19,6 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 
 ## D. Instalasi Apache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTMyNTQwNSwtNjc3OTM5MDMxLDEzMT
-k0MDkzNSwtNzkwNTYwMjk2XX0=
+eyJoaXN0b3J5IjpbLTcxOTUwMTI2MiwtNTMxMzI1NDA1LC02Nz
+c5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ==
 -->
