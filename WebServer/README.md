@@ -60,12 +60,11 @@ Web server Apache memiliki _directory_  berisi berbagai konfigurasi yang terleta
 <img src="Gambar/7.png" width="500">
 
 Berikut beberapa hal yang penting untuk diketahui:
-+ File Konfigurasi di 	`/etc/acpache2
-
-
++ File Konfigurasi di 	`/etc/apache2`
++ Command-command ya
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjk4OTA1MSwtNTYwNTQyMTE0LC02NT
-A0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNjY2OTQ1
-OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1NDA1LC
-02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ==
+eyJoaXN0b3J5IjpbOTI0Njc3NDYsLTU2MDU0MjExNCwtNjUwND
+kxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgs
+LTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNj
+c3OTM5MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
