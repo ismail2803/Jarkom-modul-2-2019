@@ -63,11 +63,12 @@ Berikut beberapa hal yang penting untuk diketahui:
 + File Konfigurasi di 	`/etc/apache2`
 | Nama File | Kegunaan |
 | --- | --- |
-| __apache2.conf__ | 
+| __apache2.conf__ | file |
 + _Command_ yang sering digunakan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjQxNjIzMCwtNTYwNTQyMTE0LC02NT
-A0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNjY2OTQ1
-OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1NDA1LC
-02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NzcxMjI1MTAsLTg4MjQxNjIzMCwtNT
+YwNTQyMTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYw
+MjEzLDcxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MC
+wtNTMxMzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1
+NjAyOTZdfQ==
 -->
