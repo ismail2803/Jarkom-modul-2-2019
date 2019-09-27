@@ -71,8 +71,11 @@ Berikut beberapa hal yang penting untuk diketahui:
 |__Command__ | __Kegunaan__ |
 | --- | --- |
 | __a2ensite__ | file |
+| __a2dissite__ | file |
+| __a2enmod__ | file |
+| __a2dismod__ | file |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDYxMDY0NCwtODgyNDE2MjMwLC01Nj
+eyJoaXN0b3J5IjpbLTE2MTcxNDYzMywtODgyNDE2MjMwLC01Nj
 A1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAy
 MTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC
 01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2
