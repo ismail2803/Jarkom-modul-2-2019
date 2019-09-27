@@ -33,10 +33,13 @@ jika muncul tulisan _"Do you want to continue? [Y/n]"_  input `Y` lalu tekan ___
 #### 2. Buka browser laptop/komputer masing-masing
 Buka web __IP Mewtwo Masing-Masing Kelompok__ sampai muncul halaman Apache.
 
-## 
+<img src="Gambar/4.png">
+
+## E. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDkxMDcxLDEwNTM0NjAyMTMsNzE2Nj
-Y5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEzMjU0
-MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbLTE4MzAzOTYzMzAsMTA1MzQ2MDIxMyw3MT
+Y2Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMy
+NTQwNSwtNjc3OTM5MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX
+0=
 -->
