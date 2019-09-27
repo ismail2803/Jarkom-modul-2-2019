@@ -92,7 +92,7 @@ Gunakan perintah `nano /etc/apache2/sites-available/default`
 
 #### A.3.  Pada file _default_ terdapat konfigurasi standar apache
 Beberapa diantaranya adalah:
-+ __Port__ yang digunakan
+##### __Port__ yang digunakan
 ```
 <VirtualHost *:80>
 ```
@@ -119,7 +119,7 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM0MDM5MjgsMTU4MzA3ODU0OSwxMz
+eyJoaXN0b3J5IjpbLTE5NjY4OTg2NTYsMTU4MzA3ODU0OSwxMz
 g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
 MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
 EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
