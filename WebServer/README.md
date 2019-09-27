@@ -21,14 +21,17 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 ### 3. Apache Web Server
 
 ## D. Instalasi Apache
-#### 1. Buka UML _MEWTWO_ dan jalankan perintah
+#### 1. Buka UML _MEWTWO_
+Lalu jalankan perintah
 ```
 apt-get install apache2
 ```
 jika muncul tulisan _"Do you want to continue? [Y/n]"_  input `Y` lalu tekan ___enter___. 
+#### 2. Buka browser laptop/komputer masing-masing
+Buka web __IP Mewtwo Masing-Masing Kelompok__
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgwNzk4NCw3MTY2Njk0NTgsLTE2Nj
-A3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5
-MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
+eyJoaXN0b3J5IjpbLTE1Mjk0ODkzMDksNzE2NjY5NDU4LC0xNj
+YwNzc1ODYwLC0xMTQ0MDY1OTcwLC01MzEzMjU0MDUsLTY3Nzkz
+OTAzMSwxMzE5NDA5MzUsLTc5MDU2MDI5Nl19
 -->
