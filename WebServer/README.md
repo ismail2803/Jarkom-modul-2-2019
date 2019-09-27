@@ -56,9 +56,13 @@ Bila _output_-nya mirip dengan yang di bawah ini, maka __php__ kalian telah ter-
 
 ## F. Mengenal Apache
 Web server Apache memiliki _directory_  berisi berbagai konfigurasi yang terletak di `/etc/apache2/`
+
+<img src="Gambar/7.png" width="500">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNT
-M0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1
-OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLT
-c5MDU2MDI5Nl19
+eyJoaXN0b3J5IjpbLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMD
+U4NzE0ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4
+NjAsLTExNDQwNjU5NzAsLTUzMTMyNTQwNSwtNjc3OTM5MDMxLD
+EzMTk0MDkzNSwtNzkwNTYwMjk2XX0=
 -->
