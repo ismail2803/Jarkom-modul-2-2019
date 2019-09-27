@@ -62,17 +62,17 @@ Web server Apache memiliki _directory_  berisi berbagai konfigurasi yang terleta
 Berikut beberapa hal yang penting untuk diketahui:
 + File Konfigurasi di 	`/etc/apache2`
 
-| Nama File | Kegunaan |
+|__Nama File__ | __Kegunaan__ |
 | --- | --- |
 | __apache2.conf__ | file |
 
 + _Command_ yang sering digunakan
 
-| __Command__ | Kegunaan |
+|__Command__ | __Kegunaan__ |
 | --- | --- |
 | __a2ensite__ | file |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzA3MTQzMiwtODgyNDE2MjMwLC01Nj
+eyJoaXN0b3J5IjpbMTcwMDYxMDY0NCwtODgyNDE2MjMwLC01Nj
 A1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAy
 MTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC
 01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLTc5MDU2
