@@ -54,9 +54,10 @@ Bila _output_-nya mirip dengan yang di bawah ini, maka __php__ kalian telah ter-
 
 <img src="Gambar/6.png" width="500">
 
+## F. Mengenal Apache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNj
-Y2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMxMzI1
-NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOTZdfQ
-==
+eyJoaXN0b3J5IjpbLTcxMTEyNzUwMCwtMjA1ODcxNDg3LDEwNT
+M0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1
+OTcwLC01MzEzMjU0MDUsLTY3NzkzOTAzMSwxMzE5NDA5MzUsLT
+c5MDU2MDI5Nl19
 -->
