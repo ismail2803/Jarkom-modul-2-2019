@@ -86,6 +86,7 @@ Dapat dilihat di sana terdapat dua buah file:
 + file __default__, ....
 + file __default-ssl__, ....
 #### 2. Buka file ___default___
+Gunakan perintah `nano /etc/apache2/sites-available/default`
 
 <img src="Gambar/9.png" width="500">
 
@@ -101,12 +102,12 @@ Beberapa diantaranya adalah:
 ```
 ```
 #### 4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
-
+Gunakan perintah `cd /var/www/html`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NDQ5ODMzLDEzODczNzcwNTQsMjA0Mj
-k5MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0MjEx
-NCwtNjUwNDkxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MT
-Y2Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUzMTMy
-NTQwNSwtNjc3OTM5MDMxLDEzMTk0MDkzNSwtNzkwNTYwMjk2XX
-0=
+eyJoaXN0b3J5IjpbLTE4MDEwMzQxNjUsMTM4NzM3NzA1NCwyMD
+QyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQy
+MTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLD
+cxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0NDA2NTk3MCwtNTMx
+MzI1NDA1LC02Nzc5MzkwMzEsMTMxOTQwOTM1LC03OTA1NjAyOT
+ZdfQ==
 -->
