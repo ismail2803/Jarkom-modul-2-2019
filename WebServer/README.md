@@ -96,11 +96,12 @@ Beberapa diantaranya adalah:
 ```
 <VirtualHost *:80>
 ```
+Konfigurasi di atas menunjukkan bahwa port yang digunakan adalah port 80
 
-+ Nama __Domain__
+##### Nama __Domain__
 ```
 ```
-+ ___Directory___ tempat file website kita berada
+##### ___Directory___ tempat file website kita berada
 ```
 ```
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
@@ -119,7 +120,7 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY4OTg2NTYsMTU4MzA3ODU0OSwxMz
+eyJoaXN0b3J5IjpbLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMz
 g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
 MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
 EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
