@@ -128,7 +128,7 @@ Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
 #### A.6. Buka browser laptop/komputer masing-masing
 Akses alamat __http://[IP Mewtwo]/index.php__
 
-<img src="Gambar/13.png" width="500">
+<img src="Gambar/13.png">
 
 + __Catatan__:
 	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install **libapache2-mod-php7.0** dengan menjalankan perintah
@@ -265,11 +265,11 @@ Isi file __index.php__ tersebut dengan
 
 ## H. Directory Listing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NT
-k5Nzk5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYw
-NjcsLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxND
-A2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4
-Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMT
-A5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2
-NTMzNV19
+eyJoaXN0b3J5IjpbLTE0NTQ4MzgzMTgsMzEyNDgyMjU2LC0xND
+Y5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4
+OTI0Myw3MjEyNjYwNjcsLTIxNjM4OTQwNCwtNzg0MTM4MzAsLT
+kyMTE0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIy
+NTk0OTMsMzUxNDQ4Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC
+05NzIxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1
+NTY2MDRdfQ==
 -->
