@@ -232,9 +232,11 @@ Gunakan perintah `a2ensite jarkomtc.com`
 #### A.4 Restart apache
 Gunakan perintah `service apache2 restart`
 
+#### A.5 Pindah ke _directory_ `/var/www`
+Lalu buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __jarkomtc.com__
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1MTYzMzcxLC0yMTYzODk0MDQsLTc4ND
+eyJoaXN0b3J5IjpbNzIxMjY2MDY3LC0yMTYzODk0MDQsLTc4ND
 EzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0ODMz
 NCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMTY2MT
 kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
