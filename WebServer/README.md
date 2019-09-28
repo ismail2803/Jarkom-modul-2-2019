@@ -237,17 +237,17 @@ Lalu buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __jarkomtc.c
 
 <img src="Gambar/26.png">
 
-#### B.7 Masuk ke _directory_ `/var/www/web-8080` dan buat file _index.php_
+#### B.7 Masuk ke _directory_ `/var/www/jarkomtc.com` dan buat file _index.php_
 Isi file __index.php__ tersebut dengan
 ```
 <?php
-    echo "Hai gaes, ini port 8080 lhoo";
+    echo "Semangat JarKom TC ya, Rachma!";
 ?>
 ```
 
 <img src="Gambar/21.png" width="500">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzQ2MDQ3Myw3MjEyNjYwNjcsLTIxNj
+eyJoaXN0b3J5IjpbMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNj
 M4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4
 LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1Mz
 U3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0
