@@ -250,7 +250,7 @@ Isi file __index.php__ tersebut dengan
 #### A.7 Ganti DNS laptop/komputer sesuai IP Articuno masing-masing
 + __Pada Windows__
 + 
-	<img src="Gambar/28.png" width="500">
+	<img src="Gambar/28.png">
 	
 + __Pada Linux__
 	+ Ubah file __/etc/resolv.conf__ dengan perintah `sudo nano /etc/resolv.conf`
@@ -286,7 +286,7 @@ mkdir /var/www/jarkomtc.com/assets
 mkdir /var/www/jarkomtc.com/assets/javascript
 ```
 
-<img src="Gambar/31.png">
+<img src="Gambar/31.png" width="500">
 
 #### B.2 Mengaktifkan Directory Listing
 + Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
@@ -297,7 +297,7 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 	```
 	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
 	
-	<img src="Gambar/32.png">
+	<img src="Gambar/32.png" width="500">
 	
 + Restart apache dengan perintah `service apache2 restart`
 + Buka browser dan akses http://jarkomtc.com/download
@@ -324,7 +324,7 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 	```
 	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___assets___ tidak menampilkan isi _directory_-nya.
 	
-	<img src="Gambar/34.png">
+	<img src="Gambar/34.png" width="500">
 	
 + Restart apache dengan perintah `service apache2 restart`
 + Buka browser dan akses http://jarkomtc.com/assets
@@ -332,7 +332,7 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 #### C. Directory Alias
 Karena URL __http://[IP Mewtwo]/assets/javascript__ dirasa terlalu panjang, maka Ifin mencoba membuat _directory alias_ menjadi __http://[IP Mewtwo]/assets/js__ agar Rachma tidak capek mengetik.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNzI2OTE2LC0xMjYzNjQ1NzIyLC0xOD
+eyJoaXN0b3J5IjpbMjk2Mjg2MTQwLC0xMjYzNjQ1NzIyLC0xOD
 AyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4
 MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1Ni
 wtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIw
