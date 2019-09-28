@@ -153,15 +153,15 @@ Gunakan perintah `nano /etc/apache2/sites-available/default-8080`
 + Kemudian ubah port yang digunakan. Dimana awalnya port `80` menjadi port `8080`.
 + Ubah juga _DocumentRoot_ yang awalnya `/var/www/html` menjadi `/var/www/web-8080`.
 
-<img src="Gambar/13.png" width="500">
+<img src="Gambar/15.png" width="500">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NT
-QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
-LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMT
-I3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3
-MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC
-01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0
-NjAyMTNdfQ==
+eyJoaXN0b3J5IjpbMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3Nz
+I1NTY2MDQsLTU1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4
+LDEzMjIwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNz
+k2NTk1NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4
+NTQ5LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC
+04ODI0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4
+NzE0ODddfQ==
 -->
