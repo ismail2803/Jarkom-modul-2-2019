@@ -329,13 +329,14 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 + Restart apache dengan perintah `service apache2 restart`
 + Buka browser dan akses http://jarkomtc.com/assets
 
-#### B.4 
+#### C. Directory Alias
+Karena URL __http://[IP Pizza]/assets/javascript__ dirasa terlalu panjang, maka Ifin mencoba memb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTU4NTQ2MiwtMTI2MzY0NTcyMiwtMT
-gwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1
-ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0ODIyNT
-YsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwtMTQ5MDk4MDI1Niwy
-MDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2Mzg5NDA0LC03ODQxMz
-gzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMDgsLTE0NzcwNDgzMzQs
-LTI3MjI1OTQ5M119
+eyJoaXN0b3J5IjpbLTE3MDA5MDA5NTYsLTEyNjM2NDU3MjIsLT
+E4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYw
+NTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMj
+U2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYs
+MjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNjM4OTQwNCwtNzg0MT
+M4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0
+LC0yNzIyNTk0OTNdfQ==
 -->
