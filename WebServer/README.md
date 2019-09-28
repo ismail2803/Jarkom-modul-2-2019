@@ -157,8 +157,12 @@ Gunakan perintah `nano /etc/apache2/sites-available/default-8080`
 
 #### B.3 Tambahkan _port 8080_ pada file `ports.conf`
 File __ports.conf__ berada pada _directory_ `/etc/apache2`
+
+<img src="Gambar/16.png" width="500">
+
+<img src="Gambar/17.png" width="500">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzE4MDIzMSwxMDk0NDg2NDQyLDE0ND
+eyJoaXN0b3J5IjpbLTk3MjExNTIzOCwxMDk0NDg2NDQyLDE0ND
 c1NzQ4MjQsMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMzI1Njc0
 OCwtOTAyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5LDI3Nz
 I1NjAzNSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMDgwOTY0
