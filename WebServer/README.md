@@ -211,9 +211,10 @@ Copy file __default__ menjadi file __jarkomtc.com__
 
 <img src="Gambar/23.png">
 
-#### A.2 Buka file
+#### A.2 Buka file _jarkomtc.com_
++ Ubah 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDIwNDU5NywtMTQ3NzA0ODMzNCwtMj
+eyJoaXN0b3J5IjpbMTQwNjU2MzAwOCwtMTQ3NzA0ODMzNCwtMj
 cyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0
 OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNz
 cyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgw
