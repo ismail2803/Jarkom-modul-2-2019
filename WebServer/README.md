@@ -149,14 +149,15 @@ cp default default-8080
 <img src="Gambar/14.png" width="500">
 
 #### B.2 Buka file _default-8080_
+Gunakan perintah `n
 + Kemudian ubah port yang digunakan. Dimana awalnya port `80` menjadi port `8080`.
 + Ubah juga _DocumentRoot_ yang awalnya `/var/www/html` menjadi `/var/www/web-8080`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMz
-I1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5
-LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMD
-gwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkx
-NzcxLC0xNjE3MTQ2MzMsLTg4MjQxNjIzMCwtNTYwNTQyMTE0LC
-02NTA0OTE2MTEsLTIwNTg3MTQ4NywxMDUzNDYwMjEzLDcxNjY2
-OTQ1OF19
+eyJoaXN0b3J5IjpbMTk1MzA5NDQ3NiwxNzcyNTU2NjA0LC01NT
+QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
+LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMT
+I3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3
+MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC
+01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0
+NjAyMTNdfQ==
 -->
