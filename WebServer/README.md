@@ -186,13 +186,14 @@ Buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __web-8080__
 
 <img src="Gambar/20.png" width="500">
 
-#### B.7 
+#### B.7 Masuk ke _directory_ `/var/www/web-8080` dan buat file _index.php_
+Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgzMjc4ODUsNDUzNTc0NDc3LDE2Nj
-E5MDgzNDgsLTk3MjExNTIzOCwxMDk0NDg2NDQyLDE0NDc1NzQ4
-MjQsMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMzI1Njc0OCwtOT
-AyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAz
-NSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMDgwOTY0MTc0LD
-E1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNjE3
-MTQ2MzNdfQ==
+eyJoaXN0b3J5IjpbMTM4NzY5Nzg2Niw0NTM1NzQ0NzcsMTY2MT
+kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
+NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
+IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
+LC0yMzc5NjU5NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMT
+U4MzA3ODU0OSwxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcx
+NDYzM119
 -->
