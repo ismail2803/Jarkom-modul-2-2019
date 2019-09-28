@@ -279,10 +279,14 @@ Karena ternyata Ifin sangat menyukai Rachma, tentu ia akan berusaha untuk mengab
 #### B.1 Buat _directory-directory_ yang diperlukan oleh website jarkomtc.com milik Rachma
 Gunakan perintah-perintah berikut ini:
 ```
-mkdir /
+mkdir /var/www/jarkomtc.com/data
+mkdir /var/www/jarkomtc.com/download
+mkdir /var/www/jarkomtc.com/download/lagu
+mkdir /var/www/jarkomtc.com/assets
+mkdir /var/www/jarkomtc.com/assets/javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDM0MTc0NCwxNTk5OTAwMzQ4LDE0ND
+eyJoaXN0b3J5IjpbMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0ND
 c0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5
 MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLT
 IxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYz
