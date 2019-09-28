@@ -168,13 +168,16 @@ Listen 8080
 <img src="Gambar/17.png" width="500">
 
 #### B.4 Aktifkan konfigurasi _default-8080_
-Untuk mengaktifkan suatu konfigurasi, kita menggunakan perintah `a2ensite`
+Untuk mengaktifkan suatu konfigurasi, kita menggunakan perintah `a2ensite` diikuti dengan __nama file konfigurasi tanpa .conf__
+Dalam kasus ini akan menjadi
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI4NDc3MjksMTY2MTkwODM0OCwtOT
-cyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2
-NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMz
-IyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5
-NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OS
-wxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgy
-NDE2MjMwXX0=
+eyJoaXN0b3J5IjpbLTk5MDIwMzczMSwxNjYxOTA4MzQ4LC05Nz
+IxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2
+MDQsLTU1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMj
+IwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1
+NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LD
+EzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0
+MTYyMzBdfQ==
 -->
