@@ -237,7 +237,7 @@ Lalu buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __jarkomtc.c
 
 <img src="Gambar/26.png">
 
-#### B.7 Masuk ke _directory_ `/var/www/jarkomtc.com` dan buat file _index.php_
+#### A.6 Masuk ke _directory_ `/var/www/jarkomtc.com` dan buat file _index.php_
 Isi file __index.php__ tersebut dengan
 ```
 <?php
@@ -245,13 +245,17 @@ Isi file __index.php__ tersebut dengan
 ?>
 ```
 
-<img src="Gambar/21.png" width="500">
+<img src="Gambar/27.png" width="500">
+
+#### A.7 Ganti DNS laptop/komputer sesuai IP Articuno masing-masing
++ __Pada Windows__
++ __Pada Linux__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNj
-M4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4
-LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1Mz
-U3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0
-MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2NTMzNSw0MT
-MyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5MjA5OTU3
-OV19
+eyJoaXN0b3J5IjpbLTEyNDYwOTQwNywyMDUzOTg5MjQzLDcyMT
+I2NjA2NywtMjE2Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcx
+LDE0MDY1NjMwMDgsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNT
+E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
+OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
+U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
+OF19
 -->
