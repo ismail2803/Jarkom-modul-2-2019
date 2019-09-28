@@ -217,8 +217,9 @@ Copy file __default__ menjadi file __jarkomtc.com__
 	ServerName jarkomtc.com
 	ServerAlias www.jarkomtc.com
 	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjQ5MDU1MywxNDA2NTYzMDA4LC0xND
+eyJoaXN0b3J5IjpbLTkyMTE0Mzk3MSwxNDA2NTYzMDA4LC0xND
 c3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1MzU3NDQ3
 NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0MiwxND
 Q3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2NTMzNSw0MTMyNTY3
