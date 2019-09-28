@@ -140,7 +140,7 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 	service apache restart
 	```
 ### B. Membuat Konfigurasi Website Menggunakan Port 8080
-#### B.1 Pindah ke folder `/etc/apache2/sites-available`
+#### B.1 Pindah ke _directory_ `/etc/apache2/sites-available`
 Copy file _default_ menjadi file _default-8080_ dengan perintah
 ```
 cp default default-8080
@@ -181,13 +181,14 @@ Gunakan perintah `service apache2 restart`
 
 <img src="Gambar/19.png" width="500">
 
-#### B.6 Pindah ke folder `/var/www`
+#### B.6 Pindah ke _directory_ `/var/www`
+Buatlah sebuah _directory_ baru di dalam 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTg0MTgwMiw0NTM1NzQ0NzcsMTY2MT
-kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
-NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
-IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
-LC0yMzc5NjU5NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMT
-U4MzA3ODU0OSwxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcx
-NDYzM119
+eyJoaXN0b3J5IjpbLTEyMTI4NTc0MTAsNDUzNTc0NDc3LDE2Nj
+E5MDgzNDgsLTk3MjExNTIzOCwxMDk0NDg2NDQyLDE0NDc1NzQ4
+MjQsMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMzI1Njc0OCwtOT
+AyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAz
+NSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMDgwOTY0MTc0LD
+E1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNjE3
+MTQ2MzNdfQ==
 -->
