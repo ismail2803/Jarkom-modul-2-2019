@@ -355,13 +355,13 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 
 ### D. Module Rewrite
 #### D.1 Mengaktifkan Module Rewrite
-
+Setelah dipikir-pikir ternyata __[http://jarkomtc.com/index.php](http://jarkomtc.com/index.php)__ kurang cantik untuk penulisan URL. Oleh sebab itu, Ifin berinisiatif untuk mengaktifkan _module rewrite_ agar ketika mengakses file php tidak perlu 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMz
-A1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0
-MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1Mj
-UsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2
-OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIwNTM5OD
-kyNDMsNzIxMjY2MDY3LC0yMTYzODk0MDQsLTc4NDEzODMwLC05
-MjExNDM5NzFdfQ==
+eyJoaXN0b3J5IjpbNTg3MjEzMDAsNjc1NjMxNDg2LDc4MDk5MD
+Q0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIy
+LC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLD
+E2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4
+MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMj
+U2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0yMTYzODk0MDQsLTc4
+NDEzODMwXX0=
 -->
