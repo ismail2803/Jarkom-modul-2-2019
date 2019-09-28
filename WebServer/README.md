@@ -347,12 +347,16 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 	
 	<img src="Gambar/36.png" width="500">
 	
++ Restart apache dengan perintah `service apache2 restart`
++ 
++ Buka browser dan akses http://jarkomtc.com/assets/js
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLT
-E4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYw
-NTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMj
-U2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYs
-MjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNjM4OTQwNCwtNzg0MT
-M4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0
-LC0yNzIyNTk0OTNdfQ==
+eyJoaXN0b3J5IjpbMTA1Mjg0Mjg2MiwtMTU5NzI1NDI0MSwtMT
+I2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAx
+MDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MT
+I5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwt
+MTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2Mz
+g5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMDgs
+LTE0NzcwNDgzMzRdfQ==
 -->
