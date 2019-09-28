@@ -152,8 +152,12 @@ cp default default-8080
 Gunakan perintah `nano /etc/apache2/sites-available/default-8080`
 + Kemudian ubah port yang digunakan. Dimana awalnya port `80` menjadi port `8080`.
 + Ubah juga _DocumentRoot_ yang awalnya `/var/www/html` menjadi `/var/www/web-8080`.
+
+<img src="Gambar/13.png" width="500">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTIyODU4MiwxNzcyNTU2NjA0LC01NT
+eyJoaXN0b3J5IjpbMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NT
 QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
 LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMT
 I3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3
