@@ -361,9 +361,9 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 
 	<img src="Gambar/38.png" width="500">
 	
-+ 
++ Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTkxODcyOSw2NzU2MzE0ODYsNzgwOT
+eyJoaXN0b3J5IjpbMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOT
 kwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3
 MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MD
 MsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEy
