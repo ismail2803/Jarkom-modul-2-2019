@@ -254,16 +254,18 @@ Isi file __index.php__ tersebut dengan
 	
 + __Pada Linux__
 	+ Ubah file __/etc/resolv.conf__ dengan perintah `sudo nano /etc/resolv.conf`
-	+ _Comment_ DNS yang sedang aktif dan tambahkan `nameserver "IP Articuno"
-	<img src="Gambar/27.png" width="500">
+	+ _Comment_ DNS yang sedang aktif dan tambahkan `nameserver <IP Articuno>`
+	+ Simpan hasil perubahannya
+	
+	<img src="Gambar/29.png" width="500">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjE5NjIxNiwyMDUzOTg5MjQzLDcyMT
-I2NjA2NywtMjE2Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcx
-LDE0MDY1NjMwMDgsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNT
-E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
-OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
-U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
-OF19
+eyJoaXN0b3J5IjpbLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3Mj
+EyNjYwNjcsLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3
+MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMz
+UxNDQ4Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUy
+MzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLT
+U1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1
+ODhdfQ==
 -->
