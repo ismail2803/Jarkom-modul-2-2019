@@ -203,12 +203,13 @@ Akses alamat __http://[IP Mewtwo]:8080__
 
 ## H. Mari Berimajinasi
 ### A. Setting Domain pada Apache
+Aurel adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki ser
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjgwNjU3OCwtMjcyMjU5NDkzLDM1MT
-Q0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0OCwtOTcyMTE1MjM4
-LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NT
-QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
-LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMT
-I3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3
-MDU0XX0=
+eyJoaXN0b3J5IjpbLTE4MzU3ODg0MTgsLTI3MjI1OTQ5MywzNT
+E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
+OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
+U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
+OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMT
+EyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3
+NzA1NF19
 -->
