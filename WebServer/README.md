@@ -261,11 +261,11 @@ Isi file __index.php__ tersebut dengan
 
 #### A.8 Buka browser dan akses _jarkomtc.com_
 
-<img src="Gambar/29.png" width="500">
+<img src="Gambar/30.png" width="500">
 
-
+## H. Directory Listing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYyMDc3MjMsMTQ1OTk3OTkzNCwtMT
+eyJoaXN0b3J5IjpbLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwtMT
 Q5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2Mzg5
 NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMDgsLT
 E0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNTE0NDg2OTQsNDUzNTc0
