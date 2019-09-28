@@ -206,14 +206,14 @@ Akses alamat __http://[IP Mewtwo]:8080__
 Rachma adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki server yang bisa digunakan sebagai tempat host untuk websitenya.
 
 Ayo bantu Ifin membahagiakan hati Rachma dengan mengikuti langkah-langkah berikut:
-#### A.1 Pindah ke folder `/etc/apache2/sites-avaible`
-
+#### A.1 Pindah ke _directory_ `/etc/apache2/sites-avaible`
+Copy file __default__ menjadi file __jarkomtc.com__ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NTUwOTcxLC0yNzIyNTk0OTMsMzUxND
-Q4Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgs
-MTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1ND
-I2NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgs
-MTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMj
-cyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcw
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNT
+E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
+OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
+U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
+OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMT
+EyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3
+NzA1NF19
 -->
