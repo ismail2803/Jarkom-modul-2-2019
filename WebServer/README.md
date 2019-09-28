@@ -302,7 +302,7 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 + Restart apache dengan perintah `service apache2 restart`
 + Buka browser dan akses http://jarkomtc.com/download
 
-<img src="Gambar/32.png">
+<img src="Gambar/33.png">
 
 __Keterangan__:
 Untuk mengatur _directory_ pada sebuah web, menggunakan
@@ -324,15 +324,15 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 	```
 	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___assets___ tidak menampilkan isi _directory_-nya.
 	
-	<img src="Gambar/33.png">
+	<img src="Gambar/34.png">
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTc4MjAxNCwtMjAxNzU1NDg2OCwtMT
-AxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3
-MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNC
-wtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2
-Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMD
-gsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNTE0NDg2OTQsNDUz
-NTc0NDc3XX0=
+eyJoaXN0b3J5IjpbLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLT
+EwMTAzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0
+NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5Mz
+QsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIx
+NjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMD
+A4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1
+MzU3NDQ3N119
 -->
