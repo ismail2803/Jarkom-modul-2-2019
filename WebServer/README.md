@@ -141,9 +141,11 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 	```
 	service apache restart
 	```
-	
+### B. Membuat Konfigurasi Website Menggunakan Port 8080
+#### B.1 Pindah ke folder `/etc/apache2/sites-available`
+Dengan perincopy file _default_ menjad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDY0NTE3NCwtOTAyMjU4MDgsMTMyMj
+eyJoaXN0b3J5IjpbMTc0MTIzMjQ2NiwtOTAyMjU4MDgsMTMyMj
 AwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3
 LC0xMTEyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMT
 M4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQx
