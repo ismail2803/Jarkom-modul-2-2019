@@ -292,7 +292,7 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 + Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
 	```
 	<Directory /var/www/jarkomtc.com/download>
-	    Options +Indexes #Untuk mengaktifkan directory listing
+	    Options +Indexes
 	</Directory>
 	```
 	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
@@ -316,13 +316,22 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 </Directory>
 ```
 #### B.3 Mematikan Directory Listing
-
++ Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
+	```
+	<Directory /var/www/jarkomtc.com/download>
+	    Options -Indexes
+	</Directory>
+	```
+	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
+	
+	<img src="Gambar/32.png">
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0ODc5OTM0LC0yMDE3NTU0ODY4LC0xMD
-EwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcx
-Mjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC
-0xNDkwOTgwMjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0yMTYz
-ODk0MDQsLTc4NDEzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOC
-wtMTQ3NzA0ODMzNCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1
-NzQ0NzddfQ==
+eyJoaXN0b3J5IjpbMTEwOTQwMTY0MiwtMjAxNzU1NDg2OCwtMT
+AxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3
+MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNC
+wtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2
+Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMD
+gsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNTE0NDg2OTQsNDUz
+NTc0NDc3XX0=
 -->
