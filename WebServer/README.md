@@ -207,13 +207,17 @@ Rachma adalah seorang mahasiswi Informatika yang ingin membuat website dengan do
 
 Ayo bantu Ifin membahagiakan hati Rachma dengan mengikuti langkah-langkah berikut:
 #### A.1 Pindah ke _directory_ `/etc/apache2/sites-avaible`
-Copy file __default__ menjadi file __jarkomtc.com__ 
+Copy file __default__ menjadi file __jarkomtc.com__
+
+<img src="Gambar/23.png">
+
+#### A.2 Buka file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNT
-E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
-OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
-U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
-OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMT
-EyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3
-NzA1NF19
+eyJoaXN0b3J5IjpbMTcxNDIwNDU5NywtMTQ3NzA0ODMzNCwtMj
+cyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0
+OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNz
+cyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgw
+OCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMz
+c5NjU5NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3
+ODU0OV19
 -->
