@@ -331,7 +331,7 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 
 <img src="Gambar/35.png" width="500">
 
-#### C. Directory Alias
+### C. Directory Alias
 Karena URL __http://[IP Mewtwo]/assets/javascript__ dirasa terlalu panjang, maka Ifin mencoba membuat _directory alias_ menjadi __http://[IP Mewtwo]/assets/js__ agar Rachma tidak capek mengetik.
 
 Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
@@ -350,13 +350,16 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 + Restart apache dengan perintah `service apache2 restart`
 + Pindah ke folder __/var/www/jarkomtc.com/assets/javascript__ dan buat file __app.js__ dengan perintah `touch app.js`
 + Buka browser dan akses http://jarkomtc.com/assets/js
++ 
+<img src="Gambar/36.png">
 
+### D. Module Rewrite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMT
-I2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAx
-MDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MT
-I5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwt
-MTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2Mz
-g5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMDgs
-LTE0NzcwNDgzMzRdfQ==
+eyJoaXN0b3J5IjpbNzgwOTkwNDQxLC01ODEzMDU3MDksLTE1OT
+cyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIwMTc1
+NTQ4NjgsLTEwMTAzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMz
+Q4LDE0NDc0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0
+NTk5Nzk5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNj
+YwNjcsLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwx
+NDA2NTYzMDA4XX0=
 -->
