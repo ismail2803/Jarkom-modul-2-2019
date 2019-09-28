@@ -111,11 +111,9 @@ DocumentRoot /var/www
 #### A.4. Pindah ke _directory_ yang ditunjuk oleh _DocumentRoot_ pada file _default_
 Gunakan perintah `cd /var/www/`
 
-<img src="Gambar/11.png" width="500">
-
 + Karena tadi kita mengubah _DocumentRoot_ di file _default_ maka sekarang buatlah _directory_ bernama "html" dengan perintah `mkdir /var/www/html`
 
-<img src="Gambar/12.png" width="500">
+<img src="Gambar/11.png" width="500">
 
 #### 5. Pindah ke _directory_ `/var/www/html` dan buat file _index.php_
 Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
@@ -125,12 +123,12 @@ Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
 ?>
 ```
 
-<img src="Gambar/13.png" width="500">
+<img src="Gambar/12.png" width="500">
 
 #### A.6. Buka browser laptop/komputer masing-masing
 Akses alamat __http://[IP Mewtwo]/index.php__
 
-<img src="Gambar/14.png" width="500">
+<img src="Gambar/13.png" width="500">
 
 + __Catatan__:
 	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install **libapache2-mod-php7.0** dengan menjalankan perintah
@@ -149,11 +147,11 @@ cp default default-8080
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMD
-AwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcs
-LTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMz
-g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
-MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
-EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
-MDY1OTcwXX0=
+eyJoaXN0b3J5IjpbLTU1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMj
+I1ODA4LDEzMjIwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUs
+LTIzNzk2NTk1NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNT
+gzMDc4NTQ5LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0
+NjMzLC04ODI0MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC
+0yMDU4NzE0ODcsMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3
+NzU4NjBdfQ==
 -->
