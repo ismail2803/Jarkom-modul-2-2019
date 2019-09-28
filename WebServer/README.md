@@ -183,13 +183,12 @@ Gunakan perintah `service apache2 restart`
 
 #### B.6 Pindah ke _directory_ `/var/www`
 Buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __web-8080__
-Gunakan perintah `mkdir /var/www/web-8080`
 
-<img src="Gambar/19.png" width="500">
+<img src="Gambar/20.png" width="500">
 
-#### B.7
+#### B.7 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU4ODkyNTYsNDUzNTc0NDc3LDE2Nj
+eyJoaXN0b3J5IjpbLTEyNzgzMjc4ODUsNDUzNTc0NDc3LDE2Nj
 E5MDgzNDgsLTk3MjExNTIzOCwxMDk0NDg2NDQyLDE0NDc1NzQ4
 MjQsMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMzI1Njc0OCwtOT
 AyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAz
