@@ -273,9 +273,9 @@ Di dalam _directory_ `/var/www/jarkomtc.com` terdapat struktur _directory_ sebag
 └── download/
     └── lagu/
 ```
-Karena di dalam _directory_ __download__ terdapat file-file yang bisa di-download oleh pengunjung website __jarkomtc.com__, Rachma ingin folder tersebut dapat menampilkan list file yang ada. Lain halnya untuk _directory_ __assets__. Rachma tidak ingin pengunjung yanada yang tahu apa isi _directory_ tersebut ketika diakses oleh pengunjung websitenya.
+Karena di dalam _directory_ __download__ terdapat file-file yang bisa di-download oleh pengunjung website __jarkomtc.com__, Rachma ingin folder tersebut dapat menampilkan list file yang ada. Lain halnya untuk _directory_ __assets__. Rachma tidak ingin pengunjung website yang mengakses _directory_ itu tahu apa isi _directory_ tersebut.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODY5MDEzNiwxNDQ3NDcxMjk1LDMxMj
+eyJoaXN0b3J5IjpbLTgzMTkyNTQ1OSwxNDQ3NDcxMjk1LDMxMj
 Q4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgw
 MjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0yMTYzODk0MDQsLT
 c4NDEzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0
