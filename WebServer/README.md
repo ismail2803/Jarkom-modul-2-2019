@@ -160,15 +160,18 @@ File __ports.conf__ berada pada _directory_ `/etc/apache2`
 
 <img src="Gambar/16.png" width="500">
 
-
+Cara menambahkan port yang perlu didengar adalah dengan menuliskan
+```
+Listen 8080
+```
 
 <img src="Gambar/17.png" width="500">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjQ3OTk4LC05NzIxMTUyMzgsMTA5ND
-Q4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2NTMz
-NSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5Mj
-A5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMjcyOTk0
-NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcwNTQsMj
-A0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0
-MjExNF19
+eyJoaXN0b3J5IjpbMTY2MTkwODM0OCwtOTcyMTE1MjM4LDEwOT
+Q0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NTQyNjUz
+MzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4LDE3OT
+IwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMTI3Mjk5
+NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3MDU0LD
+IwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1
+NDIxMTRdfQ==
 -->
