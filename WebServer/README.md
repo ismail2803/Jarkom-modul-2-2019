@@ -133,13 +133,13 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 <img src="Gambar/14.png" width="500">
 
 + __Catatan__:
-	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install `
+	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install **libapache2-mod-php7.0**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5Mj
-A5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMjcyOTk0
-NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcwNTQsMj
-A0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0
-MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMy
-w3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUz
-MTMyNTQwNV19
+eyJoaXN0b3J5IjpbLTEzOTQwNzI2ODIsLTkwMjI1ODA4LDEzMj
+IwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1
+NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LD
+EzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0
+MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0OD
+csMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLTEx
+NDQwNjU5NzBdfQ==
 -->
