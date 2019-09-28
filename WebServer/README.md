@@ -149,10 +149,10 @@ cp default default-8080
 <img src="Gambar/14.png" width="500">
 
 #### B.2 Buka file _default-8080_
-+ Kemudian ubah port yang digunakan. Dimana awalnya port __80__ menjadi port __8080__.
-+ Ubah juga _DocumentRoot_ yang awalnya _/var/www/html/
++ Kemudian ubah port yang digunakan. Dimana awalnya port `80` menjadi port `8080`.
++ Ubah juga _DocumentRoot_ yang awalnya `/var/www/html` menjadi `/var/www/web-8080`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjE4NzA3OCwtNTU0MjY1MzM1LDQxMz
+eyJoaXN0b3J5IjpbMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMz
 I1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5
 LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMD
 gwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkx
