@@ -309,10 +309,15 @@ __Keterangan__:
 	```
 	<Directory /x> ... </Directory>
 	```
-	Co
-2. fa
+	Contoh untuk mengatur `/var/www/jarkomtc.com/download`
+	```
+	<Directory /var/www/jarkomtc.com/download>
+	
+	</Directory>
+	```
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTYyODY1NSwtMjAxNzU1NDg2OCwtMT
+eyJoaXN0b3J5IjpbMTI1MTAyOTA2NCwtMjAxNzU1NDg2OCwtMT
 AxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3
 MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNC
 wtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2
