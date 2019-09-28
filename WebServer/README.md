@@ -274,12 +274,19 @@ Di dalam _directory_ `/var/www/jarkomtc.com` terdapat struktur _directory_ sebag
     └── lagu/
 ```
 Karena di dalam _directory_ __download__ terdapat file-file yang bisa di-download oleh pengunjung website __jarkomtc.com__, Rachma ingin folder tersebut dapat menampilkan list file yang ada. Lain halnya untuk _directory_ __assets__. Rachma tidak ingin pengunjung website yang mengakses _directory_ __assets__ tahu apa isi _directory_ tersebut.
+
+Karena ternyata Ifin sangat menyukai Rachma, tentu ia akan berusaha untuk mengabulkan keinginan Rachma. Kalian sebagai teman yang baik harus membantu Ifin dengan melakukan hal-hal berikut:
+#### B.1 Buat _directory-directory_ yang diperlukan oleh website jarkomtc.com milik Rachma
+Gunakan perintah-perintah berikut ini:
+```
+mkdir /
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMj
-Q4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgw
-MjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0yMTYzODk0MDQsLT
-c4NDEzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0
-ODMzNCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMT
-Y2MTkwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3
-NDgyNF19
+eyJoaXN0b3J5IjpbMTU5MDM0MTc0NCwxNTk5OTAwMzQ4LDE0ND
+c0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5
+MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLT
+IxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYz
+MDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LD
+Q1MzU3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4
+NjQ0Ml19
 -->
