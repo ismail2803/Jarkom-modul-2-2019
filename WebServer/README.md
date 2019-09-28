@@ -327,9 +327,11 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 	<img src="Gambar/34.png">
 	
 + Restart apache dengan perintah `service apache2 restart`
-+ Buka browser dan akses
++ Buka browser dan akses http://jarkomtc.com/assets
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU1OTQxNTAsLTE4MDI2MDQzNTIsLT
+eyJoaXN0b3J5IjpbLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLT
 IwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYwNTgxMTUyNSwxNTk5
 OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzOD
 U0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3
