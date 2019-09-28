@@ -322,16 +322,17 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 	    Options -Indexes
 	</Directory>
 	```
-	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
+	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___assets___ tidak menampilkan isi _directory_-nya.
 	
-	<img src="Gambar/32.png">
+	<img src="Gambar/33.png">
+	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTQwMTY0MiwtMjAxNzU1NDg2OCwtMT
-AxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3
-MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNC
-wtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2
-Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcxLDE0MDY1NjMwMD
-gsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNTE0NDg2OTQsNDUz
-NTc0NDc3XX0=
+eyJoaXN0b3J5IjpbNDg5NjU4OTEsLTIwMTc1NTQ4NjgsLTEwMT
+AzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEy
+OTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLT
+E0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNjM4
+OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4LC
+0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1MzU3
+NDQ3N119
 -->
