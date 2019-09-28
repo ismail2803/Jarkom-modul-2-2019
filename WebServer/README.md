@@ -341,12 +341,12 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 	
 	Alias "/assets/js" "/var/www/jarkomtc.com/assets/javascript"
 	```
-	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___assets/javascript___ dapat menampilkan isi _directory_-nya saat pengguna mengakses __http://[IP Mewtwo]/assets/js**.
+	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___assets/javascript___ dapat menampilkan isi _directory_-nya saat pengguna mengakses __http://[IP Mewtwo]/assets/js__.
 	
 	<img src="Gambar/34.png" width="500">
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNjk2Nzc5LC0xMjYzNjQ1NzIyLC0xOD
+eyJoaXN0b3J5IjpbMjc3NTk4NjM1LC0xMjYzNjQ1NzIyLC0xOD
 AyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4
 MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1Ni
 wtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIw
