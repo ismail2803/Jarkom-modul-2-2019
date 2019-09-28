@@ -299,9 +299,10 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 	
 	<img src="Gambar/32.png">
 	
-	
++ Restart apache dengan perintah `service apache2 restart`
++ Buka browser dan akses http://jarkomtc.com/download
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUxNzc0NjgsMTYwNTgxMTUyNSwxNT
+eyJoaXN0b3J5IjpbLTEwMTAzODU1MDMsMTYwNTgxMTUyNSwxNT
 k5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgz
 ODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0My
 w3MjEyNjYwNjcsLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMTE0
