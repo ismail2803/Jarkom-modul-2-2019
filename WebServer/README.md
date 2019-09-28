@@ -253,12 +253,13 @@ Isi file __index.php__ tersebut dengan
 	<img src="Gambar/28.png" width="500">
 	
 + __Pada Linux__
-	+ Ubah file `/etc/resolv.conf` dengan perintah `sudo nano /e
+	+ Ubah file __/etc/resolv.conf__ dengan perintah `sudo nano /etc/resolv.conf`
+	+ _Comment_ DNS yang sedang aktif
 	<img src="Gambar/27.png" width="500">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDY5MTE0LDIwNTM5ODkyNDMsNzIxMj
+eyJoaXN0b3J5IjpbNTQzNjE4NDA4LDIwNTM5ODkyNDMsNzIxMj
 Y2MDY3LC0yMTYzODk0MDQsLTc4NDEzODMwLC05MjExNDM5NzEs
 MTQwNjU2MzAwOCwtMTQ3NzA0ODMzNCwtMjcyMjU5NDkzLDM1MT
 Q0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0OCwtOTcyMTE1MjM4
