@@ -350,12 +350,12 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 + Restart apache dengan perintah `service apache2 restart`
 + Pindah ke folder __/var/www/jarkomtc.com/assets/javascript__ dan buat file __app.js__ dengan perintah `touch app.js`
 + Buka browser dan akses http://jarkomtc.com/assets/js
-+ 
-<img src="Gambar/36.png">
+
+<img src="Gambar/37.png">
 
 ### D. Module Rewrite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjkzMjc3OSw3ODA5OTA0NDEsLTU4MT
+eyJoaXN0b3J5IjpbLTg3NjQzNjkyOSw3ODA5OTA0NDEsLTU4MT
 MwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgwMjYw
 NDM1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1ODExNT
 I1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0ODIyNTYsLTE0
