@@ -264,22 +264,22 @@ Isi file __index.php__ tersebut dengan
 <img src="Gambar/30.png">
 
 ### B. Directory Listing
-Di dalam _dire `/var/www/jarkomtc.com` terdapat folder sebagai berikut
+Di dalam _directory_ `/var/www/jarkomtc.com` terdapat _directory_ sebagai berikut
 ```
 /var/www/jarkomtc.com
-├── assets
-│   └── javascript
-├── data
-└── download
-    └── lagu
+├── assets/
+│   └── javascript/
+├── data/
+└── download/
+    └── lagu/
 ```
 Karena folder __download__ terdapat file-file yang bisa didownload oleh pengunjung website **jarkomtc.com**, Nisa ingin folder tersebut dapat menampilkan list file yang ada. Tetapi untuk folder **assets**, Azy tidak ingin ada yang tahu apa isi folder tersebut ketika diakses oleh pengunjung websitenya.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTg5MTMyMSwxNDQ3NDcxMjk1LDMxMj
-Q4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgw
-MjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0yMTYzODk0MDQsLT
-c4NDEzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0
-ODMzNCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMT
-Y2MTkwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3
-NDgyNF19
+eyJoaXN0b3J5IjpbODM4NDAxMTA5LDE0NDc0NzEyOTUsMzEyND
+gyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAy
+NTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNjM4OTQwNCwtNz
+g0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4
+MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1MzU3NDQ3NywxNj
+YxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0
+ODI0XX0=
 -->
