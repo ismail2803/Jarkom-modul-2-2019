@@ -203,11 +203,12 @@ Akses alamat __http://[IP Mewtwo]:8080__
 
 ## H. Mari Berimajinasi
 ### A. Setting Domain pada Apache
-Aurel adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki server yang bisa digunakan sebagai tempat host untuk websitenya.
+Rachma adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki server yang bisa digunakan sebagai tempat host untuk websitenya.
 
-Berikut adalah hal-hal yang harus dilakukan Ifin untuk membaha
+Ayo bantu Ifin membahagiakan hati Rachma dengan mengikuti langkah-langkah berikut:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTE3MjEwOCwtMjcyMjU5NDkzLDM1MT
+eyJoaXN0b3J5IjpbMTk5MzQxODIzOSwtMjcyMjU5NDkzLDM1MT
 Q0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0OCwtOTcyMTE1MjM4
 LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NT
 QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
