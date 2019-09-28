@@ -235,12 +235,23 @@ Gunakan perintah `service apache2 restart`
 #### A.5 Pindah ke _directory_ `/var/www`
 Lalu buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __jarkomtc.com__
 
+<img src="Gambar/26.png">
+
+#### B.7 Masuk ke _directory_ `/var/www/web-8080` dan buat file _index.php_
+Isi file __index.php__ tersebut dengan
+```
+<?php
+    echo "Hai gaes, ini port 8080 lhoo";
+?>
+```
+
+<img src="Gambar/21.png" width="500">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMjY2MDY3LC0yMTYzODk0MDQsLTc4ND
-EzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0ODMz
-NCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMTY2MT
-kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
-NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
-IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
-XX0=
+eyJoaXN0b3J5IjpbMTc1NzQ2MDQ3Myw3MjEyNjYwNjcsLTIxNj
+M4OTQwNCwtNzg0MTM4MzAsLTkyMTE0Mzk3MSwxNDA2NTYzMDA4
+LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4Njk0LDQ1Mz
+U3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0
+MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2NTMzNSw0MT
+MyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5MjA5OTU3
+OV19
 -->
