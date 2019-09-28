@@ -187,13 +187,22 @@ Buatlah sebuah _directory_ baru di dalam `var/www` dengan nama __web-8080__
 <img src="Gambar/20.png" width="500">
 
 #### B.7 Masuk ke _directory_ `/var/www/web-8080` dan buat file _index.php_
-Gunakan perintah `nano /var/www/html/index.php` dan isi file  tersebut dengan
+Isi file __index.php__ tersebut dengan
+```
+<?php
+    echo "Hai gaes, ini port 8080 lhoo";
+?>
+```
+
+<img src="Gambar/21.png" width="500">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzY5Nzg2Niw0NTM1NzQ0NzcsMTY2MT
-kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
-NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
-IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
-LC0yMzc5NjU5NTcsLTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMT
-U4MzA3ODU0OSwxMzg3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcx
-NDYzM119
+eyJoaXN0b3J5IjpbMzUxNDQ4Njk0LDQ1MzU3NDQ3NywxNjYxOT
+A4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0
+LDE3NzI1NTY2MDQsLTU1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMj
+I1ODA4LDEzMjIwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUs
+LTIzNzk2NTk1NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNT
+gzMDc4NTQ5LDEzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0
+NjMzXX0=
 -->
