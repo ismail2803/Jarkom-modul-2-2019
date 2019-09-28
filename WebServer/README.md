@@ -135,13 +135,19 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 + __Catatan__:
 	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install **libapache2-mod-php7.0** dengan menjalankan perintah
 	```
+	`apt-get install libapache2-mod-php7.0
 	```
+	lalu restart apache dengan perintah
+	```
+	service apache restart
+	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc5Njg5NDQsLTkwMjI1ODA4LDEzMj
-IwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1
-NywtMTExMjcyOTk0NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LD
-EzODczNzcwNTQsMjA0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0
-MTYyMzAsLTU2MDU0MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0OD
-csMTA1MzQ2MDIxMyw3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLTEx
-NDQwNjU5NzBdfQ==
+eyJoaXN0b3J5IjpbMTM0MDY0NTE3NCwtOTAyMjU4MDgsMTMyMj
+AwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3
+LC0xMTEyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMT
+M4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQx
+NjIzMCwtNTYwNTQyMTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4Ny
+wxMDUzNDYwMjEzLDcxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0
+NDA2NTk3MF19
 -->
