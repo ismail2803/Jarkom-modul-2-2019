@@ -196,16 +196,16 @@ Isi file __index.php__ tersebut dengan
 
 <img src="Gambar/21.png" width="500">
 
-#### A.6. Buka browser laptop/komputer masing-masing
-Akses alamat __http://[IP Mewtwo]/index.php__
+#### B.8 Buka browser laptop/komputer masing-masing
+Akses alamat __http://[IP Mewtwo]:8080__
 
-<img src="Gambar/13.png" width="500">
+<img src="Gambar/22.png" width="500">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwNjQ5MDEsMzUxNDQ4Njk0LDQ1Mz
-U3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMTA5NDQ4NjQ0
-MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2NTMzNSw0MT
-MyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5MjA5OTU3
-OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMjcyOTk0NywtMT
-A4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcwNTQsMjA0Mjk5
-MTc3MV19
+eyJoaXN0b3J5IjpbLTI3MjI1OTQ5MywzNTE0NDg2OTQsNDUzNT
+c0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIzOCwxMDk0NDg2NDQy
+LDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNTU0MjY1MzM1LDQxMz
+I1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4OCwxNzkyMDk5NTc5
+LDI3NzI1NjAzNSwtMjM3OTY1OTU3LC0xMTEyNzI5OTQ3LC0xMD
+gwOTY0MTc0LDE1ODMwNzg1NDksMTM4NzM3NzA1NCwyMDQyOTkx
+NzcxXX0=
 -->
