@@ -249,13 +249,20 @@ Isi file __index.php__ tersebut dengan
 
 #### A.7 Ganti DNS laptop/komputer sesuai IP Articuno masing-masing
 + __Pada Windows__
++ 
+	<img src="Gambar/28.png" width="500">
+	
 + __Pada Linux__
+	+ Ubah file `/etc/resolv.conf` dengan perintah `sudo nano /e
+	<img src="Gambar/27.png" width="500">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYwOTQwNywyMDUzOTg5MjQzLDcyMT
-I2NjA2NywtMjE2Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQzOTcx
-LDE0MDY1NjMwMDgsLTE0NzcwNDgzMzQsLTI3MjI1OTQ5MywzNT
-E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
-OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
-U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
-OF19
+eyJoaXN0b3J5IjpbMTAzMDY5MTE0LDIwNTM5ODkyNDMsNzIxMj
+Y2MDY3LC0yMTYzODk0MDQsLTc4NDEzODMwLC05MjExNDM5NzEs
+MTQwNjU2MzAwOCwtMTQ3NzA0ODMzNCwtMjcyMjU5NDkzLDM1MT
+Q0ODY5NCw0NTM1NzQ0NzcsMTY2MTkwODM0OCwtOTcyMTE1MjM4
+LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NT
+QyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4
+XX0=
 -->
