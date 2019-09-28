@@ -227,14 +227,18 @@ Copy file __default__ menjadi file __jarkomtc.com__
 #### A.3 Aktifkan konfigurasi _jarkomtc.com_
 Gunakan perintah `a2ensite jarkomtc.com`
 
+<img src="Gambar/25.png">
+
 #### A.4 Restart apache
 Gunakan perintah `service apache2 restart`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMT
-E0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0
-OTMsMzUxNDQ4Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05Nz
-IxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2
-MDQsLTU1NDI2NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMj
-IwMDA1ODgsMTc5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1
-N119
+eyJoaXN0b3J5IjpbNTM1MTYzMzcxLC0yMTYzODk0MDQsLTc4ND
+EzODMwLC05MjExNDM5NzEsMTQwNjU2MzAwOCwtMTQ3NzA0ODMz
+NCwtMjcyMjU5NDkzLDM1MTQ0ODY5NCw0NTM1NzQ0NzcsMTY2MT
+kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
+NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
+IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
+XX0=
 -->
