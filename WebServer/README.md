@@ -217,14 +217,15 @@ Copy file __default__ menjadi file __jarkomtc.com__
 	ServerName jarkomtc.com
 	ServerAlias www.jarkomtc.com
 	```
-	Menurut dokumentasi apache2.2](https://httpd.apache.org/docs/2.2/mod/core.html)
-	+ `ServerName` Hostname and port that the server uses to identify itself
+	Menurut [dokumentasi apache2.2](https://httpd.apache.org/docs/2.2/mod/core.html)
+	+ `ServerName` adalah "_Hostname and port that the server uses to identify itself_"
+	+ `ServerAlias` adalah "_Alternate names for a host used when matching requests to name-virtual host_"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg0ODkwMjIsLTkyMTE0Mzk3MSwxND
-A2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0OTMsMzUxNDQ4
-Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05NzIxMTUyMzgsMT
-A5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2MDQsLTU1NDI2
-NTMzNSw0MTMyNTY3NDgsLTkwMjI1ODA4LDEzMjIwMDA1ODgsMT
-c5MjA5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMjcy
-OTk0N119
+eyJoaXN0b3J5IjpbNDQ2NzM5MjUzLC05MjExNDM5NzEsMTQwNj
+U2MzAwOCwtMTQ3NzA0ODMzNCwtMjcyMjU5NDkzLDM1MTQ0ODY5
+NCw0NTM1NzQ0NzcsMTY2MTkwODM0OCwtOTcyMTE1MjM4LDEwOT
+Q0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2NjA0LC01NTQyNjUz
+MzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMDAwNTg4LDE3OT
+IwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMTI3Mjk5
+NDddfQ==
 -->
