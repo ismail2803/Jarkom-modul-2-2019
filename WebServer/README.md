@@ -175,8 +175,15 @@ a2ensite default-8080
 ```
 
 <img src="Gambar/18.png" width="500">
+
+#### B.5 Restart apache
+Gunakan perintah `service apache2 restart`
+
+<img src="Gambar/18.png" width="500">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Nzc4NTQ4MCw0NTM1NzQ0NzcsMTY2MT
+eyJoaXN0b3J5IjpbMTk4ODQ1NjExNyw0NTM1NzQ0NzcsMTY2MT
 kwODM0OCwtOTcyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgy
 NCwxNzcyNTU2NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MD
 IyNTgwOCwxMzIyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1
