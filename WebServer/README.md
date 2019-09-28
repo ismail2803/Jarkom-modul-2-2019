@@ -348,11 +348,11 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 	<img src="Gambar/36.png" width="500">
 	
 + Restart apache dengan perintah `service apache2 restart`
-+ 
++ Pindah ke folder __/var/www/jarkomtc.com/assets/javascript__ dan buat file __app.js__ dengan perintah `touch app.js`
 + Buka browser dan akses http://jarkomtc.com/assets/js
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mjg0Mjg2MiwtMTU5NzI1NDI0MSwtMT
+eyJoaXN0b3J5IjpbLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMT
 I2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAx
 MDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MT
 I5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwt
