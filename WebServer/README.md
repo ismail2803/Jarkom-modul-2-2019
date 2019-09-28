@@ -226,8 +226,11 @@ Copy file __default__ menjadi file __jarkomtc.com__
 
 #### A.3 Aktifkan konfigurasi _jarkomtc.com_
 Gunakan perintah `a2ensite jarkomtc.com`
+
+#### A.4 Restart apache
+Gunakan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTI4MDk0NCwtNzg0MTM4MzAsLTkyMT
+eyJoaXN0b3J5IjpbLTIxNjM4OTQwNCwtNzg0MTM4MzAsLTkyMT
 E0Mzk3MSwxNDA2NTYzMDA4LC0xNDc3MDQ4MzM0LC0yNzIyNTk0
 OTMsMzUxNDQ4Njk0LDQ1MzU3NDQ3NywxNjYxOTA4MzQ4LC05Nz
 IxMTUyMzgsMTA5NDQ4NjQ0MiwxNDQ3NTc0ODI0LDE3NzI1NTY2
