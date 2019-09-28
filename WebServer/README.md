@@ -295,9 +295,12 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 	    Options +Indexes #Untuk mengaktifkan directory listing
 	</Directory>
 	```
-	agar 
+	agar _directory_  ___download___ menampilkan isi _directory_-nya.
+	
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTE5NTUyNywxNjA1ODExNTI1LDE1OT
+eyJoaXN0b3J5IjpbMTA1Mzc0Mjk2NCwxNjA1ODExNTI1LDE1OT
 k5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4
 NTQsMTQ1OTk3OTkzNCwtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLD
 cyMTI2NjA2NywtMjE2Mzg5NDA0LC03ODQxMzgzMCwtOTIxMTQz
