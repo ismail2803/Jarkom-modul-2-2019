@@ -143,13 +143,17 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 	```
 ### B. Membuat Konfigurasi Website Menggunakan Port 8080
 #### B.1 Pindah ke folder `/etc/apache2/sites-available`
-Dengan perincopy file _default_ menjad
+Copy file _default_ menjadi file _default-8080_ dengan perintah
+```
+cp default default-8080
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTIzMjQ2NiwtOTAyMjU4MDgsMTMyMj
-AwMDU4OCwxNzkyMDk5NTc5LDI3NzI1NjAzNSwtMjM3OTY1OTU3
-LC0xMTEyNzI5OTQ3LC0xMDgwOTY0MTc0LDE1ODMwNzg1NDksMT
-M4NzM3NzA1NCwyMDQyOTkxNzcxLC0xNjE3MTQ2MzMsLTg4MjQx
-NjIzMCwtNTYwNTQyMTE0LC02NTA0OTE2MTEsLTIwNTg3MTQ4Ny
-wxMDUzNDYwMjEzLDcxNjY2OTQ1OCwtMTY2MDc3NTg2MCwtMTE0
-NDA2NTk3MF19
+eyJoaXN0b3J5IjpbNDEzMjU2NzQ4LC05MDIyNTgwOCwxMzIyMD
+AwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcs
+LTExMTI3Mjk5NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMz
+g3Mzc3MDU0LDIwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2
+MjMwLC01NjA1NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LD
+EwNTM0NjAyMTMsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0
+MDY1OTcwXX0=
 -->
