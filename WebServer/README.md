@@ -357,9 +357,9 @@ Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
 #### D.1 Mengaktifkan Module Rewrite
 Setelah dipikir-pikir ternyata __[http://jarkomtc.com/index.php](http://jarkomtc.com/index.php)__ kurang cantik untuk penulisan URL. Oleh sebab itu, Ifin berinisiatif untuk mengaktifkan _module rewrite_ agar ketika mengakses file php tidak perlu menambahkan ekstensi _'.php'_.
 Maka kita perlu melakukan hal-hal di bawah ini:
-+ Menjalankan perintah `a2enmod` dan menuliskan 
++ Menjalankan perintah `a2enmod` dan menuliskan __rewrite__ untuk mengaktifkan _module rewrite_.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzQzNjEyNCw2NzU2MzE0ODYsNzgwOT
+eyJoaXN0b3J5IjpbMTI1ODU2MjgzMyw2NzU2MzE0ODYsNzgwOT
 kwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3
 MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MD
 MsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEy
