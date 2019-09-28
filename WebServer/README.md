@@ -205,7 +205,7 @@ Akses alamat __http://[IP Mewtwo]:8080__
 ### A. Setting Domain pada Apache
 Rachma adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki server yang bisa digunakan sebagai tempat host untuk websitenya. Sayangnya Ifin sedang berada di luar kota dan server-nya tidak dapat diakses dari sana.
 
-Ayo bantu Ifin membahagiakan hati Rachma dengan mengonfigurasi server Ifin sesuai :
+Ayo bantu Ifin membahagiakan hati Rachma dengan mengonfigurasi server Ifin sesuai petunjuk yang ia berikan:
 #### A.1 Pindah ke _directory_ `/etc/apache2/sites-avaible`
 Copy file __default__ menjadi file __jarkomtc.com__
 
@@ -333,8 +333,9 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 Karena URL __http://[IP Mewtwo]/assets/javascript__ dirasa terlalu panjang, maka Ifin mencoba membuat _directory alias_ menjadi __http://[IP Mewtwo]/assets/js__ agar Rachma tidak capek mengetik.
 
 Berikut adalah langkah-langkah pengerjaan yang diberikan Ifin pada kalian:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODc5OTAzNCwtMTI2MzY0NTcyMiwtMT
+eyJoaXN0b3J5IjpbMTMyNzkzMDk4MSwtMTI2MzY0NTcyMiwtMT
 gwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1
 ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0ODIyNT
 YsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwtMTQ5MDk4MDI1Niwy
