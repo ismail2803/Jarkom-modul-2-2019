@@ -167,9 +167,10 @@ Listen 8080
 
 <img src="Gambar/17.png" width="500">
 
-
+#### B.4 Aktifkan konfigurasi _default-8080_
+Untuk mengaktifkan suatu konfigurasi, kita menggunakan perintah `a2ensite`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk0MDYyNDgsMTY2MTkwODM0OCwtOT
+eyJoaXN0b3J5IjpbLTEwNjI4NDc3MjksMTY2MTkwODM0OCwtOT
 cyMTE1MjM4LDEwOTQ0ODY0NDIsMTQ0NzU3NDgyNCwxNzcyNTU2
 NjA0LC01NTQyNjUzMzUsNDEzMjU2NzQ4LC05MDIyNTgwOCwxMz
 IyMDAwNTg4LDE3OTIwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5
