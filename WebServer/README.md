@@ -200,8 +200,11 @@ Isi file __index.php__ tersebut dengan
 Akses alamat __http://[IP Mewtwo]:8080__
 
 <img src="Gambar/22.png">
+
+### H. Mari Berimajinasi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg0NzYxOTUsLTI3MjI1OTQ5MywzNT
+eyJoaXN0b3J5IjpbLTE1NTkxMzg4NTUsLTI3MjI1OTQ5MywzNT
 E0NDg2OTQsNDUzNTc0NDc3LDE2NjE5MDgzNDgsLTk3MjExNTIz
 OCwxMDk0NDg2NDQyLDE0NDc1NzQ4MjQsMTc3MjU1NjYwNCwtNT
 U0MjY1MzM1LDQxMzI1Njc0OCwtOTAyMjU4MDgsMTMyMjAwMDU4
