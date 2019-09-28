@@ -275,7 +275,7 @@ Di dalam _directory_ `/var/www/jarkomtc.com` terdapat struktur _directory_ sebag
 ```
 Karena di dalam _directory_ __download__ terdapat file-file yang bisa di-download oleh pengunjung website __jarkomtc.com__, Rachma ingin folder tersebut dapat menampilkan list file yang ada. Lain halnya untuk _directory_ __assets__. Rachma tidak ingin pengunjung website yang mengakses _directory_ __assets__ tahu apa isi _directory_ tersebut.
 
-Karena ternyata Ifin sangat menyukai Rachma, tentu ia akan berusaha untuk mengabulkan keinginan Rachma. Kalian sebagai teman yang baik harus membantu Ifin dengan melakukan hal-hal berikut:
+Karena ternyata Ifin sangat menyukai Rachma, tentu ia akan berusaha untuk mengabulkan keinginan Rachma. Kalian sebagai teman yang baik dapat membantu Ifin dengan melakukan hal-hal berikut:
 #### B.1 Buat _directory-directory_ yang diperlukan oleh website jarkomtc.com milik Rachma
 Gunakan perintah-perintah berikut ini:
 ```
@@ -332,7 +332,7 @@ Contoh untuk mengatur `/var/www/jarkomtc.com/download`
 #### C. Directory Alias
 Karena URL __http://[IP Mewtwo]/assets/javascript__ dirasa terlalu panjang, maka Ifin mencoba membuat _directory alias_ menjadi __http://[IP Mewtwo]/assets/js__ agar Rachma tidak capek mengetik.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2Mjg2MTQwLC0xMjYzNjQ1NzIyLC0xOD
+eyJoaXN0b3J5IjpbMTQzMDYwMDQzLC0xMjYzNjQ1NzIyLC0xOD
 AyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4
 MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1Ni
 wtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIw
