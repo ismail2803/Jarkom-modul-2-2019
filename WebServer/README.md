@@ -305,19 +305,19 @@ mkdir /var/www/jarkomtc.com/assets/javascript
 <img src="Gambar/32.png">
 
 __Keterangan__:
-1. Untuk mengatur _directory_ pada sebuah web, menggunakan
-	```
-	<Directory /x> ... </Directory>
-	```
-	Contoh untuk mengatur `/var/www/jarkomtc.com/download`
-	```
-	<Directory /var/www/jarkomtc.com/download>
+Untuk mengatur _directory_ pada sebuah web, menggunakan
+```
+<Directory /x> ... </Directory>
+```
+Contoh untuk mengatur `/var/www/jarkomtc.com/download`
+```
+<Directory /var/www/jarkomtc.com/download>
 	
-	</Directory>
-	```
-2. 
+</Directory>
+```
+#### B.3 Mematikan Directory Listing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTAyOTA2NCwtMjAxNzU1NDg2OCwtMT
+eyJoaXN0b3J5IjpbLTc4Mzc3NTIxNiwtMjAxNzU1NDg2OCwtMT
 AxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3
 MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNC
 wtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2NywtMjE2
