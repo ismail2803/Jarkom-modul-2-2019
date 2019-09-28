@@ -133,13 +133,13 @@ Akses alamat __http://[IP Mewtwo]/index.php__
 <img src="Gambar/14.png" width="500">
 
 + __Catatan__:
-+ 
+	Apabila tampilan web tidak muncul seperti gambar di atas dan hanya muncul plain text isi file index.php, silahkan install `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzE4ODU4OCwxMzIyMDAwNTg4LDE3OT
-IwOTk1NzksMjc3MjU2MDM1LC0yMzc5NjU5NTcsLTExMTI3Mjk5
-NDcsLTEwODA5NjQxNzQsMTU4MzA3ODU0OSwxMzg3Mzc3MDU0LD
-IwNDI5OTE3NzEsLTE2MTcxNDYzMywtODgyNDE2MjMwLC01NjA1
-NDIxMTQsLTY1MDQ5MTYxMSwtMjA1ODcxNDg3LDEwNTM0NjAyMT
-MsNzE2NjY5NDU4LC0xNjYwNzc1ODYwLC0xMTQ0MDY1OTcwLC01
-MzEzMjU0MDVdfQ==
+eyJoaXN0b3J5IjpbLTkwMjI1ODA4LDEzMjIwMDA1ODgsMTc5Mj
+A5OTU3OSwyNzcyNTYwMzUsLTIzNzk2NTk1NywtMTExMjcyOTk0
+NywtMTA4MDk2NDE3NCwxNTgzMDc4NTQ5LDEzODczNzcwNTQsMj
+A0Mjk5MTc3MSwtMTYxNzE0NjMzLC04ODI0MTYyMzAsLTU2MDU0
+MjExNCwtNjUwNDkxNjExLC0yMDU4NzE0ODcsMTA1MzQ2MDIxMy
+w3MTY2Njk0NTgsLTE2NjA3NzU4NjAsLTExNDQwNjU5NzAsLTUz
+MTMyNTQwNV19
 -->
