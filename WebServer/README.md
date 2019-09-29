@@ -257,7 +257,7 @@ Isi file __index.php__ tersebut dengan
 	+ Di bagian "___This connection uses the following items:___" klik ___Internet Protocol Version 4 (TCP/IPv4)___ lalu klik _Properties_. Bisa juga dilakukan dengan _double click_ pada tulisan ___Internet Protocol Version 4 (TCP/IPv4)___.
 	+ Pilih ___Use the following DNS server addresses:___ lalu isikan ___IP Articuno___ di _field_ "___Preferred DNS server:___"
 
-		<img src="Gambar/28.png">
+		<img src="Gambar/28.jpg">
 	
 + __Pada Linux__
 	+ Ubah file __/etc/resolv.conf__ dengan perintah `sudo nano /etc/resolv.conf`
@@ -450,11 +450,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODcxODcyOSwyODM2MjE5ODMsNDQwOT
-E4MDg5LDEyNzkyNzc3ODEsMjA2MDU4NjQyNSwxMzgwNjM0NDAz
-LC0xODE1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLT
-EwNTU2NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYz
-MTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MS
-wtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwt
-MTAxMDM4NTUwM119
+eyJoaXN0b3J5IjpbMzY3MTc3MjYzLC0zMjg3MTg3MjksMjgzNj
+IxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIwNjA1ODY0MjUs
+MTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQyNDYzLC0yMD
+U0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQyOTcsMTY1OTUw
+OTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01ODEzMDU3MDksLT
+E1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIw
+MTc1NTQ4NjhdfQ==
 -->
