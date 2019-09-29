@@ -254,7 +254,8 @@ Isi file __index.php__ tersebut dengan
 	+ Klik _Network and Sharing Center_
 	+ Klik _Change Adapter Settings_
 	+ Klik kanan pada koneksi yang sedang kalian gunakan lalu klik _Properties_
-	+ Di bagian "___This connection uses the following items:___" klik ___Internet Protocol Version 4 (TCP/IPv4)___ 
+	+ Di bagian "___This connection uses the following items:___" klik ___Internet Protocol Version 4 (TCP/IPv4)___ lalu klik _Properties_. Bisa juga dilakukan dengan _double click_ pada tulisan ___Internet Protocol Version 4 (TCP/IPv4)___.
+	+ Pilih "___Use the following DNS server addresses:___" lalu isikan ___IP Articuno___
 	<img src="Gambar/28.png">
 	
 + __Pada Linux__
@@ -368,11 +369,11 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3Mjc1ODAzLDE2NTk1MDkxNjYsNjc1Nj
-MxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQx
-LC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC
-0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3
-NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OT
-M0LC0xNDkwOTgwMjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0y
-MTYzODk0MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjMxMzE1NDEsMTY1OTUwOTE2Niw2Nz
+U2MzE0ODYsNzgwOTkwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQy
+NDEsLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4Nj
+gsLTEwMTAzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0
+NDc0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nz
+k5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcs
+LTIxNjM4OTQwNF19
 -->
