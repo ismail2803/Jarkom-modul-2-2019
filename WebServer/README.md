@@ -407,9 +407,11 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ `AllowOverride All` ditambahkan agar  konfigurasi __.htaccess__ dapat berjalan.
 	+ `+FollowSymLinks` ditambahkan agar konfigurasi __mod_rewrite__ dapat berjalan.
 	+ `-Multiviews` ditambahkan agar konfigurasi __mod_negotiation__ tidak dapat berjalan. __mod_negotiation__ bisa '_rewrite_' _requests_ sehingga menimpa dan mengganggu __mod_rewrite__.
-	+ Restart apache `
+	+ Restart apache dengan perintah `service apache2 restart`
+	+ Buka browser dan akses __http://jarkomtc.com/aboutus__
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzI1MjE3MywtMjA1NDY1ODgyNCwtMT
+eyJoaXN0b3J5IjpbLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMT
 A1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMx
 NDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC
 0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0x
