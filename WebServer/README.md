@@ -381,6 +381,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
+	
 		<img src="Gambar/39.png" width="500">
 
 	__Keterangan__:
@@ -449,11 +450,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwOTE4MDg5LDEyNzkyNzc3ODEsMjA2MD
-U4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MDcwNDI0
-NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAxNDI5Ny
-wxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLTU4MTMw
-NTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgwMjYwND
-M1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1ODExNTI1
-LDE1OTk5MDAzNDhdfQ==
+eyJoaXN0b3J5IjpbMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mj
+c3NzgxLDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5
+NiwtNDA3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLD
+E0MzkwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkw
+NDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3Mj
+IsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMs
+MTYwNTgxMTUyNV19
 -->
