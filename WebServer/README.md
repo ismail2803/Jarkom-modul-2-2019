@@ -381,7 +381,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
-
+		<img src="Gambar/39.png" width="500">
 
 	__Keterangan__:
 	+ `RewriteEngine On` = untuk flag bahwa menggunakan module rewrite
@@ -403,7 +403,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	```
 	jangan lupa untuk menyimpan perubahan tersebut.
 	
-	<img src="Gambar/39.png" width="500">
+	<img src="Gambar/40.png" width="500">
 	
 	__Keterangan__:
 	+ `AllowOverride All` ditambahkan agar  konfigurasi __.htaccess__ dapat berjalan.
@@ -412,7 +412,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ Restart apache dengan perintah `service apache2 restart`
 	+ Buka browser dan akses __http://jarkomtc.com/aboutus__
 
-	<img src="Gambar/40.png">
+	<img src="Gambar/41.png">
 	
 ### E. Otorisasi
 Pada web http:jarkomtc.com terdapat path __/data__ yang tidak boleh dibuka sembarang orang. Rachma ingin __/data__ hanya boleh diakses oleh pengguna yang memiliki IP 10.151.252.0/255.255.252.0
@@ -429,7 +429,7 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 	```
 	jangan lupa untuk menyimpan perubahan tersebut.
 	
-	<img src="Gambar/41.png" width="500">
+	<img src="Gambar/42.png" width="500">
 	
 	__Keterangan__:
 	+ `Order deny, allow` merupakan urutan hak akses. Terdapat dua jenis tipe order yaitu:
@@ -441,15 +441,15 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 + Buka browser dan akses __http://jarkomtc.com/data__
 Saat pengguna tidak memiliki __IP NID 10.151.252.0/22__ maka akan muncul halaman seperti di bawah ini
 
-<img src="Gambar/42.png">
+<img src="Gambar/43.png">
 
 Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang muncul adalah seperti di bawah ini
 
-<img src="Gambar/43.png">
+<img src="Gambar/44.png">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNDkxODE5LDEyNzkyNzc3ODEsMjA2MD
+eyJoaXN0b3J5IjpbNDQwOTE4MDg5LDEyNzkyNzc3ODEsMjA2MD
 U4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MDcwNDI0
 NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAxNDI5Ny
 wxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLTU4MTMw
