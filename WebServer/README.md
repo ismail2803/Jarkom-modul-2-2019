@@ -249,7 +249,10 @@ Isi file __index.php__ tersebut dengan
 
 #### A.7 Ganti DNS laptop/komputer sesuai IP Articuno masing-masing
 + __Pada Windows__
-	+ 
+	+ Buka _Control Panel_
+	+ Klik _Network and Internet_
+	+ Klik _Network and Sharing Center_
+	+ Klik _Change Adapter Se
 	<img src="Gambar/28.png">
 	
 + __Pada Linux__
@@ -363,11 +366,11 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NzMzNDQ2LDE2NTk1MDkxNjYsNjc1Nj
-MxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQx
-LC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC
-0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3
-NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OT
-M0LC0xNDkwOTgwMjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0y
-MTYzODk0MDRdfQ==
+eyJoaXN0b3J5IjpbMTYyNDIxNDAwMiwxNjU5NTA5MTY2LDY3NT
+YzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0
+MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OC
+wtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0
+NzQ3MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OT
+kzNCwtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2Nywt
+MjE2Mzg5NDA0XX0=
 -->
