@@ -437,10 +437,17 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 	+ `Allow from 10.151.252.0/255.255.252.0` berarti apabila pengguna memiliki IP NID 10.151.252.0./22, ia diperbolehkan untuk mengakses halaman.
 	+ Info lebih lanjut [klik disini](https://httpd.apache.org/docs/2.4/mod/mod_access_compat.html)	+ Restart apache dengan perintah `service apache2 restart`
 + Buka browser dan akses __http://jarkomtc.com/data__
-Saat pengguna tidak memiliki IP NID
+Saat pengguna tidak memiliki __IP NID 10.151.252.0/22__ maka akan muncul halaman seperti di bawah ini
+
 <img src="Gambar/42.png">
+
+Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang muncul adalah seperti di bawah ini
+
+<img src="Gambar/43.png">
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjAwNzY3NiwxMzgwNjM0NDAzLC0xOD
+eyJoaXN0b3J5IjpbMjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xOD
 E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
 NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
 w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
