@@ -418,21 +418,23 @@ Pada web http:jarkomtc.com terdapat path __/data__ yang tidak boleh dibuka semba
 Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman adalah
 + Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
 	```
-	<Directory /var/www/jarkomtc.com>
-	    Options +FollowSymLinks -Multiviews
-	    AllowOverride All
+	<Directory /var/www/jarkomtc.com/data>
+	    Options +Indexes
+	    Order deny,allow
+	    Deny from all
+	    Allow from 10.151.252.0/255.255.255.252.0
 	</Directory>
 	```
 	jangan lupa untuk menyimpan perubahan tersebut.
 	
-	<img src="Gambar/39.png" width="500">
+	<img src="Gambar/41.png" width="500">
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODExNzM3NjgsLTE4MTU2NDc0OTYsLT
-QwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5
-MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MS
-wtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0x
-ODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MD
-U4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1
-NiwtMTQ2OTU4Mzg1NF19
+eyJoaXN0b3J5IjpbMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtND
+A3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0Mzkw
+MTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC
+01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4
+MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYwNT
+gxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMjU2
+LC0xNDY5NTgzODU0XX0=
 -->
