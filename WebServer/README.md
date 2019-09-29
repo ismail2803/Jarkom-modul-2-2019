@@ -386,13 +386,19 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ `RewriteCond %{SCRIPT_FILENAME} !-d` = aturan tidak akan jalan ketika yang diakses adalah _directory_ (d)
 	+ `RewriteRule ^([^.]+)$ $1.php [NC,L]` = $1 adalah parameter input yang akan dicari oleh webserver
 	* Lebih detailnya [klik disini](https://httpd.apache.org/docs/2.4/rewrite/flags.html)
++ Buat file _aboutus.php_ dengan isi
 	```
+	<?php
+			echo "Terima Kasih telah mengunjungi about us";
+	?>
+	```
++ Pindah ke _directory 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzE5NTM3MCwtMTA1NTY2NTAwMiwxND
-M5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0
-MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC
-0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2
-MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4Mj
-I1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2
-LDIwNTM5ODkyNDNdfQ==
+eyJoaXN0b3J5IjpbNTE1OTkzNTY5LC0xMDU1NjY1MDAyLDE0Mz
+kwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQx
+LC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLT
+E4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYw
+NTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMj
+U2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYs
+MjA1Mzk4OTI0M119
 -->
