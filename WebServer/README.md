@@ -386,7 +386,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ `RewriteCond %{SCRIPT_FILENAME} !-d` = aturan tidak akan jalan ketika yang diakses adalah _directory_ (d)
 	+ `RewriteRule ^([^.]+)$ $1.php [NC,L]` = $1 adalah parameter input yang akan dicari oleh webserver
 	* Lebih detailnya [klik disini](https://httpd.apache.org/docs/2.4/rewrite/flags.html)
-+ Buat file _aboutus.php_ dengan isi
++ Buat file _aboutus.php_ di dalam _directory_ `/var/www/jarkomtc.com/` dengan isi
 	```
 	<?php
 			echo "Terima Kasih telah mengunjungi about us";
@@ -411,11 +411,11 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ Buka browser dan akses __http://jarkomtc.com/aboutus__
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMT
-A1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMx
-NDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC
-0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0x
-MDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3ND
-cxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0
-LC0xNDkwOTgwMjU2XX0=
+eyJoaXN0b3J5IjpbLTE2MDc4OTQ2ODgsLTQwNzA0MjQ2MywtMj
+A1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1
+MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC
+0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0y
+MDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OT
+kwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1
+NCwxNDU5OTc5OTM0XX0=
 -->
