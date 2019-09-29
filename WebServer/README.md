@@ -422,7 +422,7 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 	    Options +Indexes
 	    Order deny,allow
 	    Deny from all
-	    Allow from 10.151.252.0/255.255.255.252.0
+	    Allow from 10.151.252.0/255.255.252.0
 	</Directory>
 	```
 	jangan lupa untuk menyimpan perubahan tersebut.
@@ -447,11 +447,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xOD
-E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
-NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
-w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
-MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMD
-M4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5
-NSwzMTI0ODIyNTZdfQ==
+eyJoaXN0b3J5IjpbMTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzOD
+A2MzQ0MDMsLTE4MTU2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1
+ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNj
+YsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3
+MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NT
+U0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0
+OCwxNDQ3NDcxMjk1XX0=
 -->
