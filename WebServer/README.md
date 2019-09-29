@@ -413,9 +413,22 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	<img src="Gambar/40.png">
 	
 ### E. Otorisasi
-Pada web http:jarkomtc.com terdapat path __/data__ yang tidak boleh dibuka sembarang orang. Rachma ingin __/data__ hanya boleh diakses oleh pengguna yang memiliki IP 10.151.252.0/255.255.2
+Pada web http:jarkomtc.com terdapat path __/data__ yang tidak boleh dibuka sembarang orang. Rachma ingin __/data__ hanya boleh diakses oleh pengguna yang memiliki IP 10.151.252.0/255.255.252.0
+
+Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman adalah
++ Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
+	```
+	<Directory /var/www/jarkomtc.com>
+	    Options +FollowSymLinks -Multiviews
+	    AllowOverride All
+	</Directory>
+	```
+	jangan lupa untuk menyimpan perubahan tersebut.
+	
+	<img src="Gambar/39.png" width="500">
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE2MTI2OTAsLTE4MTU2NDc0OTYsLT
+eyJoaXN0b3J5IjpbLTEzODExNzM3NjgsLTE4MTU2NDc0OTYsLT
 QwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5
 MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MS
 wtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0x
