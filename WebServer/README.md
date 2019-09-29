@@ -412,9 +412,10 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 
 	<img src="Gambar/40.png">
 	
-
+### E. Otorisasi
+Pada web http:jarkomtc.com terdapat path __/data__ yang tidak boleh dibuka sembarang orang. Rachma ingin __/data__ hanya boleh diakses oleh pengguna yang memiliki IP 10.151.252.0/255.255.2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkyMjY1OTIsLTE4MTU2NDc0OTYsLT
+eyJoaXN0b3J5IjpbLTE3MjE2MTI2OTAsLTE4MTU2NDc0OTYsLT
 QwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5
 MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MS
 wtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0x
