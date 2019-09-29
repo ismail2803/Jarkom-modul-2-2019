@@ -433,13 +433,14 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 	+ `Order deny, allow` merupakan urutan hak akses. Terdapat dua jenis tipe order yaitu:
 		+ `deny,allow`: Bagian _Deny_ harus di-_declare_ terlebih dahulu sebelum _Allow_
 		+ `allow,deny`: Bagian _Allow_ harus di-_declare_ terlebih dahulu sebelum _Deny_
-	+ `Deny 
+	+ `Deny from all`  berarti semua pengguna ditolak
+	+ `Allow from 10.151.252.0/255.255.252.0` berarti apabila pengguna memiliki IP NID 10.151.252.0./22 diperbolehkan untuk mengakses halaman.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyMzg4NDg2LDEzODA2MzQ0MDMsLTE4MT
-U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
-NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LD
-c4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYz
-NjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMz
-g1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1
-LDMxMjQ4MjI1Nl19
+eyJoaXN0b3J5IjpbLTkwMjg4ODQxNywxMzgwNjM0NDAzLC0xOD
+E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
+NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
+w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
+MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMD
+M4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5
+NSwzMTI0ODIyNTZdfQ==
 -->
