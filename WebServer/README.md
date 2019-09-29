@@ -252,7 +252,8 @@ Isi file __index.php__ tersebut dengan
 	+ Buka _Control Panel_
 	+ Klik _Network and Internet_
 	+ Klik _Network and Sharing Center_
-	+ Klik _Change Adapter Se
+	+ Klik _Change Adapter Settings_
+	+ Klik kanan pada koneksi yang sedang kalian gunakan lalu k
 	<img src="Gambar/28.png">
 	
 + __Pada Linux__
@@ -366,7 +367,7 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDIxNDAwMiwxNjU5NTA5MTY2LDY3NT
+eyJoaXN0b3J5IjpbLTg0MDc1NzU5MCwxNjU5NTA5MTY2LDY3NT
 YzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0
 MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OC
 wtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0
