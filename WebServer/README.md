@@ -369,12 +369,14 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	<img src="Gambar/38.png" width="500">
 	
 + Restart apache dengan perintah `service apache2 restart`
+
+Biasanya semua konfigurasi terhadap sebuah website diatur pada file di _directory_ __/etc/apache2/sites-available__. Namun terkadang ada sebuah kasus bahwa kita tidak memiliki hak akses root untuk edit file konfigurasi yang berada di folder __/etc/apac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NT
-YzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0
-MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OC
-wtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0
-NzQ3MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OT
-kzNCwtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2Nywt
-MjE2Mzg5NDA0XX0=
+eyJoaXN0b3J5IjpbMTAyODgzNzkxNywxNDM5MDE0Mjk3LDE2NT
+k1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5
+LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC
+0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5
+OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mz
+g1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIwNTM5ODkyNDMs
+NzIxMjY2MDY3XX0=
 -->
