@@ -399,12 +399,16 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	    AllowOverride All
 	</Directory>
 	```
-	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
+	jangan lupa untuk menyimpan perubahan tersebut.
 	
 	<img src="Gambar/32.png" width="500">
 	
+	__Keterangan__:
+	+ `AllowOverride All` ditambahkan agar  konfigurasi __.htaccess__ dapat berjalan.
+	+ `+FollowSymLinks` ditambahkan agar konfigurasi __mod_rewrite__ dapat berjalan.
+	+ `-Multiviews` ditambahkan agar konfigurasi __modn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjAyMjEzMSwtMTA1NTY2NTAwMiwxND
+eyJoaXN0b3J5IjpbLTQxNTIyMDIxMCwtMTA1NTY2NTAwMiwxND
 M5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0
 MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC
 0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2
