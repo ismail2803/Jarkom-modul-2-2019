@@ -429,12 +429,15 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 	
 	<img src="Gambar/41.png" width="500">
 	
+	__Keterangan__:
+	+ `Order deny, allow` merupakan urutan hak akses. Terdapat dua jenis tipe order yaitu:
+		+ `deny,allow`: Bagian _Deny_ harus di-_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtND
-A3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0Mzkw
-MTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC
-01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4
-MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYwNT
-gxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMjU2
-LC0xNDY5NTgzODU0XX0=
+eyJoaXN0b3J5IjpbLTEzNzg0NTMzMjUsMTM4MDYzNDQwMywtMT
+gxNTY0NzQ5NiwtNDA3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1
+NjY1MDAyLDE0MzkwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0OD
+YsNzgwOTkwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEy
+NjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMT
+AzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEy
+OTUsMzEyNDgyMjU2XX0=
 -->
