@@ -255,8 +255,8 @@ Isi file __index.php__ tersebut dengan
 	+ Klik _Change Adapter Settings_
 	+ Klik kanan pada koneksi yang sedang kalian gunakan lalu klik _Properties_
 	+ Di bagian "___This connection uses the following items:___" klik ___Internet Protocol Version 4 (TCP/IPv4)___ lalu klik _Properties_. Bisa juga dilakukan dengan _double click_ pada tulisan ___Internet Protocol Version 4 (TCP/IPv4)___.
-	+ Pilih "___Use the following DNS server addresses:___" lalu isikan ___IP Articuno___
-	<img src="Gambar/28.png">
+	+ Pilih "___Use the following DNS server addresses:___" lalu isikan ___IP Articuno___ di _field_ "___Preferred DNS server:___"
+		<img src="Gambar/28.png">
 	
 + __Pada Linux__
 	+ Ubah file __/etc/resolv.conf__ dengan perintah `sudo nano /etc/resolv.conf`
@@ -369,11 +369,11 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMxMzE1NDEsMTY1OTUwOTE2Niw2Nz
-U2MzE0ODYsNzgwOTkwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQy
-NDEsLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4Nj
-gsLTEwMTAzODU1MDMsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0
-NDc0NzEyOTUsMzEyNDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nz
-k5MzQsLTE0OTA5ODAyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcs
-LTIxNjM4OTQwNF19
+eyJoaXN0b3J5IjpbLTQwNDk4MDI4MSwxNjU5NTA5MTY2LDY3NT
+YzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0
+MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OC
+wtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0
+NzQ3MTI5NSwzMTI0ODIyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OT
+kzNCwtMTQ5MDk4MDI1NiwyMDUzOTg5MjQzLDcyMTI2NjA2Nywt
+MjE2Mzg5NDA0XX0=
 -->
