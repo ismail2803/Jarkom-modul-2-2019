@@ -392,13 +392,23 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 			echo "Terima Kasih telah mengunjungi about us";
 	?>
 	```
-+ Pindah ke _directory 
++ Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
+	```
+	<Directory /var/www/jarkomtc.com>
+	    Options +FollowSymLinks -Multiviews
+	    AllowOverride All
+	</Directory>
+	```
+	jangan lupa untuk menyimpan perubahan tersebut agar _directory_  ___download___ menampilkan isi _directory_-nya.
+	
+	<img src="Gambar/32.png" width="500">
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1OTkzNTY5LC0xMDU1NjY1MDAyLDE0Mz
-kwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQx
-LC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLT
-E4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYw
-NTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEyNDgyMj
-U2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5ODAyNTYs
-MjA1Mzk4OTI0M119
+eyJoaXN0b3J5IjpbMTkzMjAyMjEzMSwtMTA1NTY2NTAwMiwxND
+M5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0
+MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC
+0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2
+MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4Mj
+I1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2
+LDIwNTM5ODkyNDNdfQ==
 -->
