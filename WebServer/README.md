@@ -378,13 +378,13 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 + Pindah ke _directory_ `/var/www/jarkomtc.com` dan buat file __.htaccess__ dengan isi file
 	```
 	RewriteEngine On
-	RewriteCond %{REQUES_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
 	__Keterangan__:
 	+ `RewriteEngine On` = untuk flag bahwa menggunakan module rewrite
-	+ `RewriteCond %{SCRIPT_FILENAME} !-d` = aturan tidak akan jalan ketika yang diakses adalah _directory_ (d)
-	+ `RewriteRule ^([^.]+)$ $1.php [NC,L]` = $1 adalah parameter input yang akan dicari oleh webserver
+	+ `RewriteCond %{REQUEST_FILENAME} !-d` = aturan tidak akan jalan ketika yang diakses adalah _directory_ (d)
+	+ `RewriteRule ^([^\.]+)$ $1.php [NC,L]` = $1 adalah parameter input yang akan dicari oleh webserver
 	* Lebih detailnya [klik disini](https://httpd.apache.org/docs/2.4/rewrite/flags.html)
 + Buat file _aboutus.php_ di dalam _directory_ `/var/www/jarkomtc.com/` dengan isi
 	```
@@ -447,11 +447,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzOD
-A2MzQ0MDMsLTE4MTU2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1
-ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNj
-YsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3
-MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NT
-U0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0
-OCwxNDQ3NDcxMjk1XX0=
+eyJoaXN0b3J5IjpbMTE4MzM4NzMzNSwxMjc5Mjc3NzgxLDIwNj
+A1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQy
+NDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQyOT
+csMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01ODEz
+MDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2MD
+QzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYwNTgxMTUy
+NSwxNTk5OTAwMzQ4XX0=
 -->
