@@ -381,6 +381,8 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
+
+
 	__Keterangan__:
 	+ `RewriteEngine On` = untuk flag bahwa menggunakan module rewrite
 	+ `RewriteCond %{REQUEST_FILENAME} !-d` = aturan tidak akan jalan ketika yang diakses adalah _directory_ (d)
@@ -447,11 +449,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzM4NzMzNSwxMjc5Mjc3NzgxLDIwNj
-A1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQy
-NDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQyOT
-csMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01ODEz
-MDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2MD
-QzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMsMTYwNTgxMTUy
-NSwxNTk5OTAwMzQ4XX0=
+eyJoaXN0b3J5IjpbNTIxNDkxODE5LDEyNzkyNzc3ODEsMjA2MD
+U4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MDcwNDI0
+NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAxNDI5Ny
+wxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLTU4MTMw
+NTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgwMjYwND
+M1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1ODExNTI1
+LDE1OTk5MDAzNDhdfQ==
 -->
