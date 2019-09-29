@@ -375,13 +375,18 @@ Biasanya semua konfigurasi terhadap sebuah website diatur pada file di _director
 Untuk mengatasi masalah tersebut, kita dapat membuat file __.htaccess__ pada _directory_ yang ingin kita atur.
 
 Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_ dari __[http://jarkomtc.com](http://jarkomtc.com)__ agar saat mengakses file php kita tidak perlu menuliskan ekstensinya. Maka yang yang perlu kita lakukan adalah
-+ Pindah ke _directory_ `/var/www/jarkomt` dan buat file _index.php_
++ Pindah ke _directory_ `/var/www/jarkomtc.com` dan buat file __.htaccess__ dengan isi file
+		```
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([^\.]+)$ $1.php [NC,L]
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzA4MDY2MywxNDM5MDE0Mjk3LDE2NT
-k1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5
-LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC
-0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5
-OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mz
-g1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2LDIwNTM5ODkyNDMs
-NzIxMjY2MDY3XX0=
+eyJoaXN0b3J5IjpbLTEwMTU4MjM3MjgsMTQzOTAxNDI5NywxNj
+U5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcw
+OSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1Mi
+wtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1
+OTk5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0ODIyNTYsLTE0Njk1OD
+M4NTQsMTQ1OTk3OTkzNCwtMTQ5MDk4MDI1NiwyMDUzOTg5MjQz
+LDcyMTI2NjA2N119
 -->
