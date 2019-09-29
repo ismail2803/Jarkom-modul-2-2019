@@ -381,9 +381,14 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	RewriteCond %{REQUES_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
-	
+	__Keterangan__:
+	+ `RewriteEngine On` = Untuk flag bahwa menggunakan module rewrite
+	* RewriteCond %{SCRIPT_FILENAME} !-d = aturan tidak akan jalan ketika yang diakses adalah folder (d)
+	* RewriteRule ^([^.]+)$ $1.php [NC,L] = $1 adalah parameter input yang akan dicari oleh webserver
+	* Info cek [Klik Disini](https://httpd.apache.org/docs/2.4/rewrite/flags.html)
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTAwNjM4MCwtMTA1NTY2NTAwMiwxND
+eyJoaXN0b3J5IjpbMTE1MjA5MzkwMSwtMTA1NTY2NTAwMiwxND
 M5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0
 MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC
 0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2
