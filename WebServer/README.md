@@ -406,13 +406,13 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	__Keterangan__:
 	+ `AllowOverride All` ditambahkan agar  konfigurasi __.htaccess__ dapat berjalan.
 	+ `+FollowSymLinks` ditambahkan agar konfigurasi __mod_rewrite__ dapat berjalan.
-	+ `-Multiviews` ditambahkan agar konfigurasi __modn
+	+ `-Multiviews` ditambahkan agar konfigurasi __mod_negotiation__ tidak dapat berjalan. __mod_negotiation__ bisa '_rewrite_' _requests_ sehingga menimpa dan mengganggu __mod_rewrite__.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTIyMDIxMCwtMTA1NTY2NTAwMiwxND
-M5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0
-MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC
-0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2
-MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1LDMxMjQ4Mj
-I1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OTM0LC0xNDkwOTgwMjU2
-LDIwNTM5ODkyNDNdfQ==
+eyJoaXN0b3J5IjpbLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMT
+QzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0
+NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMi
+wtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywx
+NjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5NSwzMTI0OD
+IyNTYsLTE0Njk1ODM4NTQsMTQ1OTk3OTkzNCwtMTQ5MDk4MDI1
+NiwyMDUzOTg5MjQzXX0=
 -->
