@@ -370,9 +370,13 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 
-Biasanya semua konfigurasi terhadap sebuah website diatur pada file di _directory_ __/etc/apache2/sites-available__. Namun terkadang ada sebuah kasus bahwa kita tidak memiliki hak akses root untuk edit file konfigurasi yang berada di folder __/etc/apac
+Biasanya semua konfigurasi terhadap sebuah website diatur pada file di _directory_ __/etc/apache2/sites-available__. Namun terkadang ada sebuah kasus bahwa kita tidak memiliki hak akses root untuk edit file konfigurasi yang berada di folder __/etc/apache2/site-availavle__ atau kita tidak ingin user lain untuk mengedit file konfigurasi yang berada di _directory_ __/etec/apache2/sites-available__.
+
+Untuk mengatasi masalah tersebut, kita dapat membuat file __.htaccess__ pada _directory_ yang ingin kita atur.
+
+Contoh kasus di atas kita ingin mengatur _mod rewrite_ dari 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODgzNzkxNywxNDM5MDE0Mjk3LDE2NT
+eyJoaXN0b3J5IjpbMTQxNDM1MTk4NywxNDM5MDE0Mjk3LDE2NT
 k1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5
 LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC
 0yMDE3NTU0ODY4LC0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5
