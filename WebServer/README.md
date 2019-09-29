@@ -249,7 +249,7 @@ Isi file __index.php__ tersebut dengan
 
 #### A.7 Ganti DNS laptop/komputer sesuai IP Articuno masing-masing
 + __Pada Windows__
-+ 
+	+ 
 	<img src="Gambar/28.png">
 	
 + __Pada Linux__
@@ -363,11 +363,11 @@ Maka kita perlu melakukan hal-hal di bawah ini:
 	
 + Restart apache dengan perintah `service apache2 restart`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOT
-kwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3
-MjIsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MD
-MsMTYwNTgxMTUyNSwxNTk5OTAwMzQ4LDE0NDc0NzEyOTUsMzEy
-NDgyMjU2LC0xNDY5NTgzODU0LDE0NTk5Nzk5MzQsLTE0OTA5OD
-AyNTYsMjA1Mzk4OTI0Myw3MjEyNjYwNjcsLTIxNjM4OTQwNCwt
-Nzg0MTM4MzBdfQ==
+eyJoaXN0b3J5IjpbODU4NzMzNDQ2LDE2NTk1MDkxNjYsNjc1Nj
+MxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQx
+LC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC
+0xMDEwMzg1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3
+NDcxMjk1LDMxMjQ4MjI1NiwtMTQ2OTU4Mzg1NCwxNDU5OTc5OT
+M0LC0xNDkwOTgwMjU2LDIwNTM5ODkyNDMsNzIxMjY2MDY3LC0y
+MTYzODk0MDRdfQ==
 -->
