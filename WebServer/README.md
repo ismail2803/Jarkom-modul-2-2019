@@ -389,7 +389,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 + Buat file _aboutus.php_ di dalam _directory_ `/var/www/jarkomtc.com/` dengan isi
 	```
 	<?php
-			echo "Terima Kasih telah mengunjungi about us";
+		echo "Terima Kasih telah mengunjungi about us";
 	?>
 	```
 + Pindah ke _directory_ `/etc/apache2/sites-available` kemudian buka file ___jarkomtc.com___ dan tambahkan
@@ -411,7 +411,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	+ Buka browser dan akses __http://jarkomtc.com/aboutus__
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc4OTQ2ODgsLTQwNzA0MjQ2MywtMj
+eyJoaXN0b3J5IjpbLTE4MTU2NDc0OTYsLTQwNzA0MjQ2MywtMj
 A1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1
 MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC
 0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAyNjA0MzUyLC0y
