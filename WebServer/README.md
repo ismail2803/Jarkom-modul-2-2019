@@ -435,13 +435,16 @@ Maka yang diinstruksikan Ifin agar _directory_ __/data__ milik Rachma tetap aman
 		+ `allow,deny`: Bagian _Allow_ harus di-_declare_ terlebih dahulu sebelum _Deny_
 	+ `Deny from all`  berarti semua pengguna ditolak
 	+ `Allow from 10.151.252.0/255.255.252.0` berarti apabila pengguna memiliki IP NID 10.151.252.0./22, ia diperbolehkan untuk mengakses halaman.
-	+ Info lebih lanjut [klik disini](https://httpd.apache.org/docs/2.4/mod/mod_access_compat.html)+
+	+ Info lebih lanjut [klik disini](https://httpd.apache.org/docs/2.4/mod/mod_access_compat.html)	+ Restart apache dengan perintah `service apache2 restart`
++ Buka browser dan akses __http://jarkomtc.com/data__
+Saat pengguna tidak memiliki IP NID
+<img src="Gambar/42.png">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzNjU3OTc4LDEzODA2MzQ0MDMsLTE4MT
-U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
-NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LD
-c4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYz
-NjQ1NzIyLC0xODAyNjA0MzUyLC0yMDE3NTU0ODY4LC0xMDEwMz
-g1NTAzLDE2MDU4MTE1MjUsMTU5OTkwMDM0OCwxNDQ3NDcxMjk1
-LDMxMjQ4MjI1Nl19
+eyJoaXN0b3J5IjpbLTU1MjAwNzY3NiwxMzgwNjM0NDAzLC0xOD
+E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
+NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
+w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
+MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwtMTAxMD
+M4NTUwMywxNjA1ODExNTI1LDE1OTk5MDAzNDgsMTQ0NzQ3MTI5
+NSwzMTI0ODIyNTZdfQ==
 -->
