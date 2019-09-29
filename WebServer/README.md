@@ -376,13 +376,13 @@ Untuk mengatasi masalah tersebut, kita dapat membuat file __.htaccess__ pada _di
 
 Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_ dari __[http://jarkomtc.com](http://jarkomtc.com)__ agar saat mengakses file php kita tidak perlu menuliskan ekstensinya. Maka yang yang perlu kita lakukan adalah
 + Pindah ke _directory_ `/var/www/jarkomtc.com` dan buat file __.htaccess__ dengan isi file
-		```
+	```
 	RewriteEngine On
-	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUES_FILENAME} !-d
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
-	
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU4MjM3MjgsMTQzOTAxNDI5NywxNj
+eyJoaXN0b3J5IjpbLTEwNTU2NjUwMDIsMTQzOTAxNDI5NywxNj
 U5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcw
 OSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgwMjYwNDM1Mi
 wtMjAxNzU1NDg2OCwtMTAxMDM4NTUwMywxNjA1ODExNTI1LDE1
