@@ -382,7 +382,7 @@ Contohnya adalah seperti kasus di atas, dimana kita ingin mengatur _mod rewrite_
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 	```
 	
-		<img src="Gambar/39.png" width="500">
+	<img src="Gambar/39.png" width="500">
 
 	__Keterangan__:
 	+ `RewriteEngine On` = untuk flag bahwa menggunakan module rewrite
@@ -450,11 +450,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mj
-c3NzgxLDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5
-NiwtNDA3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLD
-E0MzkwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkw
-NDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3Mj
-IsLTE4MDI2MDQzNTIsLTIwMTc1NTQ4NjgsLTEwMTAzODU1MDMs
-MTYwNTgxMTUyNV19
+eyJoaXN0b3J5IjpbLTMyODcxODcyOSwyODM2MjE5ODMsNDQwOT
+E4MDg5LDEyNzkyNzc3ODEsMjA2MDU4NjQyNSwxMzgwNjM0NDAz
+LC0xODE1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLT
+EwNTU2NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYz
+MTQ4Niw3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MS
+wtMTI2MzY0NTcyMiwtMTgwMjYwNDM1MiwtMjAxNzU1NDg2OCwt
+MTAxMDM4NTUwM119
 -->
