@@ -70,7 +70,9 @@ Berikut beberapa hal yang penting untuk diketahui:
 
 |__Nama File__ | __Kegunaan__ |
 | --- | --- |
-| __apache2.conf__ | file |
+| __apache2.conf__ | file konfigurasi utama apache2 |
+| __ports.conf__ | file konfigurasi port yang digunakan untuk web server |
+| __sites-available__ | d
 
 + _Command_ yang sering digunakan
 
@@ -456,11 +458,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODcyOTA5NSwzNjcxNzcyNjMsLTMyOD
-cxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5LDEyNzkyNzc3ODEs
-MjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MD
-cwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAx
-NDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLT
-U4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgw
-MjYwNDM1Ml19
+eyJoaXN0b3J5IjpbLTUwNzcwOTg4MSwxODE4NzI5MDk1LDM2Nz
+E3NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODks
+MTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MT
+U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
+NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LD
+c4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYz
+NjQ1NzIyXX0=
 -->
