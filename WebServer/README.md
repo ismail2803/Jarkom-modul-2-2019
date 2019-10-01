@@ -460,9 +460,10 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 <img src="Gambar/44.png">
 
 ## I. Latihan
-1. Download halaman PokePoke di 10.151.36.
+1. Download halaman PokePoke di 10.151.36.234/pokepoke.zip
+2. Buat domain baru dengan nama personalpoke.xxx.id
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzU4MTQyMSwtMTg2NzQ5NjA0NCwtMz
+eyJoaXN0b3J5IjpbMTAyNDU3NzgwNCwtMTg2NzQ5NjA0NCwtMz
 Y4NTM1OTc1LDE4MTg3MjkwOTUsMzY3MTc3MjYzLC0zMjg3MTg3
 MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIwNj
 A1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQy
