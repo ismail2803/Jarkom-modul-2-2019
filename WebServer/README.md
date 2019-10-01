@@ -81,8 +81,8 @@ Berikut beberapa hal yang penting untuk diketahui:
 
 |__Command__ | __Kegunaan__ |
 | --- | --- |
-| __a2ensite__ | file |
-| __a2dissite__ | file |
+| __a2ensite__ | Untuk mengaktifkan (_ENABLE_) _config_ yang telah dibuat |
+| __a2dissite__ | Untuk menonaktifkan (_DISABLE_) _config_ yang telah dibuat |
 | __a2enmod__ | file |
 | __a2dismod__ | file |
 
@@ -461,7 +461,7 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4MDM3ODksMTgxODcyOTA5NSwzNj
+eyJoaXN0b3J5IjpbLTIwMDUyMzYxMjYsMTgxODcyOTA5NSwzNj
 cxNzcyNjMsLTMyODcxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5
 LDEyNzkyNzc3ODEsMjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xOD
 E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
