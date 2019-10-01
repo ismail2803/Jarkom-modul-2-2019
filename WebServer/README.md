@@ -461,13 +461,15 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 ## I. Latihan
 1. Download halaman PokePoke di 10.151.36.234/pokepoke.zip
-2. Buat domain baru dengan nama personalpoke.xxx.id
+2. Buat domain baru dengan nama __personalpoke.xx.id__ untuk membuka halaman tersebut.
+3. Atur agar jika kalian mengetikan __personalpoke.xx.id__, Web PokePoke dapat terbuka.
+4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDU3NzgwNCwtMTg2NzQ5NjA0NCwtMz
-Y4NTM1OTc1LDE4MTg3MjkwOTUsMzY3MTc3MjYzLC0zMjg3MTg3
-MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIwNj
-A1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQy
-NDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQyOT
-csMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01ODEz
-MDU3MDldfQ==
+eyJoaXN0b3J5IjpbLTEzOTAzNjQ5OTksLTE4Njc0OTYwNDQsLT
+M2ODUzNTk3NSwxODE4NzI5MDk1LDM2NzE3NzI2MywtMzI4NzE4
+NzI5LDI4MzYyMTk4Myw0NDA5MTgwODksMTI3OTI3Nzc4MSwyMD
+YwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MTU2NDc0OTYsLTQwNzA0
+MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mj
+k3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgx
+MzA1NzA5XX0=
 -->
