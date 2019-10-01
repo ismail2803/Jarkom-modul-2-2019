@@ -465,12 +465,12 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 3. Atur agar jika kalian mengetikkan __personalpoke.xx.id__, Web PokePoke dapat terbuka.
 
 ### Catatan
-+ ntuk download halaman web, gunakan perintah `wget 10.151.36.234/pokepoke.zip`
-	+ Untuk nomor 2 dan 3, '__xx__' diisi dengan nama kelompok. Contoh: __personalpoke.a4.id__
++ Untuk download halaman web, gunakan perintah `wget 10.151.36.234/pokepoke.zip`
++ Untuk nomor 2 dan 3, '__xx__' diisi dengan nama kelompok. Contoh: __personalpoke.a4.id__
 
 ## Selamat belajar dan tetap semangat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjEzNTc2MCwtMTAzNDgzODA5OSwtMT
+eyJoaXN0b3J5IjpbLTQzNDI2NDY1OSwtMTAzNDgzODA5OSwtMT
 g2NzQ5NjA0NCwtMzY4NTM1OTc1LDE4MTg3MjkwOTUsMzY3MTc3
 MjYzLC0zMjg3MTg3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMj
 c5Mjc3NzgxLDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0
