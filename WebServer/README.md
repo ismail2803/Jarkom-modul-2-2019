@@ -83,8 +83,8 @@ Berikut beberapa hal yang penting untuk diketahui:
 | --- | --- |
 | __a2ensite__ | Untuk mengaktifkan (_ENABLE_) konfigurasi website yang telah dibuat |
 | __a2dissite__ | Untuk menonaktifkan (_DISABLE_) konfigurasi website yang sedang aktif |
-| __a2enmod__ | Untuk mengaktifkan (_ENABLE_) sebuah modul ke dalam  |
-| __a2dismod__ | file |
+| __a2enmod__ | Untuk mengaktifkan (_ENABLE_) sebuah modul tertentu ke dalam konfigurasi apache2 |
+| __a2dismod__ | Untuk menonaktifkan (_DISABLE_) sebuah modul tertentu dalam konfigurasi apache2 |
 
 ## G. Konfigurasi Apache Sederhana
 ### A. Penggunaan Sederhana
@@ -461,7 +461,7 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMzNDgxOSwxODE4NzI5MDk1LDM2Nz
+eyJoaXN0b3J5IjpbLTM2ODUzNTk3NSwxODE4NzI5MDk1LDM2Nz
 E3NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODks
 MTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MT
 U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
