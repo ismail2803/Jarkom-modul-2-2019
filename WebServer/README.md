@@ -18,7 +18,7 @@ Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti s
 ### 2. Load Balancing
 ___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja dengan cara membagi beban pekerjaan. ___Load balancer___ adalah aplikasi atau alat yang bertugas untuk melakukan _load balancing_. _Load balancer_ dapat meggunakan berbagai macam algoritma _load balancing_ yang bertujuan untuk membagi beban pekerjaan seadil-adilnya. Arsitektur minimal untuk _load balancing_ adalah sebagai berikut:
 
-<img src="Gambar/loadb.png">
+<img src="Gambar/loadbalancing.png">
 
 #### Kenapa dibutuhkan load balancing?
 
@@ -454,11 +454,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0OTY3NzUsMzY3MTc3MjYzLC0zMjg3MT
-g3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIw
-NjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MD
-QyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQy
-OTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01OD
-EzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2
-MDQzNTJdfQ==
+eyJoaXN0b3J5IjpbLTE5OTkzMDYyNTYsMzY3MTc3MjYzLC0zMj
+g3MTg3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3Nzgx
+LDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtND
+A3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0Mzkw
+MTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC
+01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4
+MDI2MDQzNTJdfQ==
 -->
