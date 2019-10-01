@@ -24,7 +24,7 @@ ___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja den
 Untuk menangani banyaknya pengguna yang mengakses layanan pada satu waktu dan menjaga layanan tetap tersedia setiap saat, dibutuhkan lebih dari satu komputer untuk memasang layanannya. Dengan layanan yang tersedia di banyak server, dibutuhkan mekanisme pembagian beban untuk memberikan beban yang seimbang pada setiap server. Dengan meletakkan layanan pada beberapa server dan pembagian beban yang optimal, setiap permintaan pengguna bisa ditangani dengan efisien.
 
 ### 3. Apache Web Server
-__Apache HTTP Server__ atau biasa disebut Apache adalah sebuah _software_ web server _cross-platform_ dan _open source_ yang banyak digunakan. Dalam sesi lab ini, kita akan menggunakan bantuan Apache untuk 
+__Apache HTTP Server__ atau biasa disebut Apache adalah sebuah _software_ web server _cross-platform_ dan _open source_ yang banyak digunakan. Dalam sesi lab ini, kita akan menggunakan Apache sebagai _software_ web server kita.
 
 ## D. Instalasi Apache
 #### 1. Buka UML _MEWTWO_
@@ -456,7 +456,7 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTE1ODczOCwzNjcxNzcyNjMsLTMyOD
+eyJoaXN0b3J5IjpbMTgxODcyOTA5NSwzNjcxNzcyNjMsLTMyOD
 cxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5LDEyNzkyNzc3ODEs
 MjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MD
 cwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAx
