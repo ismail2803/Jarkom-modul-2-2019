@@ -94,8 +94,8 @@ Gunakan perintah `cd /etc/apache2/sites-available`
 <img src="Gambar/8.png" width="500">
 
 Dapat dilihat di sana terdapat dua buah file:
-+ file __default__, ....
-+ file __default-ssl__, ....
++ file __default__, file konfigurasi website default apache untuk http.
++ file __default-ssl__, file konfigurasi website default apache untuk https.
 #### A.2. Buka file ___default___
 Gunakan perintah `nano /etc/apache2/sites-available/default`
 
@@ -461,11 +461,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODUzNTk3NSwxODE4NzI5MDk1LDM2Nz
-E3NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODks
-MTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MT
-U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
-NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LD
-c4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYz
-NjQ1NzIyXX0=
+eyJoaXN0b3J5IjpbLTE4Njc0OTYwNDQsLTM2ODUzNTk3NSwxOD
+E4NzI5MDk1LDM2NzE3NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4
+Myw0NDA5MTgwODksMTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzOD
+A2MzQ0MDMsLTE4MTU2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1
+ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNj
+YsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3
+MjU0MjQxXX0=
 -->
