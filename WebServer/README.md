@@ -16,6 +16,10 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti sebuah storage yang digunakan untuk menyimpan semua data dari aplikasi web (file HTML, CSS, JavaScript, dll.). Sedangkan secara _software_,  web server adalah sebuah perangkat yang bertugas untuk menyediakan layanan akses menggunakan protokol HTTP atau HTTPS melalui aplikasi web.
 
 ### 2. Load Balancing
+___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja dengan cara membagi beban pekerjaan. ___Load balancer___ adalah aplikasi atau alat yang bertugas untuk melakukan _load balancing_. _Load balancer_ dapat meggunakan berbagai macam algoritma load balancing yang bertujuan untuk membagi beban pekerjaan seadil-adilnya. Minimal arsitektur load balancing adalah sebagai berikut:
+
+<img src="Gambar/lb.png">
+
 #### Kenapa dibutuhkan load balancing?
 
 ### 3. Apache Web Server
@@ -450,11 +454,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MTc3MjYzLC0zMjg3MTg3MjksMjgzNj
-IxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIwNjA1ODY0MjUs
-MTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MDQyNDYzLC0yMD
-U0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQyOTcsMTY1OTUw
-OTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01ODEzMDU3MDksLT
-E1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2MDQzNTIsLTIw
-MTc1NTQ4NjhdfQ==
+eyJoaXN0b3J5IjpbMTYyMTU5MDEwNCwzNjcxNzcyNjMsLTMyOD
+cxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5LDEyNzkyNzc3ODEs
+MjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MD
+cwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAx
+NDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLT
+U4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgw
+MjYwNDM1Ml19
 -->
