@@ -24,7 +24,7 @@ ___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja den
 Untuk menangani banyaknya pengguna yang mengakses layanan pada satu waktu dan menjaga layanan tetap tersedia setiap saat, dibutuhkan lebih dari satu komputer untuk memasang layanannya. Dengan layanan yang tersedia di banyak server, dibutuhkan mekanisme pembagian beban untuk memberikan beban yang seimbang pada setiap server. Dengan meletakkan layanan pada beberapa server dan pembagian beban yang optimal, setiap permintaan pengguna bisa ditangani dengan efisien.
 
 ### 3. Apache Web Server
-Apache HTTP Server atau biasa disebut Apache adalah sebuah _software_ web server _cross-platform_ dan _open source_ yang banyak digunakan.
+__Apache HTTP Server__ atau biasa disebut Apache adalah sebuah _software_ web server _cross-platform_ dan _open source_ yang banyak digunakan. Dalam sesi lab ini, kita akan menggunakan bantuan Apache untuk 
 
 ## D. Instalasi Apache
 #### 1. Buka UML _MEWTWO_
@@ -456,11 +456,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NTczNzc2LDM2NzE3NzI2MywtMzI4Nz
-E4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODksMTI3OTI3Nzc4MSwy
-MDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MTU2NDc0OTYsLTQwNz
-A0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NTAwMiwxNDM5MDE0
-Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4MDk5MDQ0MSwtNT
-gxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYzNjQ1NzIyLC0xODAy
-NjA0MzUyXX0=
+eyJoaXN0b3J5IjpbLTg4OTE1ODczOCwzNjcxNzcyNjMsLTMyOD
+cxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5LDEyNzkyNzc3ODEs
+MjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MD
+cwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAx
+NDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLT
+U4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgw
+MjYwNDM1Ml19
 -->
