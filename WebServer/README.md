@@ -16,9 +16,9 @@ Record A dan PTR pada jarkomtc.com mengarah ke IP MEWTWO
 Terdapat dua pengertian dari web server. Secara _hardware_, web server berarti sebuah storage yang digunakan untuk menyimpan semua data dari aplikasi web (file HTML, CSS, JavaScript, dll.). Sedangkan secara _software_,  web server adalah sebuah perangkat yang bertugas untuk menyediakan layanan akses menggunakan protokol HTTP atau HTTPS melalui aplikasi web.
 
 ### 2. Load Balancing
-___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja dengan cara membagi beban pekerjaan. ___Load balancer___ adalah aplikasi atau alat yang bertugas untuk melakukan _load balancing_. _Load balancer_ dapat meggunakan berbagai macam algoritma load balancing yang bertujuan untuk membagi beban pekerjaan seadil-adilnya. Minimal arsitektur load balancing adalah sebagai berikut:
+___Load balancing___ adalah suatu mekanisme penyeimbangan beban yang bekerja dengan cara membagi beban pekerjaan. ___Load balancer___ adalah aplikasi atau alat yang bertugas untuk melakukan _load balancing_. _Load balancer_ dapat meggunakan berbagai macam algoritma _load balancing_ yang bertujuan untuk membagi beban pekerjaan seadil-adilnya. Arsitektur minimal untuk _load balancing_ adalah sebagai berikut:
 
-<img src="Gambar/lb.png">
+<img src="Gambar/loadb.png">
 
 #### Kenapa dibutuhkan load balancing?
 
@@ -454,11 +454,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTU5MDEwNCwzNjcxNzcyNjMsLTMyOD
-cxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5LDEyNzkyNzc3ODEs
-MjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xODE1NjQ3NDk2LC00MD
-cwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2NjUwMDIsMTQzOTAx
-NDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Niw3ODA5OTA0NDEsLT
-U4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2MzY0NTcyMiwtMTgw
-MjYwNDM1Ml19
+eyJoaXN0b3J5IjpbNzI0OTY3NzUsMzY3MTc3MjYzLC0zMjg3MT
+g3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMjc5Mjc3NzgxLDIw
+NjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0NzQ5NiwtNDA3MD
+QyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MDAyLDE0MzkwMTQy
+OTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgwOTkwNDQxLC01OD
+EzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2NDU3MjIsLTE4MDI2
+MDQzNTJdfQ==
 -->
