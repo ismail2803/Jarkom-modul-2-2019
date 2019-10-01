@@ -463,18 +463,17 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 1. Download halaman PokePoke di 10.151.36.234/pokepoke.zip
 2. Buat domain baru dengan nama __personalpoke.xx.id__ untuk membuka halaman tersebut.
 3. Atur agar jika kalian mengetikkan __personalpoke.xx.id__, Web PokePoke dapat terbuka.
-
 __Catatan__
 	+ Untuk download halaman web, gunakan perintah `wget 10.151.36.234/pokepoke.zip`
 	+ Untuk nomor 2 dan 3, '__xx__' diisi dengan nama kelompok. Contoh: __personalpoke.a4.id__
 
 ## Selamat belajar dan tetap semangat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUwMzQ4OCwtMTAzNDgzODA5OSwtMT
-g2NzQ5NjA0NCwtMzY4NTM1OTc1LDE4MTg3MjkwOTUsMzY3MTc3
-MjYzLC0zMjg3MTg3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwxMj
-c5Mjc3NzgxLDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNTY0
-NzQ5NiwtNDA3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1MD
-AyLDE0MzkwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNzgw
-OTkwNDQxXX0=
+eyJoaXN0b3J5IjpbLTEzMjg4ODk3NDYsLTEwMzQ4MzgwOTksLT
+E4Njc0OTYwNDQsLTM2ODUzNTk3NSwxODE4NzI5MDk1LDM2NzE3
+NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODksMT
+I3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MTU2
+NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2NT
+AwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LDc4
+MDk5MDQ0MV19
 -->
