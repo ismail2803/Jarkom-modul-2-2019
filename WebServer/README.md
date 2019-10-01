@@ -81,9 +81,9 @@ Berikut beberapa hal yang penting untuk diketahui:
 
 |__Command__ | __Kegunaan__ |
 | --- | --- |
-| __a2ensite__ | Untuk mengaktifkan (_ENABLE_) _config_ yang telah dibuat |
-| __a2dissite__ | Untuk menonaktifkan (_DISABLE_) _config_ yang telah dibuat |
-| __a2enmod__ | file |
+| __a2ensite__ | Untuk mengaktifkan (_ENABLE_) konfigurasi website yang telah dibuat |
+| __a2dissite__ | Untuk menonaktifkan (_DISABLE_) konfigurasi website yang sedang aktif |
+| __a2enmod__ | Untuk mengaktifkan (_ENABLE_) sebuah modul ke dalam  |
 | __a2dismod__ | file |
 
 ## G. Konfigurasi Apache Sederhana
@@ -461,11 +461,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUyMzYxMjYsMTgxODcyOTA5NSwzNj
-cxNzcyNjMsLTMyODcxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5
-LDEyNzkyNzc3ODEsMjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xOD
-E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
-NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
-w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
-MzY0NTcyMl19
+eyJoaXN0b3J5IjpbLTE2OTMzNDgxOSwxODE4NzI5MDk1LDM2Nz
+E3NzI2MywtMzI4NzE4NzI5LDI4MzYyMTk4Myw0NDA5MTgwODks
+MTI3OTI3Nzc4MSwyMDYwNTg2NDI1LDEzODA2MzQ0MDMsLTE4MT
+U2NDc0OTYsLTQwNzA0MjQ2MywtMjA1NDY1ODgyNCwtMTA1NTY2
+NTAwMiwxNDM5MDE0Mjk3LDE2NTk1MDkxNjYsNjc1NjMxNDg2LD
+c4MDk5MDQ0MSwtNTgxMzA1NzA5LC0xNTk3MjU0MjQxLC0xMjYz
+NjQ1NzIyXX0=
 -->
