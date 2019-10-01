@@ -217,7 +217,7 @@ Akses alamat __http://[IP Mewtwo]:8080__
 Rachma adalah seorang mahasiswi Informatika yang ingin membuat website dengan domain __jarkomtc.com__. Dia memiliki _teman_ bernama Ifin yang kebetulan memiliki server yang bisa digunakan sebagai tempat host untuk websitenya. Sayangnya Ifin sedang berada di luar kota dan server-nya tidak dapat diakses dari sana.
 
 Ayo bantu Ifin membahagiakan hati Rachma dengan mengonfigurasi server Ifin sesuai petunjuk yang ia berikan:
-#### A.1 Pindah ke _directory_ `/etc/apache2/sites-avaible`
+#### A.1 Pindah ke _directory_ `/etc/apache2/sites-available`
 Copy file __default__ menjadi file __jarkomtc.com__
 
 <img src="Gambar/23.png">
