@@ -74,7 +74,8 @@ Berikut beberapa hal yang penting untuk diketahui:
 | __ports.conf__ | file konfigurasi port yang digunakan untuk web server |
 | __sites-available__ | _directory_ tempat konfigurasi website (virtual host) yang tersedia |
 | __sites-enabled__ | _directory_ tempat konfigurasi website (virtual host) yang tersedia dan sudah aktif |
-| __mods-available__ | _directory_ tempat modul-moadul=
+| __mods-available__ | _directory_ tempat modul-moadul apache2 yang tersedia |
+| __mods-enabled__ | _directory_ tempat modul-moadul apache2 yang tersedia dan sudah aktif |
 
 + _Command_ yang sering digunakan
 
@@ -460,11 +461,11 @@ Sedangkan saat pengguna  memiliki __IP NID 10.151.252.0/22__ maka halaman yang m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzA5Mzc2LDE4MTg3MjkwOTUsMzY3MT
-c3MjYzLC0zMjg3MTg3MjksMjgzNjIxOTgzLDQ0MDkxODA4OSwx
-Mjc5Mjc3NzgxLDIwNjA1ODY0MjUsMTM4MDYzNDQwMywtMTgxNT
-Y0NzQ5NiwtNDA3MDQyNDYzLC0yMDU0NjU4ODI0LC0xMDU1NjY1
-MDAyLDE0MzkwMTQyOTcsMTY1OTUwOTE2Niw2NzU2MzE0ODYsNz
-gwOTkwNDQxLC01ODEzMDU3MDksLTE1OTcyNTQyNDEsLTEyNjM2
-NDU3MjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzg4MDM3ODksMTgxODcyOTA5NSwzNj
+cxNzcyNjMsLTMyODcxODcyOSwyODM2MjE5ODMsNDQwOTE4MDg5
+LDEyNzkyNzc3ODEsMjA2MDU4NjQyNSwxMzgwNjM0NDAzLC0xOD
+E1NjQ3NDk2LC00MDcwNDI0NjMsLTIwNTQ2NTg4MjQsLTEwNTU2
+NjUwMDIsMTQzOTAxNDI5NywxNjU5NTA5MTY2LDY3NTYzMTQ4Ni
+w3ODA5OTA0NDEsLTU4MTMwNTcwOSwtMTU5NzI1NDI0MSwtMTI2
+MzY0NTcyMl19
 -->
