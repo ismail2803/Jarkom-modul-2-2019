@@ -138,8 +138,7 @@ cp /etc/bind/db.local /etc/bind/jarkom/73.151.10.in-addr.arpa
 
 - Edit file **73.151.10.in-addr.arpa** menjadi gambar di bawah ini
 
-![haha](Gambar/in-addr.png)
-**(Edit : Tambahkan titik setelah jarkomtc.com)**
+![haha](Gambar/reverse.png)
 - Kemudian restart bind dengan perintah 
 
 `service bind9 restart`
