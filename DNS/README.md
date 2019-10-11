@@ -138,7 +138,7 @@ cp /etc/bind/db.local /etc/bind/jarkom/73.151.10.in-addr.arpa
 
 - Edit file **73.151.10.in-addr.arpa** menjadi gambar di bawah ini
 
-![haha](Gambar/reverse.png)
+![haha](Gambar/reversein-addr.png)
 - Kemudian restart bind dengan perintah 
 
 `service bind9 restart`
@@ -390,10 +390,10 @@ Salah satu aturan penulisan NS record adalah dia harus menuju A record., bukan C
 + http://knowledgelayer.softlayer.com/faq/what-does-serial-refresh-retry-expire-minimum-and-ttl-mean
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM0MTE0ODMsMzIzODUzNTk1LDExNT
-A1MDE2OTksLTc4MjkwNTIwMSwyMTM0MTM5NDEzLDQ3MjkzNDQw
-MywxNjQwMzcwOTI5LC0yMDQxODIwNjU2LC02MjU4Mjg1MzYsMT
-Y1Njg4NDY4OSwxMTMzNTQwOTMwLDM1MTUyMjI0NCwtMTA0Njgz
-NjU0Niw0MjAyNzQ4ODcsLTY2OTE3NzM4NywxNTkxOTExNjY1XX
-0=
+eyJoaXN0b3J5IjpbLTU5Mzc1NzY2MiwtMTE0MzQxMTQ4MywzMj
+M4NTM1OTUsMTE1MDUwMTY5OSwtNzgyOTA1MjAxLDIxMzQxMzk0
+MTMsNDcyOTM0NDAzLDE2NDAzNzA5MjksLTIwNDE4MjA2NTYsLT
+YyNTgyODUzNiwxNjU2ODg0Njg5LDExMzM1NDA5MzAsMzUxNTIy
+MjQ0LC0xMDQ2ODM2NTQ2LDQyMDI3NDg4NywtNjY5MTc3Mzg3LD
+E1OTE5MTE2NjVdfQ==
 -->
